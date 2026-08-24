@@ -296,7 +296,7 @@ posture      godspeed-core</pre>
     <ul>
       <li><b>xbgst-kimi</b> — Kimi Code L1 port. Ran the full self-orch protocol live on itself (r14-3→r14-5, 43 move groups) + the 64/64 showcase swarm. <span class="priv">private</span></li>
       <li><b>xbgst-codex</b> — Codex overlay: evidence-gated rounds, L3 is evidence not authority. <span class="priv">private</span></li>
-      <li><b>xbgst-cursor</b> — Cursor Agent CLI port. Usage surface, not the judge: probed CLI overlay (pinned cursor-grok lane), PATH xask with dry fallback, never mutates host config. <span class="priv">private</span></li>
+      <li><b>xbgst-cursor</b> — Cursor Agent FSD orch (L1-candidate). Pinned cursor-grok orch argv; PATH xask with <code>--provider cursor</code> for Ultra-native L3 + token-plan for Chinese; typed dry fallback. Surface split: <b>xbgst-cursor-agent-surface</b>. <span class="priv">private</span></li>
       <li><b>xbgst-opencode</b> — OpenCode orch + the-* adapters. <a href="https://github.com/VeigaPunk/xbgst-opencode">repo</a></li>
       <li><b>xbrd-grok</b> — Grok skill mirror for grok -p / /xbgst. <a href="https://github.com/VeigaPunk/xbrd-grok">repo</a></li>
     </ul>
@@ -476,6 +476,13 @@ kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
     <p>A new L1 port lands: Cursor Agent CLI as a usage surface — probed overlay, pinned cursor-grok
     lane, PATH xask dry-fallback, no host mutation. Same orch, another CLI. Mapped under
     current art → L1 ports. <b>Private</b>, like the rest of the fleet-in-progress.</p></div></div>
+
+  <div class="logentry rv"><span class="ldate">2026-08-24</span>
+    <div><h3>Cursor Ultra × xask — priority L3 surface.</h3>
+    <p>Goal-oriented one-shot on <b>xbgst-cursor</b>: catalog adds <code>xask --provider cursor</code>
+    with pinned CLI-ids (Grok/Composer/Kimi/OpenAI on Ultra). Alibaba Chinese models stay on
+    <code>token-plan</code>. Orch FSD walk ships gates + charter evidence — evaluating Ultra as the
+    priority xask lane for Cursor-native models. <span class="priv">private</span></p></div></div>
 
   <div class="logentry rv"><span class="ldate">next</span>
     <div><h3>Kimi coding-model test battery.</h3>
