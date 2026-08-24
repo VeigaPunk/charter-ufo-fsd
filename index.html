@@ -268,7 +268,7 @@ hangar is cache, not SSoT. ufo-fsd is not the L1 judge.</pre>
   hangar is cache, not SSoT. Public repos are linked; private ones are named only, so the page never 404s.</p>
 
   <pre class="ascii rv">L1 judge     <span class="hl">grok-marketplace (xbgst-stack) on Grok Build</span> — the seated crown
-L1 ports     xbgst-kimi · xbgst-codex · xbgst-opencode · xbrd-grok
+L1 ports     xbgst-kimi · xbgst-codex · xbgst-cursor · xbgst-opencode · xbrd-grok
 DESK         xbgst-grok-bot (land-host) — forwarder, not judge
 L2 consult   ds4cc-marketplace PATH xask · xbrd-gdsp-fknpft
 L3 fan-out   xbrd-spark / sekhmet-l3 (cap 64) · xbrd-sol-ultra · codex-titanium
@@ -294,8 +294,9 @@ posture      godspeed-core</pre>
   <div class="fg rv">
     <h4>L1 ports — same orch, different CLIs</h4>
     <ul>
-      <li><b>xbgst-kimi</b> — Kimi Code L1 port. Live self-orch test. <span class="priv">private</span></li>
+      <li><b>xbgst-kimi</b> — Kimi Code L1 port. Ran the full self-orch protocol live on itself (r14-3→r14-5, 43 move groups) + the 64/64 showcase swarm. <span class="priv">private</span></li>
       <li><b>xbgst-codex</b> — Codex overlay: evidence-gated rounds, L3 is evidence not authority. <span class="priv">private</span></li>
+      <li><b>xbgst-cursor</b> — Cursor Agent CLI port. Usage surface, not the judge: probed CLI overlay (pinned cursor-grok lane), PATH xask with dry fallback, never mutates host config. <span class="priv">private</span></li>
       <li><b>xbgst-opencode</b> — OpenCode orch + the-* adapters. <a href="https://github.com/VeigaPunk/xbgst-opencode">repo</a></li>
       <li><b>xbrd-grok</b> — Grok skill mirror for grok -p / /xbgst. <a href="https://github.com/VeigaPunk/xbrd-grok">repo</a></li>
     </ul>
@@ -450,6 +451,31 @@ ship-check is dirty on those only. <span class="hl">smoke-gates PASSED.</span>
 kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
     <p>The loop, closing in public: the engine mid-round, writing its own repository, while the
     operator watches the gates and touches nothing.</p></div></div>
+
+  <div class="logentry rv"><span class="ldate">2026-08-24</span>
+    <div><h3>xbgst-kimi walks its own repo: r14-3 → r14-5.</h3>
+    <p>The Kimi Code port ran the full self-orch protocol live on itself — three judged rounds,
+    <b>43 accepted move groups shipped straight to main</b>. It caught its own guard rewrite
+    introducing eleven bypass classes and rebuilt it segment-aware behind a 50-probe adversarial
+    gate; when the guard ate the outside lane's audit prompt, the lane degraded locally and came
+    back LIVE next round. After five rounds without convergence, <b>the honesty brake fired on its
+    own</b> — the engine halted itself, on the record. The entry above said "still walking r14-3."
+    It walked. It shipped. It stopped itself.</p></div></div>
+
+  <div class="logentry rv"><span class="ldate">2026-08-24</span>
+    <div><h3>64/64 — the concurrency ceiling, held live.</h3>
+    <p>From a lazy prompt with prior context, the port planned (wwkd), dispatched, judged, and
+    shipped its own showcase: a ladder of 2/8/16/32 background-agent batches and a single 64-item
+    swarm call — <b>64 completed, 64 distinct processes, full index coverage</b>, corroborated by
+    the port's own audit hook. Same run, it patched itself: wave-mechanics doctrine for the host's
+    swarm-exclusivity rule, a routing-check diagnostic that makes model pins legible, three new
+    host-gap register rows. The kimi coding lane carried the entire ladder.</p></div></div>
+
+  <div class="logentry rv"><span class="ldate">2026-08-24</span>
+    <div><h3>xbgst-cursor joins the ports.</h3>
+    <p>A new L1 port lands: Cursor Agent CLI as a usage surface — probed overlay, pinned cursor-grok
+    lane, PATH xask dry-fallback, no host mutation. Same orch, another CLI. Mapped under
+    current art → L1 ports. <b>Private</b>, like the rest of the fleet-in-progress.</p></div></div>
 
   <div class="logentry rv"><span class="ldate">next</span>
     <div><h3>Kimi coding-model test battery.</h3>
