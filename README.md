@@ -29,7 +29,15 @@ Named GitHub remotes are gold. Hangar is cache, not SSoT. If two named remotes
 disagree, stop and escalate. Do not recrown L1: the seated judge is xbgst on
 Grok Build; kimi is a live L1 candidate, not the crown.
 
-> Frontier is not a place. It is the practice of keeping the map true
+On 2026-08-24 the operator praise lands in the frontier log: Kimi is the best model
+right now; Grok bought Cursor and is handling it on a silver platter; Kimi is the
+side dish better than the main course. Kimi K3 Max fast inference via Cursor Ultra OAuth; PATH
+`xask --provider cursor --model-id kimi-k3-max`. Fast is Ultra metering, not a
+service-tier flag. `xbgst-cursor-agent-surface` is the usage surface; `xbgst-cursor` is
+the FSD orch port. Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on
+Grok Build.
+
+> Frontier is not a place. Its a perpetual. It is the practice of keeping the map true
 > while everything underneath it changes.
 
 No prior art. Only current art, done live.

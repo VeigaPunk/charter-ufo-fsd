@@ -151,7 +151,7 @@
     <span class="rn">VIII.</span>
     <div>
       <h3>Closing line</h3>
-      <blockquote><b>"Frontier is not a place.</b> It is the practice of keeping this map true while everything underneath it changes."</blockquote>
+      <blockquote><b>"Frontier is not a place. Its a perpetual.</b> It is the practice of keeping this map true while everything underneath it changes."</blockquote>
       <p style="margin-top: var(--line)">When the map holds at full self-driving — lazy prompt in, verified system out,
       routes and lanes and delegations rewritten mid-run by the engine itself — that is <b>escape velocity</b>.
       That is ufo-fsd.</p>
@@ -269,8 +269,8 @@ hangar is cache, not SSoT. ufo-fsd is not the L1 judge.</pre>
 
   <pre class="ascii rv">L1 judge     <span class="hl">grok-marketplace (xbgst-stack) on Grok Build</span> — the seated crown
 L1 ports     xbgst-kimi · xbgst-codex · xbgst-cursor · xbgst-opencode · xbrd-grok
-DESK         xbgst-grok-bot (land-host) — forwarder, not judge
-L2 consult   ds4cc-marketplace PATH xask · xbrd-gdsp-fknpft
+DESK         xbgst-grok-bot · xbgst-cursor-agent-surface — surfaces, not judges
+L2 consult   ds4cc-marketplace PATH xask · gravy: xask --provider cursor --model-id kimi-k3-max
 L3 fan-out   xbrd-spark / sekhmet-l3 (cap 64) · xbrd-sol-ultra · codex-titanium
 FSD overlay  <span class="hl">ufo-fsd (dormant — holds the contract, must not judge)</span>
 research     umwelt-frontier-orchestrator (pattern / SPEC / bench — not runtime)
@@ -306,6 +306,7 @@ posture      godspeed-core</pre>
     <h4>desk</h4>
     <ul>
       <li><b>xbgst-grok-bot</b> — Grok Bot land-host substrate. Trigger, not judge; never merged into core. <span class="priv">private</span></li>
+      <li><b>xbgst-cursor-agent-surface</b> — Cursor Ultra usage surface (grok-bot analog), not the judge. Keep split from <b>xbgst-cursor</b> (FSD orch port). <span class="priv">private</span></li>
     </ul>
   </div>
 
@@ -313,6 +314,7 @@ posture      godspeed-core</pre>
     <h4>L2 consult — protocol &amp; marketplace</h4>
     <ul>
       <li><b>ds4cc-marketplace</b> — multi-CLI marketplace + PATH xask + myagents. <a href="https://github.com/VeigaPunk/ds4cc-marketplace">repo</a> · <a href="https://ds4cc.com">ds4cc.com</a> · <a href="https://app.ds4cc.com/mcp">MCP</a></li>
+      <li>Named gravy through the surface: PATH <code>xask --provider cursor --model-id kimi-k3-max</code> — additional lane, not a recrown. Hangar cheap FIRST stays Token Plan. Named moonshot <code>xask --gs kimi</code> stays.</li>
       <li><b>xbrd-gdsp-fknpft</b> — sibling of the xask/xbreed protocol plugin, also vendored inside ds4cc. Multi-model meta-launcher. <a href="https://github.com/VeigaPunk/xbrd-gdsp-fknpft">repo</a></li>
     </ul>
   </div>
@@ -484,6 +486,17 @@ kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
     <code>token-plan</code>. Orch FSD walk ships gates + charter evidence — evaluating Ultra as the
     priority xask lane for Cursor-native models. <span class="priv">private</span></p></div></div>
 
+  <div class="logentry rv"><span class="ldate">2026-08-24</span>
+    <div><h3>Kimi on a silver platter — the gravy train.</h3>
+    <p><b>Kimi is the best model right now. Not even a question.</b>
+    Grok bought Cursor and is handling it on a silver platter.
+    Kimi is the side dish that is better than the main course.
+    Kimi K3 Max fast inference via Cursor Ultra OAuth; PATH <code>xask --provider cursor --model-id kimi-k3-max</code>.
+    Fast is Ultra metering, not a service-tier flag.
+    The split holds: <b>xbgst-cursor-agent-surface</b> is the usage surface (grok-bot analog), not the judge;
+    <b>xbgst-cursor</b> is the FSD orch port. Do not collapse them.
+    Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on Grok Build — kimi is not crowned, cursor is not crowned.</p></div></div>
+
   <div class="logentry rv"><span class="ldate">next</span>
     <div><h3>Kimi coding-model test battery.</h3>
     <p>The kimi coding lane goes under load next. Find the walls. Document the failure modes. Failure is data.</p></div></div>
@@ -523,7 +536,7 @@ kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
        |      spark —  *  ——→ |      one hand builds,
         \    /  \____/  \    /       the other answers.
          \__/          \__/</pre>
-  <p class="fquote"><b>Frontier is not a place.</b><br>
+  <p class="fquote"><b>Frontier is not a place. Its a perpetual.</b><br>
   It is the practice of keeping the map true while everything underneath it changes.</p>
   <p class="fmeta">plazir-27 — a frontier operation by <a href="https://github.com/VeigaPunk">VeigaPunk</a> · doctrine: ufo-fsd · posture: move fast, break things, iterate cheap, in parallel</p>
   <p class="fmeta" style="margin-top: 6px">charter: <a href="https://github.com/VeigaPunk/charter-ufo-fsd">charter-ufo-fsd</a> · live: <a href="https://veigapunk.github.io/charter-ufo-fsd/">veigapunk.github.io/charter-ufo-fsd</a></p>
