@@ -16,8 +16,6 @@ Centralized, reachable from any substrate. Iterate on it here.
   host/livepatch, CDP adapters, site gold. Public repos linked; private named only.
 - **Substrate map** — model-class routing topology, public-safe.
 - **Frontier log** — dated entries, on the record.
-- **The two plans** — verbatim native Grok rewrite vs Kimi K3 Max + wwkd consult (`compare/`).
-  Outbound: `compare/native-grok-plan.md` and `compare/kimi-k3-wwkd-plan.md` (complete, no ellipses).
 - **The dream** — the vessel + the A.A.OM tag.
 
 ## Stack
@@ -39,7 +37,7 @@ service-tier flag. `xbgst-cursor-agent-surface` is the usage surface; `xbgst-cur
 the FSD orch port. Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on
 Grok Build.
 
-> Frontier is not a place. Its a perpetual moving target. It is the practice of keeping the map true
+> Frontier is not a place. Its a perpetual. It is the practice of keeping the map true
 > while everything underneath it changes.
 
 No prior art. Only current art, done live.
