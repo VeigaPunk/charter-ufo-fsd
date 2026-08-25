@@ -210,6 +210,18 @@ header .markquote b { color: var(--red); font-weight: 700; }
   line-height: 24px;
 }
 .markquote-section b { color: var(--red); font-weight: 700; }
+.marknote,
+.fmarknote {
+  margin-top: calc(var(--line) * 0.35);
+  margin-bottom: 0;
+  max-width: 56ch;
+  color: var(--ink-dim);
+  font-size: 12px;
+  line-height: 20px;
+}
+header .marknote { margin-bottom: calc(var(--line) * 0.25); }
+.marknote b,
+.fmarknote b { color: var(--ink); font-weight: 700; }
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -608,7 +620,9 @@ html:not([lang="en"]) .fg h4,
 html:not([lang="en"]) .fmeta,
 html:not([lang="en"]) .fart,
 html:not([lang="en"]) .markquote,
-html:not([lang="en"]) .fmark { letter-spacing: .06em; }
+html:not([lang="en"]) .fmark,
+html:not([lang="en"]) .marknote,
+html:not([lang="en"]) .fmarknote { letter-spacing: .06em; }
 
 /* ---------- PLAZIR runs on Kimi™ badge ---------- */
 #kimi-badge {

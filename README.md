@@ -31,7 +31,7 @@ base64 `dream.js`). PDF under `papers/`. `.nojekyll` — Pages serves as-is.
 - `i18n.js` — vanilla locale engine: `locales/{lng}.json` fetched on demand, `[data-i18n]`
   innerHTML binding, `localStorage('plazir-lang')` persistence, navigator-language autodetect,
   en fallback. Switcher lives in the nav; `<html lang>`, `<title>`, and meta description localize too.
-- Locales: en (SSoT, 196 keys) · zh-CN · ja · id · ms · th · vi · fil · my · km.
+- Locales: en (SSoT, 197 keys) · zh-CN · ja · id · ms · th · vi · fil · my · km.
   Brand/technical tokens (PLAZIR, Kimi, ufo-fsd, xask, repo names) stay untranslated by rule;
   `<pre>` ASCII blocks stay English (terminal artifacts, alignment is load-bearing).
 - Badge: `PLAZIR runs on Kimi™` — fixed bottom-right, localized like everything else.
