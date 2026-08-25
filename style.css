@@ -186,6 +186,30 @@ header .tags {
   font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
   color: var(--ink-faint);
 }
+header .markquote {
+  margin-top: calc(var(--line) * 1.25);
+  max-width: 48ch;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 24px;
+}
+header .markquote b { color: var(--red); font-weight: 700; }
+.markquote .tm,
+.fmark .tm {
+  font-size: 0.65em;
+  letter-spacing: 0;
+  margin-left: 0.15em;
+  color: var(--red);
+  vertical-align: super;
+}
+.markquote-section {
+  margin: 0 0 calc(var(--line) * 1.25);
+  max-width: 48ch;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 24px;
+}
+.markquote-section b { color: var(--red); font-weight: 700; }
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -475,6 +499,13 @@ footer .touch {
 }
 footer .fquote { color: var(--ink); font-size: 15px; line-height: 24px; margin-bottom: var(--line); }
 footer .fquote b { color: var(--red); }
+footer .fmark {
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: calc(var(--line) * 1.25);
+}
+footer .fmark b { color: var(--red); }
 footer .fmeta {
   color: var(--ink-faint); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase;
   max-width: 72ch; margin-left: auto; margin-right: auto;
@@ -575,7 +606,9 @@ html:not([lang="en"]) .tags,
 html:not([lang="en"]) .scrollhint,
 html:not([lang="en"]) .fg h4,
 html:not([lang="en"]) .fmeta,
-html:not([lang="en"]) .fart { letter-spacing: .06em; }
+html:not([lang="en"]) .fart,
+html:not([lang="en"]) .markquote,
+html:not([lang="en"]) .fmark { letter-spacing: .06em; }
 
 /* ---------- PLAZIR runs on Kimi™ badge ---------- */
 #kimi-badge {
