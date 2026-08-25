@@ -1,72 +1,79 @@
-/* PLAZIR-27 — Rio-style split TUI for the two plans.
-   rioterm wasm needs a bundler (npm i rioterm / wasm-pack). GH Pages here is
-   static, no COOP/COEP: paint the same split with a line-grid pump at 76 tps.
-   Full files. No ellipses. Left = native grok. Right = kimi k3 + wwkd. */
+/* PLAZIR-27 — Rio-style split: type mermaid at 76tps, then render SVG.
+   Nodes click through to the complete plan files. No ellipses. */
 (() => {
   'use strict';
 
   const TPS = 76;
   const ROOT = new URL('.', document.currentScript.src);
   const FILES = {
-    left: new URL('native-grok-plan.md', ROOT).href,
-    right: new URL('kimi-k3-wwkd-plan.md', ROOT).href,
+    leftMd: new URL('native-grok-plan.md', ROOT).href,
+    rightMd: new URL('kimi-k3-wwkd-plan.md', ROOT).href,
+    leftMmd: new URL('native-grok-plan.mmd', ROOT).href,
+    rightMmd: new URL('kimi-k3-wwkd-plan.mmd', ROOT).href,
   };
 
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  function lineDiff(aText, bText) {
-    const A = aText.split('\n');
-    const B = bText.split('\n');
-    const n = A.length;
-    const m = B.length;
-    const dp = Array.from({ length: n + 1 }, () => new Int16Array(m + 1));
-    for (let i = n - 1; i >= 0; i--) {
-      for (let j = m - 1; j >= 0; j--) {
-        dp[i][j] = A[i] === B[j]
-          ? dp[i + 1][j + 1] + 1
-          : Math.max(dp[i + 1][j], dp[i][j + 1]);
-      }
-    }
-    const left = [];
-    const right = [];
-    let i = 0;
-    let j = 0;
-    while (i < n && j < m) {
-      if (A[i] === B[j]) {
-        left.push({ s: A[i], k: 'eq' });
-        right.push({ s: B[j], k: 'eq' });
-        i++;
-        j++;
-      } else if (dp[i + 1][j] >= dp[i][j + 1]) {
-        left.push({ s: A[i++], k: 'del' });
-      } else {
-        right.push({ s: B[j++], k: 'add' });
-      }
-    }
-    while (i < n) left.push({ s: A[i++], k: 'del' });
-    while (j < m) right.push({ s: B[j++], k: 'add' });
-    return { left, right };
+  let mermaidMod = null;
+  async function mermaid() {
+    if (mermaidMod) return mermaidMod;
+    const mod = await import(
+      'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'
+    );
+    mermaidMod = mod.default;
+    mermaidMod.initialize({
+      startOnLoad: false,
+      securityLevel: 'loose',
+      theme: 'dark',
+      themeVariables: {
+        darkMode: true,
+        background: '#050505',
+        fontFamily: 'JetBrains Mono, ui-monospace, monospace',
+        fontSize: '13px',
+        primaryColor: '#1a0c0c',
+        primaryTextColor: '#d6d2c8',
+        primaryBorderColor: '#e8332a',
+        secondaryColor: '#0b0b0b',
+        tertiaryColor: '#111111',
+        lineColor: '#e8332a',
+        textColor: '#d6d2c8',
+        nodeTextColor: '#d6d2c8',
+        mainBkg: '#1a0c0c',
+        clusterBkg: '#0b0b0b',
+        titleColor: '#e8332a',
+        edgeLabelBackground: '#0b0b0b',
+      },
+    });
+    return mermaidMod;
+  }
+
+  function withClicks(src, href) {
+    const ids = new Set();
+    const re = /^\s*([A-Za-z][\w]*)\[/gm;
+    let m;
+    while ((m = re.exec(src))) ids.add(m[1]);
+    const extra = [...ids]
+      .map((id) => `  click ${id} href "${href}" _blank`)
+      .join('\n');
+    return extra ? `${src.trim()}\n${extra}\n` : src;
   }
 
   function pane(screen, bar) {
-    const state = { tagged: [], i: 0, done: false };
-    const paint = () => {
-      const vis = 56;
-      const start = Math.max(0, state.i - vis);
-      let html = '';
-      for (let n = start; n < state.i; n++) {
-        const { s, k } = state.tagged[n];
-        html += `<span class="rd-${k}">${esc(s)}</span>\n`;
-      }
-      screen.innerHTML = html + '<span class="rd-cur">█</span>';
+    const state = { chars: [], i: 0, done: false, href: '', source: '' };
+    const paintText = () => {
+      const text = state.chars.slice(0, state.i).join('');
+      screen.classList.remove('rd-mmd');
+      screen.classList.add('rd-screen');
+      screen.innerHTML =
+        `<span class="rd-eq">${esc(text)}</span><span class="rd-cur">█</span>`;
       screen.scrollTop = screen.scrollHeight;
-      const pct = state.tagged.length
-        ? Math.min(100, Math.floor((state.i / state.tagged.length) * 100))
+      const pct = state.chars.length
+        ? Math.min(100, Math.floor((state.i / state.chars.length) * 100))
         : 0;
-      bar.textContent = `${pct}% · ${state.i}/${state.tagged.length} ln · ${TPS}tps`;
+      bar.textContent = `${pct}% · mermaid src · ${TPS}tps`;
     };
     const step = () => {
-      if (state.i >= state.tagged.length) {
+      if (state.i >= state.chars.length) {
         state.done = true;
         return false;
       }
@@ -74,11 +81,29 @@
       return true;
     };
     const fill = () => {
-      state.i = state.tagged.length;
+      state.i = state.chars.length;
       state.done = true;
-      paint();
     };
-    return { state, paint, step, fill };
+    const paintGraph = async () => {
+      fill();
+      bar.textContent = 'render mermaid…';
+      try {
+        const mm = await mermaid();
+        const id = 'rdm-' + Math.random().toString(36).slice(2, 10);
+        const src = withClicks(state.source, state.href);
+        const { svg, bindFunctions } = await mm.render(id, src);
+        screen.classList.remove('rd-screen');
+        screen.classList.add('rd-mmd');
+        screen.innerHTML = svg;
+        bindFunctions?.(screen);
+        bar.textContent = 'mermaid · click a node';
+      } catch (err) {
+        screen.classList.add('rd-screen');
+        screen.textContent = String(err);
+        bar.textContent = 'mermaid failed';
+      }
+    };
+    return { state, paintText, step, fill, paintGraph };
   }
 
   function esc(s) {
@@ -94,32 +119,35 @@
     wrap.id = 'rd-modal';
     wrap.setAttribute('hidden', '');
     wrap.innerHTML = `
-      <div class="rd-win" role="dialog" aria-modal="true" aria-label="rio split — the two plans">
+      <div class="rd-win" role="dialog" aria-modal="true" aria-label="rio split mermaid — the two plans">
         <div class="rd-chrome">
           <span class="rd-dots" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span class="rd-title">rio — split · 76tps · complete stdout</span>
+          <span class="rd-title">rio — split · mermaid · 76tps</span>
           <button type="button" class="rd-x" data-rd-close>esc</button>
         </div>
         <p class="rd-lede">
-          Left is what native Grok <b>filed</b> after quoting one line.
-          Right is the <b>complete</b> Kimi K3 Max + wwkd consult.
-          Both panes load at ${TPS} lines/sec. No ellipses.
+          Both graphs type at ${TPS} tps then <b>render in mermaid</b>.
+          Click a node to open that plan.
           Outbound:
-          <a href="${FILES.left}">native-grok-plan.md</a>
+          <a href="${FILES.leftMd}">native-grok-plan.md</a>
           ·
-          <a href="${FILES.right}">kimi-k3-wwkd-plan.md</a>
+          <a href="${FILES.rightMd}">kimi-k3-wwkd-plan.md</a>
+          ·
+          <a href="${FILES.leftMmd}">native-grok-plan.mmd</a>
+          ·
+          <a href="${FILES.rightMmd}">kimi-k3-wwkd-plan.mmd</a>
           ·
           <a href="${new URL('.', ROOT).href}">the two plans</a>
-          · space = skip to end
+          · space = skip to graph
         </p>
         <div class="rd-split">
           <div class="rd-col">
             <div class="rd-bar"><span class="rd-name">native grok filed</span><span class="rd-stat" id="rd-lstat">idle</span></div>
-            <pre class="rd-screen" id="rd-left"></pre>
+            <div class="rd-screen" id="rd-left"></div>
           </div>
           <div class="rd-col">
             <div class="rd-bar"><span class="rd-name">kimi k3 + wwkd stdout</span><span class="rd-stat" id="rd-rstat">idle</span></div>
-            <pre class="rd-screen" id="rd-right"></pre>
+            <div class="rd-screen" id="rd-right"></div>
           </div>
         </div>
       </div>`;
@@ -153,29 +181,29 @@
       document.getElementById('rd-right'),
       document.getElementById('rd-rstat'),
     );
-    let a;
-    let b;
+    L.state.href = FILES.leftMd;
+    R.state.href = FILES.rightMd;
     try {
-      [a, b] = await Promise.all([
-        fetch(FILES.left).then((r) => {
-          if (!r.ok) throw new Error(FILES.left + ' ' + r.status);
+      const [a, b] = await Promise.all([
+        fetch(FILES.leftMmd).then((r) => {
+          if (!r.ok) throw new Error(FILES.leftMmd + ' ' + r.status);
           return r.text();
         }),
-        fetch(FILES.right).then((r) => {
-          if (!r.ok) throw new Error(FILES.right + ' ' + r.status);
+        fetch(FILES.rightMmd).then((r) => {
+          if (!r.ok) throw new Error(FILES.rightMmd + ' ' + r.status);
           return r.text();
         }),
       ]);
+      L.state.source = a;
+      R.state.source = b;
+      L.state.chars = [...a];
+      R.state.chars = [...b];
     } catch (err) {
       document.getElementById('rd-left').textContent = String(err);
       return;
     }
-    const tagged = lineDiff(a, b);
-    L.state.tagged = tagged.left;
-    R.state.tagged = tagged.right;
     if (reduce) {
-      L.fill();
-      R.fill();
+      await Promise.all([L.paintGraph(), R.paintGraph()]);
       return;
     }
     let last = 0;
@@ -192,11 +220,12 @@
           L.step();
           R.step();
         }
-        L.paint();
-        R.paint();
+        L.paintText();
+        R.paintText();
       }
       if (L.state.done && R.state.done) {
         raf = 0;
+        Promise.all([L.paintGraph(), R.paintGraph()]);
         return;
       }
       raf = window.requestAnimationFrame(frame);
@@ -224,8 +253,7 @@
       cancelAnimationFrame(raf);
       raf = 0;
     }
-    L.fill();
-    R.fill();
+    Promise.all([L.paintGraph(), R.paintGraph()]);
   }
 
   window.addEventListener('keydown', (e) => {

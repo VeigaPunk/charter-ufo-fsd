@@ -1,0 +1,25 @@
+flowchart TD
+  W["kimi k3 + wwkd<br/>What: wave64 drift burn-down"]
+  M01["M01 baseline battery"]
+  M02["M02 overfit one sibling"]
+  M03["M03 generalize 5 siblings"]
+  M04["M04 kimi agents floor-4"]
+  M05["M05 xbgst-codex timeout"]
+  M06["M06 test pins BAN 4/5"]
+  M07["M07 mirrors + pin restore"]
+  M08["M08 13 CONFLICTS Pareto"]
+  MF["M_final NEXT + scribe"]
+
+  W --> M01
+  M01 --> M02
+  M02 --> M03
+  M01 --> M04
+  M01 --> M05
+  M03 --> M06
+  M06 --> M07
+  M01 --> M08
+  M03 --> MF
+  M04 --> MF
+  M05 --> MF
+  M07 --> MF
+  M08 --> MF

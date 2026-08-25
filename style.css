@@ -487,6 +487,14 @@ html.rd-lock { overflow: hidden; }
   font-size: 11px; line-height: 15px; white-space: pre-wrap;
   word-break: break-word; background: #050505;
 }
+.rd-mmd {
+  flex: 1; min-height: 0; overflow: auto;
+  margin: 0; padding: calc(var(--line) * .4) calc(var(--char) * 1);
+  background: #050505;
+}
+.rd-mmd svg { width: 100%; height: auto; display: block; }
+.rd-mmd a { color: var(--red); cursor: pointer; }
+.rd-mmd a:hover { background: transparent; color: #fff; }
 .rd-eq { color: var(--ink-dim); }
 .rd-del { color: #e8a8a4; background: rgba(232, 51, 42, .14); }
 .rd-add { color: var(--ink); background: rgba(232, 51, 42, .08); }

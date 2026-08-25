@@ -18,7 +18,7 @@ Centralized, reachable from any substrate. Iterate on it here.
 - **Frontier log** — dated entries, on the record.
 - **The two plans** — verbatim native Grok rewrite vs Kimi K3 Max + wwkd consult (`compare/`).
   Outbound: `compare/native-grok-plan.md` and `compare/kimi-k3-wwkd-plan.md` (complete, no ellipses).
-  Popup: Rio-style split TUI at 76tps both panes (`#diff` / `open rio split`). rioterm wasm is not bundled; the popup is a static char-grid pump.
+  Popup: Rio-style split TUI (`#diff` / `open rio split`). Both graphs type at 76tps then render in mermaid. Nodes click through to the plan files. Graph sources: `compare/*.mmd`. rioterm wasm is not bundled.
 - **The dream** — the vessel + the A.A.OM tag.
 
 ## Stack
