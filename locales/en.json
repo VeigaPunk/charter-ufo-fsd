@@ -2,7 +2,7 @@
  "badge.runs": "PLAZIR runs on <b>Kimi™</b>",
  "f.art": "no prior art. only current art, done live.",
  "f.meta1": "plazir-27 — a frontier operation by <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> · doctrine: ufo-fsd · posture: move fast, break things, iterate cheap, in parallel",
- "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a>",
+ "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "f.quote": "<b>Frontier is not a place. Its a perpetual moving target.</b><br> It is the practice of keeping the map true while everything underneath it changes.",
  "f.wen": "文明 — the light of culture.",
  "hero.manifesto": "A frontier operation run from a terminal — <b>300-agent orchestration</b> on Rust and io_uring, <b>five substrates crossbred per round</b>, aimed at one goal: <b>ufo-fsd at escape velocity</b> — full self-driving frontier orchestration, 2027.",
@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — optional L2-select / rover CLI. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "FSD overlay &amp; research",
  "s3.g7.i1": "<b>ufo-fsd</b> — the dormant FSD overlay. Holds the contract; must not judge. Private until Grok/xbgst is crowned and the fleet is ready. <span class=\"priv\">private</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Not runtime. <span class=\"priv\">private</span>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Not runtime. Repo <span class=\"priv\">private</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "s3.g8.h": "posture",
  "s3.g8.i1": "<b>godspeed-core</b> — directive + filter + velocity. Do not fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "host / livepatch",
@@ -190,5 +190,7 @@
  "s6.meta": "field artifact · 2026-08",
  "s6.note": "Read at 3:47 AM, mid-session, and filed under mission statement. Dreaming the future with passion is the whole operation. The tag stays.",
  "s6.quote": "\"We have a dream, very nice dream.<br> We have a style, very nice style.<br> It's beautiful.<br> With passion to try best dreaming the future.\"",
- "s6.title": "The dream"
+ "s6.title": "The dream",
+ "nav.paper": "research paper",
+ "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)"
 }

@@ -2,7 +2,7 @@
  "badge.runs": "PLAZIR tumatakbo sa <b>Kimi™</b>",
  "f.art": "walang naunang art. kasalukuyang art lang, ginagawa nang live.",
  "f.meta1": "plazir-27 — isang frontier na operasyon ni <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> · doktrina: ufo-fsd · postura: gumalaw nang mabilis, sirain ang mga bagay, mag-iterate nang mura, nang sabay-sabay",
- "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a>",
+ "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "f.quote": "<b>Ang frontier ay hindi isang lugar. Ito ay isang walang tigil na gumagalaw na target.</b><br> Ito ang pagsasanay ng pagpapanatiling totoo ng mapa habang nagbabago ang lahat sa ilalim nito.",
  "f.wen": "文明 — ang liwanag ng kultura.",
  "hero.manifesto": "Isang frontier na operasyon na pinapatakbo mula sa isang terminal — <b>300-agent na orkestrasyon</b> sa Rust at io_uring, <b>limang substrate na pinag-crossbreed bawat round</b>, nakatuon sa isang layunin: <b>ufo-fsd sa escape velocity</b> — full self-driving na frontier orkestrasyon, 2027.",
@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — opsyonal na L2-select / rover CLI. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "FSD overlay &amp; pananaliksik",
  "s3.g7.i1": "<b>ufo-fsd</b> — ang dormant na FSD overlay. Hawak nito ang kontrata; hindi dapat humatol. Pribado hanggang sa ma-korona ang Grok/xbgst at handa na ang plota. <span class=\"priv\">pribado</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Hindi runtime. <span class=\"priv\">pribado</span>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Hindi runtime. Repo <span class=\"priv\">pribado</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "s3.g8.h": "postura",
  "s3.g8.i1": "<b>godspeed-core</b> — direktiba + filter + belosidad. Huwag i-fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "host / livepatch",
@@ -190,5 +190,7 @@
  "s6.meta": "field artifact · 2026-08",
  "s6.note": "Binasa nang 3:47 AM, sa gitna ng sesyon, at inihain bilang pahayag ng misyon. Ang pagninilay ng hinaharap nang may sigla ang buong operasyon. Ang tag ay mananatili.",
  "s6.quote": "\"Mayroon kaming panaginip, napakagandang panaginip.<br> Mayroon kaming istilo, napakagandang istilo.<br> Napakaganda nito.<br> May sigla upang subukan ang pinakamabuti sa pagninilay ng hinaharap.\"",
- "s6.title": "Ang panaginip"
+ "s6.title": "Ang panaginip",
+ "nav.paper": "research paper",
+ "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)"
 }

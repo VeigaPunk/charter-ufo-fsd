@@ -2,7 +2,7 @@
  "badge.runs": "PLAZIR berjalan di <b>Kimi™</b>",
  "f.art": "tidak ada prior art. hanya karya terkini, dikerjakan langsung.",
  "f.meta1": "plazir-27 — sebuah operasi frontier oleh <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> · doktrin: ufo-fsd · postur: bergerak cepat, rusakkan, iterasi murah, secara paralel",
- "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a>",
+ "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · live: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "f.quote": "<b>Frontier bukan sebuah tempat. Ia adalah target bergerak yang abadi.</b><br> Ia adalah praktik menjaga peta tetap benar sementara segala yang di bawahnya berubah.",
  "f.wen": "文明 — cahaya kebudayaan.",
  "hero.manifesto": "Sebuah operasi frontier yang dijalankan dari terminal — <b>orkestrasi 300 agen</b> di atas Rust dan io_uring, <b>lima substrat dikawinsilangkan per ronde</b>, diarahkan pada satu tujuan: <b>ufo-fsd pada kecepatan lepas</b> — orkestrasi frontier swakemudi penuh, 2027.",
@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — CLI L2-select / rover opsional. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "Overlay FSD &amp; riset",
  "s3.g7.i1": "<b>ufo-fsd</b> — overlay FSD yang dorman. Memegang kontrak; tidak boleh menghakimi. Privat sampai Grok/xbgst dinobatkan dan armada siap. <span class=\"priv\">privat</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT riset: pola, SPEC, bench. Bukan runtime. <span class=\"priv\">privat</span>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT riset: pola, SPEC, bench. Bukan runtime. Repo <span class=\"priv\">privat</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "s3.g8.h": "postur",
  "s3.g8.i1": "<b>godspeed-core</b> — direktif + filter + kecepatan. Jangan di-fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "host / livepatch",
@@ -190,5 +190,7 @@
  "s6.meta": "artefak lapangan · 2026-08",
  "s6.note": "Dibaca pukul 3:47 pagi, di tengah sesi, dan diarsipkan di bawah pernyataan misi. Memimpikan masa depan dengan penuh gairah adalah keseluruhan operasi. Labelnya tetap.",
  "s6.quote": "\"Kami punya mimpi, mimpi yang sangat indah.<br> Kami punya gaya, gaya yang sangat indah.<br> Sungguh indah.<br> Dengan gairah untuk mencoba sebaik mungkin memimpikan masa depan.\"",
- "s6.title": "Mimpi"
+ "s6.title": "Mimpi",
+ "nav.paper": "makalah riset",
+ "hero.paper": "Makalah riset · The Umwelt-Frontier Orchestrator (PDF)"
 }

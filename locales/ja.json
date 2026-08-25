@@ -2,7 +2,7 @@
  "badge.runs": "PLAZIR は <b>Kimi™</b> で動く",
  "f.art": "先行技術なし。あるのは現行の技術だけ、ライブで。",
  "f.meta1": "plazir-27 — <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> によるフロンティア作戦 · ドクトリン: ufo-fsd · 姿勢: 速く動け、壊せ、安く反復せよ、並列で",
- "f.meta2": "チャーター: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · ライブ: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a>",
+ "f.meta2": "チャーター: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · ライブ: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "f.quote": "<b>フロンティアは場所ではない。それは永続的に動く標的だ。</b><br> その下のすべてが変化し続ける中で、地図を真実に保ち続ける実践である。",
  "f.wen": "文明 — 文化の光。",
  "hero.manifesto": "ターミナルから運用されるフロンティア作戦 — Rust と io_uring による <b>300エージェントのオーケストレーション</b>、<b>1ラウンドごとに5つの基盤を交雑</b>、狙う目標はひとつ: <b>脱出速度での ufo-fsd</b> — 完全自律のフロンティア・オーケストレーション、2027年。",
@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — オプションの L2 選択 / ローバー CLI。<a href=\"https://github.com/VeigaPunk/xbrd-selector\">リポジトリ</a>",
  "s3.g7.h": "FSD オーバーレイ &amp; 研究",
  "s3.g7.i1": "<b>ufo-fsd</b> — 休眠中の FSD オーバーレイ。契約を保持する。ジャッジしてはならない。Grok/xbgst が戴冠し艦隊が整うまで非公開。<span class=\"priv\">非公開</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT: パターン、SPEC、ベンチ。ランタイムではない。<span class=\"priv\">非公開</span>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT: パターン、SPEC、ベンチ。ランタイムではない。Repo <span class=\"priv\">非公開</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "s3.g8.h": "姿勢",
  "s3.g8.i1": "<b>godspeed-core</b> — 指令 + フィルター + 速度。フォークするな。<a href=\"https://github.com/VeigaPunk/godspeed-core\">リポジトリ</a>",
  "s3.g9.h": "ホスト / livepatch",
@@ -190,5 +190,7 @@
  "s6.meta": "フィールドの遺物 · 2026-08",
  "s6.note": "午前3時47分、セッションの最中に読まれ、ミッションステートメントに分類された。情熱を持って未来を夢見ること、それが作戦のすべてだ。タグは残す。",
  "s6.quote": "「私たちには夢がある、とても素敵な夢。<br> 私たちにはスタイルがある、とても素敵なスタイル。<br> それは美しい。<br> 未来を夢見るために最善を尽くす情熱とともに。」",
- "s6.title": "夢"
+ "s6.title": "夢",
+ "nav.paper": "研究論文",
+ "hero.paper": "研究論文 · The Umwelt-Frontier Orchestrator (PDF)"
 }

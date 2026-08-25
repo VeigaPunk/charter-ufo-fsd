@@ -186,6 +186,20 @@ header .tags {
   font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
   color: var(--ink-faint);
 }
+header .paper-cta {
+  margin-top: calc(var(--line) * 0.85);
+  font-size: 12px;
+  letter-spacing: .04em;
+}
+header .paper-cta a {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--red) 45%, transparent);
+}
+header .paper-cta a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
 .cursor {
   display: inline-block; width: .62em; height: 1.05em;
   background: var(--red); vertical-align: text-bottom;

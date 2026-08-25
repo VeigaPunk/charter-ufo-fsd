@@ -2,7 +2,7 @@
  "badge.runs": "PLAZIR chạy trên <b>Kimi™</b>",
  "f.art": "không có nghệ thuật cũ. chỉ có nghệ thuật hiện tại, làm trực tiếp.",
  "f.meta1": "plazir-27 — một chiến dịch biên giới bởi <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> · giáo lý: ufo-fsd · tư thế: hành động nhanh, phá vỡ, lặp rẻ, song song",
- "f.meta2": "hiến chương: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · trực tiếp: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a>",
+ "f.meta2": "hiến chương: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · trực tiếp: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "f.quote": "<b>Biên giới không phải một nơi. Đó là một mục tiêu di động vĩnh viễn.</b><br> Đó là thực hành giữ cho bản đồ luôn đúng trong khi mọi thứ bên dưới nó thay đổi.",
  "f.wen": "文明 — ánh sáng của văn minh.",
  "hero.manifesto": "Một chiến dịch biên giới vận hành từ terminal — <b>điều phối 300 agent</b> trên Rust và io_uring, <b>năm nền tảng lai chéo mỗi vòng</b>, hướng tới một mục tiêu duy nhất: <b>ufo-fsd ở vận tốc thoát ly</b> — điều phối biên giới tự lái toàn phần, 2027.",
@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — CLI L2-select / rover tùy chọn. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">kho mã</a>",
  "s3.g7.h": "Overlay FSD &amp; nghiên cứu",
  "s3.g7.i1": "<b>ufo-fsd</b> — overlay FSD đang ngủ đông. Giữ hợp đồng; không được phán xét. Riêng tư cho tới khi Grok/xbgst được đăng quang và hạm đội sẵn sàng. <span class=\"priv\">riêng tư</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT nghiên cứu: pattern, SPEC, bench. Không phải runtime. <span class=\"priv\">riêng tư</span>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT nghiên cứu: pattern, SPEC, bench. Không phải runtime. Repo <span class=\"priv\">riêng tư</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
  "s3.g8.h": "tư thế",
  "s3.g8.i1": "<b>godspeed-core</b> — chỉ thị + bộ lọc + vận tốc. Không được fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">kho mã</a>",
  "s3.g9.h": "host / livepatch",
@@ -190,5 +190,7 @@
  "s6.meta": "hiện vật thực địa · 2026-08",
  "s6.note": "Được đọc lúc 3 giờ 47 sáng, giữa phiên, và được lưu vào tuyên ngôn sứ mệnh. Mơ về tương lai với đam mê chính là toàn bộ chiến dịch. Thẻ vẫn ở lại.",
  "s6.quote": "\"Chúng tôi có một giấc mơ, giấc mơ rất đẹp.<br> Chúng tôi có một phong cách, phong cách rất đẹp.<br> Thật tuyệt đẹp.<br> Với đam mê cố hết sức mơ về tương lai.\"",
- "s6.title": "Giấc mơ"
+ "s6.title": "Giấc mơ",
+ "nav.paper": "bài nghiên cứu",
+ "hero.paper": "Bài nghiên cứu · The Umwelt-Frontier Orchestrator (PDF)"
 }
