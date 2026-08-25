@@ -44,6 +44,7 @@ nav a.here { color: var(--red); }
     <li><a href="../index.html">charter</a></li>
     <li><a href="../index.html#log">frontier log</a></li>
     <li><a class="here" href="./">the two plans</a></li>
+    <li><a href="#diff" data-rd-open>rio split</a></li>
   </ul>
 </nav>
 <header>
@@ -59,11 +60,13 @@ nav a.here { color: var(--red); }
   (<code>cursor-agent -p --mode ask --trust --model kimi-k3-max</code> with skill wwkd).
   Bytes: 8521. No ellipsis. Includes State, Unknowns, the plan fence, and the wwkd refusal checklist.
   Left column is what native Grok <b>filed</b> after quoting one line of that stdout in <code>&lt;raw_output&gt;</code> and discarding the rest as pad.
-  Source files:
+  Outbound artifacts (complete files, no ellipses):
   <a href="native-grok-plan.md">native-grok-plan.md</a>
   (22052 bytes) ·
   <a href="kimi-k3-wwkd-plan.md">kimi-k3-wwkd-plan.md</a>
   (8521 bytes).
+  Difference as a Rio-style split TUI, both panes at 76 ticks/sec:
+  <a href="#diff" data-rd-open>open rio split</a>.
 </p>
 <div class="compare">
   <div class="col term">
@@ -285,5 +288,6 @@ M01 → all. M02 → M03. M03 ∥ M04 ∥ M05 (disjoint trees). M03 → M06 (doc
 </pre>
   </div>
 </div>
+<script src="rio-diff.js"></script>
 </body>
 </html>
