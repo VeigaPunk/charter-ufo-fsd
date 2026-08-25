@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — optional L2-select / rover CLI. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "FSD overlay &amp; research",
  "s3.g7.i1": "<b>ufo-fsd</b> — the dormant FSD overlay. Holds the contract; must not judge. Private until Grok/xbgst is crowned and the fleet is ready. <span class=\"priv\">private</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Not runtime. Repo <span class=\"priv\">private</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Not runtime. Repo <span class=\"priv\">private</span> · public paper hosted on this charter.",
  "s3.g8.h": "posture",
  "s3.g8.i1": "<b>godspeed-core</b> — directive + filter + velocity. Do not fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "host / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"We have a dream, very nice dream.<br> We have a style, very nice style.<br> It's beautiful.<br> With passion to try best dreaming the future.\"",
  "s6.title": "The dream",
  "nav.paper": "research paper",
- "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "Open research paper (PDF)"
 }

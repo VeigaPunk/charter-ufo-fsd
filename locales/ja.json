@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — オプションの L2 選択 / ローバー CLI。<a href=\"https://github.com/VeigaPunk/xbrd-selector\">リポジトリ</a>",
  "s3.g7.h": "FSD オーバーレイ &amp; 研究",
  "s3.g7.i1": "<b>ufo-fsd</b> — 休眠中の FSD オーバーレイ。契約を保持する。ジャッジしてはならない。Grok/xbgst が戴冠し艦隊が整うまで非公開。<span class=\"priv\">非公開</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT: パターン、SPEC、ベンチ。ランタイムではない。Repo <span class=\"priv\">非公開</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT: パターン、SPEC、ベンチ。ランタイムではない。リポジトリ <span class=\"priv\">非公開</span> · 公開論文はこのチャーター上で提供。",
  "s3.g8.h": "姿勢",
  "s3.g8.i1": "<b>godspeed-core</b> — 指令 + フィルター + 速度。フォークするな。<a href=\"https://github.com/VeigaPunk/godspeed-core\">リポジトリ</a>",
  "s3.g9.h": "ホスト / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "「私たちには夢がある、とても素敵な夢。<br> 私たちにはスタイルがある、とても素敵なスタイル。<br> それは美しい。<br> 未来を夢見るために最善を尽くす情熱とともに。」",
  "s6.title": "夢",
  "nav.paper": "研究論文",
- "hero.paper": "研究論文 · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "研究論文 · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "研究論文を開く（PDF）"
 }

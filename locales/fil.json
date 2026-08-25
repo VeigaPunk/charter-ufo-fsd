@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — opsyonal na L2-select / rover CLI. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "FSD overlay &amp; pananaliksik",
  "s3.g7.i1": "<b>ufo-fsd</b> — ang dormant na FSD overlay. Hawak nito ang kontrata; hindi dapat humatol. Pribado hanggang sa ma-korona ang Grok/xbgst at handa na ang plota. <span class=\"priv\">pribado</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Hindi runtime. Repo <span class=\"priv\">pribado</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — research SSoT: pattern, SPEC, bench. Hindi runtime. Repo <span class=\"priv\">pribado</span> · pampublikong paper naka-host sa charter na ito.",
  "s3.g8.h": "postura",
  "s3.g8.i1": "<b>godspeed-core</b> — direktiba + filter + belosidad. Huwag i-fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "host / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"Mayroon kaming panaginip, napakagandang panaginip.<br> Mayroon kaming istilo, napakagandang istilo.<br> Napakaganda nito.<br> May sigla upang subukan ang pinakamabuti sa pagninilay ng hinaharap.\"",
  "s6.title": "Ang panaginip",
  "nav.paper": "research paper",
- "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "Research paper · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "Buksan ang research paper (PDF)"
 }

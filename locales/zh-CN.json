@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — 可选的 L2-select / rover CLI。<a href=\"https://github.com/VeigaPunk/xbrd-selector\">仓库</a>",
  "s3.g7.h": "FSD 叠加层 &amp; 研究",
  "s3.g7.i1": "<b>ufo-fsd</b> — 休眠的 FSD 叠加层。持有契约；不得裁判。在 Grok/xbgst 加冕且舰队就绪之前保持私有。<span class=\"priv\">私有</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT：模式、SPEC、基准。非运行时。Repo <span class=\"priv\">私有</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — 研究 SSoT：模式、SPEC、基准。非运行时。仓库 <span class=\"priv\">私有</span> · 公开论文托管于本宪章站。",
  "s3.g8.h": "姿态",
  "s3.g8.i1": "<b>godspeed-core</b> — 指令 + 过滤器 + 速度。不要分叉。<a href=\"https://github.com/VeigaPunk/godspeed-core\">仓库</a>",
  "s3.g9.h": "宿主 / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"我们有一个梦，非常美好的梦。<br> 我们有一种风格，非常美好的风格。<br> 它很美。<br> 满怀热情，竭力梦想未来。\"",
  "s6.title": "梦",
  "nav.paper": "研究论文",
- "hero.paper": "研究论文 · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "研究论文 · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "打开研究论文（PDF）"
 }

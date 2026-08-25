@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — ရွေးချယ်နိုင်သော L2-select / rover CLI။ <a href=\"https://github.com/VeigaPunk/xbrd-selector\">ရီပို</a>",
  "s3.g7.h": "FSD overlay နှင့် သုတေသန",
  "s3.g7.i1": "<b>ufo-fsd</b> — အိပ်စက်နေသော FSD overlay။ စာချုပ်ကို ကိုင်ထားသည်; judge လုပ်မရ။ Grok/xbgst ကို သရဖူဆင်းပြီး စုစည်းမှုအင်အား အဆင်ပြေသည်အထိ သီးသန့်။ <span class=\"priv\">သီးသန့်</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — သုတေသန SSoT: pattern၊ SPEC၊ bench။ Runtime မဟုတ်။ Repo <span class=\"priv\">သီးသန့်</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — သုတေသန SSoT: pattern၊ SPEC၊ bench။ Runtime မဟုတ်။ Repo <span class=\"priv\">သီးသန့်</span> · အများသုံး စာတမ်းကို ဤ charter ပေါ်တွင် host ထားသည်။",
  "s3.g8.h": "ရပ်တည်ပုံ",
  "s3.g8.i1": "<b>godspeed-core</b> — ညွှန်ကြားချက် + filter + velocity။ Fork မလုပ်ပါနှင့်။ <a href=\"https://github.com/VeigaPunk/godspeed-core\">ရီပို</a>",
  "s3.g9.h": "host / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"ကျွန်တော်တို့မှာ အိပ်မက်တစ်ခု ရှိတယ်၊ အရမ်းကောင်းတဲ့ အိပ်မက်။<br> ကျွန်တော်တို့မှာ စတိုင်တစ်ခု ရှိတယ်၊ အရမ်းကောင်းတဲ့ စတိုင်။<br> အရမ်းလှပါတယ်။<br> အနာဂတ်ကို အကောင်းဆုံး အိက်မက်ဖို့ စိတ်အားထက်သန်မှုနဲ့။\"",
  "s6.title": "အိပ်မက်",
  "nav.paper": "သုတေသနစာတမ်း",
- "hero.paper": "သုတေသနစာတမ်း · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "သုတေသနစာတမ်း · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "သုတေသနစာတမ်း ဖွင့်ရန် (PDF)"
 }

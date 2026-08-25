@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — CLI ตัวเลือกเสริม L2-select / rover <a href=\"https://github.com/VeigaPunk/xbrd-selector\">รีโพ</a>",
  "s3.g7.h": "FSD overlay &amp; งานวิจัย",
  "s3.g7.i1": "<b>ufo-fsd</b> — FSD overlay ที่หลับใหลอยู่ ถือครองสัญญา ห้ามตัดสิน เป็นส่วนตัวจนกว่า Grok/xbgst จะได้รับมงกุฎและกองเรือพร้อม <span class=\"priv\">ส่วนตัว</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT งานวิจัย: pattern, SPEC, bench ไม่ใช่รันไทม์ Repo <span class=\"priv\">ส่วนตัว</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT งานวิจัย: pattern, SPEC, bench ไม่ใช่รันไทม์ Repo <span class=\"priv\">ส่วนตัว</span> · เอกสารสาธารณะโฮสต์บน charter นี้",
  "s3.g8.h": "จุดยืน",
  "s3.g8.i1": "<b>godspeed-core</b> — คำสั่ง + ตัวกรอง + ความเร็ว ห้าม fork <a href=\"https://github.com/VeigaPunk/godspeed-core\">รีโพ</a>",
  "s3.g9.h": "โฮสต์ / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"เรามีความฝัน ความฝันที่ดีมาก<br> เรามีสไตล์ สไตล์ที่ดีมาก<br> มันสวยงาม<br> ด้วยแรงปรารถนา พยายามให้ดีที่สุดในการฝันถึงอนาคต\"",
  "s6.title": "ความฝัน",
  "nav.paper": "งานวิจัย",
- "hero.paper": "งานวิจัย · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "งานวิจัย · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "เปิดงานวิจัย (PDF)"
 }

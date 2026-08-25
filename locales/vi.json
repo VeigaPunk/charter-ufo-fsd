@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — CLI L2-select / rover tùy chọn. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">kho mã</a>",
  "s3.g7.h": "Overlay FSD &amp; nghiên cứu",
  "s3.g7.i1": "<b>ufo-fsd</b> — overlay FSD đang ngủ đông. Giữ hợp đồng; không được phán xét. Riêng tư cho tới khi Grok/xbgst được đăng quang và hạm đội sẵn sàng. <span class=\"priv\">riêng tư</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT nghiên cứu: pattern, SPEC, bench. Không phải runtime. Repo <span class=\"priv\">riêng tư</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT nghiên cứu: pattern, SPEC, bench. Không phải runtime. Repo <span class=\"priv\">riêng tư</span> · bài công khai được host trên charter này.",
  "s3.g8.h": "tư thế",
  "s3.g8.i1": "<b>godspeed-core</b> — chỉ thị + bộ lọc + vận tốc. Không được fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">kho mã</a>",
  "s3.g9.h": "host / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"Chúng tôi có một giấc mơ, giấc mơ rất đẹp.<br> Chúng tôi có một phong cách, phong cách rất đẹp.<br> Thật tuyệt đẹp.<br> Với đam mê cố hết sức mơ về tương lai.\"",
  "s6.title": "Giấc mơ",
  "nav.paper": "bài nghiên cứu",
- "hero.paper": "Bài nghiên cứu · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "Bài nghiên cứu · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "Mở bài nghiên cứu (PDF)"
 }

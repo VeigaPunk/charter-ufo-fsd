@@ -103,7 +103,7 @@
  "s3.g6.i5": "<b>xbrd-selector</b> — CLI pemilih-L2 / rover pilihan. <a href=\"https://github.com/VeigaPunk/xbrd-selector\">repo</a>",
  "s3.g7.h": "Overlay FSD &amp; penyelidikan",
  "s3.g7.i1": "<b>ufo-fsd</b> — overlay FSD dorman. Memegang kontrak; tidak boleh menghakimi. Peribadi sehingga Grok/xbgst dimahkotai dan armada sedia. <span class=\"priv\">peribadi</span>",
- "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT penyelidikan: corak, SPEC, bench. Bukan runtime. Repo <span class=\"priv\">peribadi</span> · public paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
+ "s3.g7.i2": "<b>umwelt-frontier-orchestrator</b> — SSoT penyelidikan: corak, SPEC, bench. Bukan runtime. Repo <span class=\"priv\">peribadi</span> · kertas awam dihoskan pada piagam ini.",
  "s3.g8.h": "pendirian",
  "s3.g8.i1": "<b>godspeed-core</b> — direktif + penapis + halaju. Jangan fork. <a href=\"https://github.com/VeigaPunk/godspeed-core\">repo</a>",
  "s3.g9.h": "hos / livepatch",
@@ -192,5 +192,6 @@
  "s6.quote": "\"Kami ada impian, impian yang sangat indah.<br> Kami ada gaya, gaya yang sangat indah.<br> Ia cantik.<br> Dengan semangat untuk mencuba sedaya upaya mengimpikan masa depan.\"",
  "s6.title": "Impian",
  "nav.paper": "kertas penyelidikan",
- "hero.paper": "Kertas penyelidikan · The Umwelt-Frontier Orchestrator (PDF)"
+ "hero.paper": "Kertas penyelidikan · The Umwelt-Frontier Orchestrator (PDF)",
+ "s3.g7.paperbtn": "Buka kertas penyelidikan (PDF)"
 }
