@@ -5,15 +5,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PLAZIR-27 — the ufo-fsd charter</title>
 <meta name="description" content="Plazir: a frontier operation. ufo-fsd doctrine — three-layer substrate, xask dry, cache-on-spawn. No prior art; only current art, done live.">
+<link rel="canonical" href="https://veigapunk.github.io/charter-ufo-fsd/">
+<link rel="alternate" hreflang="x-default" href="https://veigapunk.github.io/charter-ufo-fsd/">
+<link rel="alternate" hreflang="en" href="https://veigapunk.github.io/charter-ufo-fsd/">
+<meta name="theme-color" content="#060606">
+<meta name="msapplication-TileColor" content="#060606">
+<meta property="og:title" content="PLAZIR-27 — the ufo-fsd charter">
+<meta property="og:description" content="Plazir: a frontier operation. ufo-fsd doctrine — three-layer substrate, xask dry, cache-on-spawn. No prior art; only current art, done live.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://veigapunk.github.io/charter-ufo-fsd/">
+<meta property="og:site_name" content="PLAZIR-27">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://veigapunk.github.io/charter-ufo-fsd/vessel.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PLAZIR-27 — the ufo-fsd charter">
+<meta name="twitter:description" content="Plazir: a frontier operation. ufo-fsd doctrine — three-layer substrate, xask dry, cache-on-spawn. No prior art; only current art, done live.">
+<meta name="twitter:image" content="https://veigapunk.github.io/charter-ufo-fsd/vessel.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" href="style.css" as="style">
+<link rel="preload" href="main.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"></noscript>
 <link rel="stylesheet" href="style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23000'/><rect x='6' y='3' width='4' height='10' fill='%23e8332a'/></svg>">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSIjMDAwIi8+PHJlY3QgeD0iNiIgeT0iMyIgd2lkdGg9IjQiIGhlaWdodD0iMTAiIGZpbGw9IiNlODMzMmEiLz48L3N2Zz4=">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PLAZIR-27 — the ufo-fsd charter",
+  "url": "https://veigapunk.github.io/charter-ufo-fsd/",
+  "description": "Plazir: a frontier operation. ufo-fsd doctrine — three-layer substrate, xask dry, cache-on-spawn. No prior art; only current art, done live."
+}
+</script>
 </head>
 <body>
 
-<div id="boot" aria-hidden="true"></div>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<div id="boot" role="status" aria-live="polite" aria-label="boot sequence" tabindex="0"></div>
 
 <div id="gridcontainer" aria-hidden="true"><div id="asciigrid"></div></div>
 <div id="vignette" aria-hidden="true"></div>
@@ -21,12 +51,14 @@
 
 <nav>
   <span class="brand"><b>PLAZIR</b>-27 // ufo-fsd</span>
-  <ul>
+  <button id="navtoggle" type="button" aria-label="open navigation" aria-expanded="false" aria-controls="navmenu">≡</button>
+  <ul id="navmenu">
     <li><a href="#doctrine" data-i18n="nav.doctrine">doctrine</a></li>
     <li><a href="#conversation" data-i18n="nav.conversation">the conversation</a></li>
     <li><a href="#current-art" data-i18n="nav.art">current art</a></li>
     <li><a href="#substrate" data-i18n="nav.substrate">substrate map</a></li>
     <li><a href="#log" data-i18n="nav.log">frontier log</a></li>
+    <li><a href="#dream" data-i18n="nav.dream">the dream</a></li>
   </ul>
   <select id="langsel" aria-label="language">
     <option value="en">EN</option>
@@ -39,7 +71,6 @@
     <option value="fil">FIL</option>
     <option value="my">MY</option>
     <option value="km">KM</option>
-    <option value="lo">LO</option>
   </select>
 </nav>
 
@@ -55,11 +86,11 @@
   <div class="scrollhint" data-i18n="hero.scroll">scroll — the map is below</div>
 </header>
 
-<main>
+<main id="main-content">
 
 <!-- ================= 01 / DOCTRINE ================= -->
-<section id="doctrine">
-  <div class="shead rv"><span class="num">01</span><h2 data-i18n="s1.title">Doctrine — ufo-fsd</h2><span class="meta" data-i18n="s1.meta">the golden map · target: escape velocity</span></div>
+<section id="doctrine" aria-labelledby="doctrine-title">
+  <div class="shead rv"><span class="num">01</span><h2 id="doctrine-title" data-i18n="s1.title">Doctrine — ufo-fsd</h2><span class="meta" data-i18n="s1.meta">the golden map · target: escape velocity</span></div>
 
   <p class="doctrine-intro rv" data-i18n="s1.intro">
     Designation: <b>ufo-fsd</b>. Not an acronym — a callsign. It is the escape velocity this
@@ -165,7 +196,7 @@
     <div>
       <h3 data-i18n="s1.p8.h">Closing line</h3>
       <blockquote data-i18n="s1.p8.q"><b>"Frontier is not a place. Its a perpetual moving target.</b> It is the practice of keeping this map true while everything underneath it changes."</blockquote>
-      <p style="margin-top: var(--line)" data-i18n="s1.p8.p">When the map holds at full self-driving — lazy prompt in, verified system out,
+      <p class="doctrine-closing" data-i18n="s1.p8.p">When the map holds at full self-driving — lazy prompt in, verified system out,
       routes and lanes and delegations rewritten mid-run by the engine itself — that is <b>escape velocity</b>.
       That is ufo-fsd.</p>
     </div>
@@ -189,8 +220,8 @@ hangar is cache, not SSoT. ufo-fsd is not the L1 judge.</pre>
 </section>
 
 <!-- ================= 02 / THE CONVERSATION ================= -->
-<section id="conversation">
-  <div class="shead rv"><span class="num">02</span><h2 data-i18n="s2.title">The conversation</h2><span class="meta" data-i18n="s2.meta">dispatch log · one session</span></div>
+<section id="conversation" aria-labelledby="conversation-title">
+  <div class="shead rv"><span class="num">02</span><h2 id="conversation-title" data-i18n="s2.title">The conversation</h2><span class="meta" data-i18n="s2.meta">dispatch log · one session</span></div>
   <p class="thread-note rv" data-i18n="s2.note">One operator. One model. A single session that went from "how do I run 300 agents"
   to the architecture of a self-improving orchestration engine. Distilled beats — operator voice and Kimi voice intact.</p>
 
@@ -275,8 +306,8 @@ hangar is cache, not SSoT. ufo-fsd is not the L1 judge.</pre>
 </section>
 
 <!-- ================= 03 / CURRENT ART ================= -->
-<section id="current-art">
-  <div class="shead rv"><span class="num">03</span><h2 data-i18n="s3.title">Current art</h2><span class="meta" data-i18n="s3.meta">the stack, mapped by layer</span></div>
+<section id="current-art" aria-labelledby="current-art-title">
+  <div class="shead rv"><span class="num">03</span><h2 id="current-art-title" data-i18n="s3.title">Current art</h2><span class="meta" data-i18n="s3.meta">the stack, mapped by layer</span></div>
   <p class="thread-note rv" data-i18n="s3.note">No prior art — everything below is the current art, live. Named remotes are gold;
   hangar is cache, not SSoT. Public repos are linked; private ones are named only, so the page never 404s.</p>
 
@@ -300,7 +331,7 @@ posture      godspeed-core</pre>
   <div class="fg rv">
     <h4 data-i18n="s3.g2.h">core mold</h4>
     <ul>
-      <li data-i18n="s3.g2.i1"><b>xbgst-gdsd-fknpft</b> — core mold crate. Read-only; experiments are never pushed back to the mold. <a href="https://github.com/VeigaPunk/xbgst-gdsd-fknpft">repo</a></li>
+      <li data-i18n="s3.g2.i1"><b>xbgst-gdsd-fknpft</b> — core mold crate. Read-only; experiments are never pushed back to the mold. <span class="priv">private</span></li>
     </ul>
   </div>
 
@@ -326,7 +357,7 @@ posture      godspeed-core</pre>
   <div class="fg rv">
     <h4 data-i18n="s3.g5.h">L2 consult — protocol &amp; marketplace</h4>
     <ul>
-      <li data-i18n="s3.g5.i1"><b>ds4cc-marketplace</b> — multi-CLI marketplace + PATH xask + myagents. <a href="https://github.com/VeigaPunk/ds4cc-marketplace">repo</a> · <a href="https://ds4cc.com">ds4cc.com</a> · <a href="https://app.ds4cc.com/mcp">MCP</a></li>
+      <li data-i18n="s3.g5.i1"><b>ds4cc-marketplace</b> — multi-CLI marketplace + PATH xask + myagents. <a href="https://github.com/VeigaPunk/ds4cc-marketplace">repo</a> · <a href="https://ds4cc.com">ds4cc.com</a></li>
       <li data-i18n="s3.g5.i2">Named gravy through the surface: PATH <code>xask --provider cursor --model-id kimi-k3-max</code> — additional lane, not a recrown. Hangar cheap FIRST stays Token Plan. Named moonshot <code>xask --gs kimi</code> stays.</li>
       <li data-i18n="s3.g5.i3"><b>xbrd-gdsp-fknpft</b> — sibling of the xask/xbreed protocol plugin, also vendored inside ds4cc. Multi-model meta-launcher. <a href="https://github.com/VeigaPunk/xbrd-gdsp-fknpft">repo</a></li>
     </ul>
@@ -391,8 +422,8 @@ posture      godspeed-core</pre>
 </section>
 
 <!-- ================= 04 / SUBSTRATE MAP ================= -->
-<section id="substrate">
-  <div class="shead rv"><span class="num">04</span><h2 data-i18n="s4.title">Substrate map</h2><span class="meta" data-i18n="s4.meta">as logged 2026-08</span></div>
+<section id="substrate" aria-labelledby="substrate-title">
+  <div class="shead rv"><span class="num">04</span><h2 id="substrate-title" data-i18n="s4.title">Substrate map</h2><span class="meta" data-i18n="s4.meta">as logged 2026-08</span></div>
   <p class="thread-note rv" data-i18n="s4.note">The routing topology, public-safe: model classes and roles. No prices, no secrets.
   Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins.
   Ox Alpha is a stealth provider designation. Nothing more is said.</p>
@@ -426,8 +457,8 @@ posture      godspeed-core</pre>
 </section>
 
 <!-- ================= 05 / FRONTIER LOG ================= -->
-<section id="log">
-  <div class="shead rv"><span class="num">05</span><h2 data-i18n="s5.title">Frontier log</h2><span class="meta" data-i18n="s5.meta">on the record</span></div>
+<section id="log" aria-labelledby="log-title">
+  <div class="shead rv"><span class="num">05</span><h2 id="log-title" data-i18n="s5.title">Frontier log</h2><span class="meta" data-i18n="s5.meta">on the record</span></div>
 
   <div class="logentry rv"><span class="ldate">2026-07</span>
     <div><h3 data-i18n="s5.e1.h">openpilot harness tester: 48 vs 24.</h3>
@@ -542,12 +573,12 @@ kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
 
 
 <!-- ================= 06 / THE DREAM ================= -->
-<section id="dream">
-  <div class="shead rv"><span class="num">06</span><h2 data-i18n="s6.title">The dream</h2><span class="meta" data-i18n="s6.meta">field artifact · 2026-08</span></div>
+<section id="dream" aria-labelledby="dream-title">
+  <div class="shead rv"><span class="num">06</span><h2 id="dream-title" data-i18n="s6.title">The dream</h2><span class="meta" data-i18n="s6.meta">field artifact · 2026-08</span></div>
 
   <div class="dreamgrid rv">
     <figure class="dreamfig">
-      <img id="dreamimg" width="460" height="613" alt="The blue vessel — hero 6, flight mode. orange robot and purple companion riding the hull" data-i18n-alt="s6.imgalt">
+      <img id="dreamimg" src="vessel.webp" width="460" height="613" loading="lazy" decoding="async" alt="The blue vessel — hero 6, flight mode. orange robot and purple companion riding the hull" data-i18n-alt="s6.imgalt">
       <figcaption data-i18n="s6.cap">the vessel — big hero 6, flight mode. soft exterior, hardcore engineering underneath.</figcaption>
     </figure>
     <div class="dreamquote">
@@ -590,15 +621,14 @@ kimi is still walking r14-3 — now writing its own repo. still hands-off.</pre>
   <p class="fquote" data-i18n="f.quote"><b>Frontier is not a place. Its a perpetual moving target.</b><br>
   It is the practice of keeping the map true while everything underneath it changes.</p>
   <p class="fmeta" data-i18n="f.meta1">plazir-27 — a frontier operation by <a href="https://github.com/VeigaPunk">VeigaPunk</a> · doctrine: ufo-fsd · posture: move fast, break things, iterate cheap, in parallel</p>
-  <p class="fmeta" style="margin-top: 6px" data-i18n="f.meta2">charter: <a href="https://github.com/VeigaPunk/charter-ufo-fsd">charter-ufo-fsd</a> · live: <a href="https://veigapunk.github.io/charter-ufo-fsd/">veigapunk.github.io/charter-ufo-fsd</a></p>
+  <p class="fmeta fmeta-gap" data-i18n="f.meta2">charter: <a href="https://github.com/VeigaPunk/charter-ufo-fsd">charter-ufo-fsd</a> · live: <a href="https://veigapunk.github.io/charter-ufo-fsd/">veigapunk.github.io/charter-ufo-fsd</a></p>
   <p class="fwen" data-i18n="f.wen">文明 — the light of culture.</p>
   <p class="fart" data-i18n="f.art">no prior art. only current art, done live.</p>
 </footer>
 
-<a id="kimi-badge" href="https://www.kimi.com" target="_blank" rel="noopener" data-i18n="badge.runs">PLAZIR runs on <b>Kimi™</b></a>
+<a id="kimi-badge" href="https://www.kimi.com" target="_blank" rel="noopener" aria-label="PLAZIR runs on Kimi (opens in new tab)" data-i18n="badge.runs">PLAZIR runs on <b>Kimi™</b></a>
 
-<script src="dream.js"></script>
-<script src="i18n.js"></script>
-<script src="main.js"></script>
+<script src="i18n.js" defer></script>
+<script src="main.js" defer></script>
 </body>
 </html>

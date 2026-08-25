@@ -20,15 +20,16 @@ Centralized, reachable from any substrate. Iterate on it here.
 
 ## Stack
 
-Plain static HTML/CSS/JS. `index.html` + `style.css` + `main.js` + `dream.js`
-(the vessel art ships as base64 chunks, assembled at runtime). `.nojekyll` — Pages serves as-is.
+Plain static HTML/CSS/JS. `index.html` + `style.css` + `main.js` + `i18n.js`.
+The vessel art ships as `vessel.webp` (lazy-loaded `<img>`, extracted from the old
+base64 `dream.js`). `.nojekyll` — Pages serves as-is.
 
 ## i18n + badge (2026-08-25)
 
 - `i18n.js` — vanilla locale engine: `locales/{lng}.json` fetched on demand, `[data-i18n]`
   innerHTML binding, `localStorage('plazir-lang')` persistence, navigator-language autodetect,
   en fallback. Switcher lives in the nav; `<html lang>`, `<title>`, and meta description localize too.
-- Locales: en (SSoT, 191 keys) · zh-CN · ja · id · ms · th · vi · fil · my · km · lo.
+- Locales: en (SSoT, 192 keys) · zh-CN · ja · id · ms · th · vi · fil · my · km.
   Brand/technical tokens (PLAZIR, Kimi, ufo-fsd, xask, repo names) stay untranslated by rule;
   `<pre>` ASCII blocks stay English (terminal artifacts, alignment is load-bearing).
 - Badge: `PLAZIR runs on Kimi™` — fixed bottom-right, localized like everything else.

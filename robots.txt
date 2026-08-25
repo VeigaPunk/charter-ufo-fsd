@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://veigapunk.github.io/charter-ufo-fsd/sitemap.xml

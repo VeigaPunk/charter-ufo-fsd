@@ -3,7 +3,7 @@
    persistence: localStorage 'plazir-lang'. fallback: en. */
 (() => {
   'use strict';
-  const LOCALES = ['en', 'zh-CN', 'ja', 'id', 'ms', 'th', 'vi', 'fil', 'my', 'km', 'lo'];
+  const LOCALES = ['en', 'zh-CN', 'ja', 'id', 'ms', 'th', 'vi', 'fil', 'my', 'km'];
   const STORE = 'plazir-lang';
   let dict = {};
 
@@ -20,7 +20,6 @@
     if (nav.startsWith('tl') || nav.startsWith('fil')) return 'fil';
     if (nav.startsWith('my')) return 'my';
     if (nav.startsWith('km')) return 'km';
-    if (nav.startsWith('lo')) return 'lo';
     return 'en';
   };
 

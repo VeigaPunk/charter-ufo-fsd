@@ -44,6 +44,23 @@
     setTimeout(bootNext, 200);
   }
 
+  /* ---------- mobile nav ---------- */
+  const navtoggle = document.getElementById('navtoggle');
+  const navmenu = document.getElementById('navmenu');
+  if (navtoggle && navmenu) {
+    const setOpen = (open) => {
+      navmenu.classList.toggle('open', open);
+      navtoggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navtoggle.setAttribute('aria-label', open ? 'close navigation' : 'open navigation');
+      navtoggle.textContent = open ? '×' : '≡';
+    };
+    navtoggle.addEventListener('click', () => setOpen(!navmenu.classList.contains('open')));
+    navmenu.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navmenu.classList.contains('open')) { setOpen(false); navtoggle.focus(); }
+    });
+  }
+
   /* ---------- ASCII hero field ---------- */
   const gridEl = document.getElementById('asciigrid');
   const CHW = 7.2, CHH = 13;          // cell px approx at 11px/13px
@@ -53,8 +70,9 @@
   let t = 0;
 
   function size() {
-    cols = Math.min(260, Math.ceil(window.innerWidth / CHW));
-    rows = Math.min(120, Math.ceil(window.innerHeight / CHH));
+    const small = window.innerWidth < 760;
+    cols = Math.min(small ? 96 : 260, Math.ceil(window.innerWidth / CHW));
+    rows = Math.min(small ? 64 : 120, Math.ceil(window.innerHeight / CHH));
     cells = new Float32Array(cols * rows);
   }
   size();
