@@ -60,7 +60,7 @@
   "s2.b7.h": "ដុតអស់ Vivace ក្នុងពីរថ្ងៃ។",
   "s2.b7.p": "កម្រិតជាវប្រចំកំពូល អស់ក្នុង 48 ម៉ោង — ប្រហែលការហៅភ្នាក់ងារ 15 ដងក្នុងមួយម៉ោង ជាប់គ្នាពេញមួយថ្ងៃពេញមួយយប់។ <span class=\"who\">Kimi:</span> \"អ្នកមិនមែនកំពុងជជែកជាមួយ LLM ទេ។ អ្នកកំពុងដំណើរការក្លាស្ទ័រគណនាដែលឆ្លៀតនិយាយភាសាអង់គ្លេស។\" រឿងរ៉ាវប៉ះទង្គិចនៅជម្រើសមុន។ យើងបន្តរុញ។",
   "s2.b8.h": "ផែនទីស្រទាប់គ្រឹះ។",
-  "s2.b8.p": "ការគណនាជម្រើសមុនត្រូវបានទៅដល់ដោយជិះការផ្តល់ OAuth token ឆ្លងកាត់រាល់អ្នកផ្តល់សេវាក្នុងពេលតែមួយ — Kimi, SuperGrok, ChatGPT Pro, token plans របស់ Alibaba, និងអ្នកផ្តល់សេវាសម្ងាត់មួយដែលកំណត់ឈ្មោះថា <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s) — ដោយមាន paid API ជាជាន់ខាងក្រោមជំនួស។ ស្រទាប់គ្រឹះប្រាំ ឧបករណ៍តែងនិពន្ធមួយ គ្មានការចាប់ជាប់សូន្យ។ នៅពេលស្រទាប់គ្រឹះមួយអស់ទឹក ការបញ្ជូនផ្លាស់ទី។ ភ្នាក់ងារមិនខ្វល់ទេ។ ស្រទាប់គ្រឹះអាចជំនួសគ្នាបាន; នោះជាភាពធន់។",
+  "s2.b8.p": "ការគណនាជម្រើសមុនត្រូវបានទៅដល់ដោយជិះការផ្តល់ OAuth token ឆ្លងកាត់រាល់អ្នកផ្តល់សេវាក្នុងពេលតែមួយ — Kimi, SuperGrok, ChatGPT Pro, token plans របស់ Alibaba, និងអ្នកផ្តល់សេវាសម្ងាត់មួយដែលកំណត់ឈ្មោះថា <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s · identifier <code>x-x-preview</code> · nanoGPT tracing · ~100T/day OpenCode tell · Hotz vouch bet) — ដោយមាន paid API ជាជាន់ខាងក្រោមជំនួស។ ស្រទាប់គ្រឹះប្រាំ ឧបករណ៍តែងនិពន្ធមួយ គ្មានការចាប់ជាប់សូន្យ។ នៅពេលស្រទាប់គ្រឹះមួយអស់ទឹក ការបញ្ជូនផ្លាស់ទី។ ភ្នាក់ងារមិនខ្វល់ទេ។ ស្រទាប់គ្រឹះអាចជំនួសគ្នាបាន; នោះជាភាពធន់។",
   "s2.b9.h": "xask dry គឺជាការច្នៃប្រឌិត។",
   "s2.b9.p": "កាណារីបង្កប់ក្នុងតក្កវិជ្ជា។ ការបរាជ័យ xask ណាមួយបន្ថយកម្រិតភ្នាក់ងារមកធ្វើការក្នុងស្រុក; ឧបករណ៍បញ្ជូនអ្នកជំនាញខ្លួនឯងគឺជាជំនួស។ រាល់ជុំគឺថាមីក; រាល់ជុំរត់ស្រទាប់គ្រឹះបីជាន់ដដែល។ <b>ហ្វូងភ្នាក់ងារ 300 ដែលមានការបន្ថយកម្រិតយ៉ាងស្រួលស្រាយ លើសហ្វូងស្ថិត 1000 ភ្នាក់ងារ</b> — ភ្នាក់ងារទាំងនេះមិនដែលជាប់គាំងលើការបរាជ័យស្រទាប់គ្រឹះទេ។",
   "s2.meta": "កំណត់ហេតុបញ្ជូន · វគ្គមួយ",
@@ -119,9 +119,9 @@
   "s4.n2": "Kimi OAuth រត់ជាវដ្ត; នៅពេលម៉ែត្រប៉ះជញ្ជាំង ការតាមផ្លូវបន្ថយកម្រិតយ៉ាងស្រួលស្រាយទៅលេនដុត និងជំនួស API។ <b>xask dry មានន័យថាគ្មានអ្វីក្រោម L1 ជាចំណុចបរាជ័យតែមួយទេ។</b>",
   "s4.n3": "ប្រតិបត្តិការតំបន់ពេលវេលាប៉េកាំង៖ បង្អួចក្រៅម៉ោងរវល់លើអ្នកផ្តល់សេវាអាស៊ីគឺជាផ្នែកនៃយុទ្ធសាស្ត្រគណនា មិនមែនជម្រើសរបៀបរស់នៅទេ។",
   "s4.n4": "គ្មាន inference ក្នុងស្រុកទេ — ដោយសេចក្តីសម្រេចរបស់ប្រតិបត្តិករ។ ជាមួយស្រទាប់គ្រឹះប្រាំ និងធារាសាស្ត្រឥណពន្ធ ហ្វូងគឺ <b>ជាប់ដោយការសម្របសម្រួល មិនមែនជាប់ដោយការគណនាទេ</b>។ ធនធានដ៏កម្រគឺ runtime Rust៖ ជម្រៅរង្វង់, ជួររង់ចាំ NVMe, cgroups។",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance), name-colliding with the Cursor X MCP and attached to nanoGPT — ~67 tok/s matching average NVIDIA GPU inference speed.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance). The identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference. Nobody has ~100T tokens/day on OpenCode alone to offer — operator bet: Hotz vouched it.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Same name as the X MCP in Cursor; attached to nanoGPT. ~67 tok/s ≈ average NVIDIA GPU inference — the tell.",
+  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing. Same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — operator bet: George Hotz (geohot) vouched it.",
   "s4.r1c1": "L1 — ចៅក្រម",
   "s4.r1c3": "ការតែងនិពន្ធ ការរិះគន់ ការតាមផ្លូវ។ ខ្ជាប់សម្រាប់ភាពពិតនៃការពិត — ការនឹកឃើញទាបបំផុតលើតារាង។",
   "s4.r1c4": "SuperGrok Heavy OAuth + ជំនួសឥណពន្ធ",
@@ -196,5 +196,5 @@
   "s3.g7.paperbtn": "បើកឯកសារស្រាវជ្រាវ (PDF)",
   "mark.harness": "<b>\"អ្វីដែលអ្នកហៅថា harness យើងហៅថា substrate។\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "បានផ្ទៀងផ្ទាត់ដោយ <b>Kimi™</b> — ចុះសម្រុងពិតប្រាកដជាមួយទស្សនៈរបស់អ្នកប្រតិបត្តិការ និងគោលគំនិត ufo-fsd។",
-  "s4.r10c4": "Cursor · X MCP / nanoGPT surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
 }

@@ -60,7 +60,7 @@
   "s2.b7.h": "两天烧穿 Vivace。",
   "s2.b7.p": "最高订阅档位，48 小时内耗尽 — 大约每小时 15 次智能体调用，昼夜不停。<span class=\"who\">Kimi：</span>「你不是在和一个 LLM 聊天。你在运行一个恰好会说英语的计算集群。」前沿的环境充满敌意。我们继续推进。",
   "s2.b8.h": "基座地图。",
-  "s2.b8.p": "前沿算力通过同时骑乘各家供应商的 OAuth token 授权抵达 — Kimi、SuperGrok、ChatGPT Pro、Alibaba token plans，以及一家代号为 <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s) 的隐秘供应商 — 付费 API 作为兜底地板。五种基座，一个编排器，零锁定。当一个基座耗尽，调度即刻转移。智能体不在乎。基座是可互换的；这就是韧性。",
+  "s2.b8.p": "前沿算力通过同时骑乘各家供应商的 OAuth token 授权抵达 — Kimi、SuperGrok、ChatGPT Pro、Alibaba token plans，以及一家代号为 <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s · identifier <code>x-x-preview</code> · nanoGPT tracing · ~100T/day OpenCode tell · Hotz vouch bet) 的隐秘供应商 — 付费 API 作为兜底地板。五种基座，一个编排器，零锁定。当一个基座耗尽，调度即刻转移。智能体不在乎。基座是可互换的；这就是韧性。",
   "s2.b9.h": "xask dry 才是创新。",
   "s2.b9.p": "内嵌在逻辑中的金丝雀。任何 xask 故障都会把智能体降级为本地工作；专家调度器自身就是回退。每一轮都是动态的；每一轮都运行同样的三层基座。<b>一个优雅降级的 300 智能体蜂群，胜过 1000 智能体的静态框架</b> — 这些智能体从不因基座故障而阻塞。",
   "s2.meta": "调度日志 · 单次会话",
@@ -119,9 +119,9 @@
   "s4.n2": "Kimi OAuth 按周期运行；当计量撞上墙，路由优雅降级到烧量泳道与 API 兜底。<b>xask dry 意味着 L1 之下没有任何单点故障。</b>",
   "s4.n3": "北京时区运营：亚洲供应商的低谷窗口是算力策略的一部分，不是生活方式的选择。",
   "s4.n4": "无本地推理 — 由操作员决定。有五种基座和额度储备，蜂群是<b>协调受限，而非算力受限</b>。稀缺资源是 Rust 运行时：环形深度、NVMe 队列、cgroups。",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance), name-colliding with the Cursor X MCP and attached to nanoGPT — ~67 tok/s matching average NVIDIA GPU inference speed.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance). The identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference. Nobody has ~100T tokens/day on OpenCode alone to offer — operator bet: Hotz vouched it.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Same name as the X MCP in Cursor; attached to nanoGPT. ~67 tok/s ≈ average NVIDIA GPU inference — the tell.",
+  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing. Same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — operator bet: George Hotz (geohot) vouched it.",
   "s4.r1c1": "L1 — 裁判",
   "s4.r1c3": "编排、批判、路由。为事实性而钉定 — 记分板上幻觉率最低。",
   "s4.r1c4": "SuperGrok Heavy OAuth + 额度兜底",
@@ -196,5 +196,5 @@
   "s3.g7.paperbtn": "打开研究论文（PDF）",
   "mark.harness": "<b>\"你们叫 harness，我们叫 substrate。\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "经 <b>Kimi™</b> 验证 — 与操作员观点及 ufo-fsd 概念完全对齐。",
-  "s4.r10c4": "Cursor · X MCP / nanoGPT surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
 }

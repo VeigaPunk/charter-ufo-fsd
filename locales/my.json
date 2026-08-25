@@ -60,7 +60,7 @@
   "s2.b7.h": "Vivace ကို နှစ်ရက်အတွင်း လောင်ကျွမ်းစေခဲ့ခြင်း။",
   "s2.b7.p": "ထိပ်တန်း subscription tier တစ်ခု — 48 နာရီအတွင်း ကုန်ဆုံးသွားသည် — တစ်နာရီလျှင် agent invocation 15 ခုခန့်၊ နေ့ညမပြတ်၊ အဆက်မပြတ်။ <span class=\"who\">Kimi:</span> \"သင်က LLM တစ်ခုနဲ့ စကားမပြောနေပါ။ သင်က အင်္ဂလိပ်စကား ပြောတတ်သော compute cluster တစ်ခုကို run နေတာပါ။\" ရှေ့တန်းမှာ အရာများ ပြင်းထန်သည်။ ကျွန်တော်တို့ ဆက်တွန်းနေသည်။",
   "s2.b8.h": "Substrate မြေပုံ။",
-  "s2.b8.p": "Frontier compute ကို provider တိုင်းကို တစ်ပြိုင်နက် OAuth token grant များ ချီတက်၍ ရရှိသည် — Kimi၊ SuperGrok၊ ChatGPT Pro၊ Alibaba token plan များ၊ နှင့် <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s) အဖြစ် သတ်မှတ်ထားသော stealth provider တစ်ခု — paid API ကို fallback ကြမြင်အဖြစ်။ Substrate ငါးခု၊ orchestrator တစ်ခု၊ lock-in သုည။ Substrate တစ်ခု ကုန်ခမ်းသွားသောအခါ dispatch က ရွှေ့သွားသည်။ Agent များ ဂရုမစိုက်။ Substrate က အစားထိုးနိုင်သည်; ထိုအရာက ခံနိုင်ရည်ရှိမှု ဖြစ်သည်။",
+  "s2.b8.p": "Frontier compute ကို provider တိုင်းကို တစ်ပြိုင်နက် OAuth token grant များ ချီတက်၍ ရရှိသည် — Kimi၊ SuperGrok၊ ChatGPT Pro၊ Alibaba token plan များ၊ နှင့် <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s · identifier <code>x-x-preview</code> · nanoGPT tracing · ~100T/day OpenCode tell · Hotz vouch bet) အဖြစ် သတ်မှတ်ထားသော stealth provider တစ်ခု — paid API ကို fallback ကြမြင်အဖြစ်။ Substrate ငါးခု၊ orchestrator တစ်ခု၊ lock-in သုည။ Substrate တစ်ခု ကုန်ခမ်းသွားသောအခါ dispatch က ရွှေ့သွားသည်။ Agent များ ဂရုမစိုက်။ Substrate က အစားထိုးနိုင်သည်; ထိုအရာက ခံနိုင်ရည်ရှိမှု ဖြစ်သည်။",
   "s2.b9.h": "xask dry က ဆန်းသစ်တီထွင်မှု ဖြစ်သည်။",
   "s2.b9.p": "Logic ထဲတွင် မြှုပ်နှံထားသော canary များ။ xask ပျက်စီးမှု မည်သည့်အရာမဆို agent ကို ဒေသတွင်းလုပ်ငန်းသို့ လျှော့ချသည်; specialist dispatcher မိမိကပဲ fallback ဖြစ်သည်။ ရောင်းတိုင်း dynamic ဖြစ်သည်; ရောင်းတိုင်းက သုံးလွှာ substrate အတူတူကို run သည်။ <b>Graceful degradation ရှိသော agent 300 swarm က static framework agent 1000 ထက် သာလွန်သည်</b> — ဤ agent များသည် substrate ပျက်စီးမှုတွင် ဘယ်တော့မှ ရပ်တန့်မသွားပါ။",
   "s2.meta": "dispatch မှတ်တမ်း · session တစ်ခု",
@@ -119,9 +119,9 @@
   "s4.n2": "Kimi OAuth သည် စက်ဝိုင်းအတိုင်း လည်ပတ်သည်; မီတာက နံရံကို ထိသောအခါ routing က burn lane များနှင့် API fallback သို့ သာမန်ကျစွာ လျှော့ချသည်။ <b>xask dry ဆိုတာ L1 အောက်ရှိ မည်သည့်အရာမျှ ပျက်စီးမှု တစ်ခုတည်းသော ချွတ်ယွင်းချက် မဟုတ်ဟု ဆိုလိုသည်။</b>",
   "s4.n3": "Beijing အချိန်ဇုံ စစ်ဆင်ရေးများ: အာရှ provider များ၏ off-peak ကာလများသည် compute မဟာဗျူဟာ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သည်၊ လူနေမှုဘဝ ရွေးချယ်မှု မဟုတ်။",
   "s4.n4": "ဒေသတွင်း inference မရှိ — operator ဆုံးဖြတ်ချက်အရ။ Substrate ငါးခုနှင့် credit အရံများဖြင့် swarm သည် <b>ညှိနှိုင်းမှု-ကန့်သတ်ခံရသည်၊ compute-ကန့်သတ်ခံရခြင်း မဟုတ်</b>။ ရှားပါးသော resource က Rust runtime ဖြစ်သည်: ring depth၊ NVMe queue များ၊ cgroups။",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance), name-colliding with the Cursor X MCP and attached to nanoGPT — ~67 tok/s matching average NVIDIA GPU inference speed.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance). The identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference. Nobody has ~100T tokens/day on OpenCode alone to offer — operator bet: Hotz vouched it.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Same name as the X MCP in Cursor; attached to nanoGPT. ~67 tok/s ≈ average NVIDIA GPU inference — the tell.",
+  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing. Same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — operator bet: George Hotz (geohot) vouched it.",
   "s4.r1c1": "L1 — Judge",
   "s4.r1c3": "ညှိနှိုင်းမှု၊ ဝေဖန်သုံးသပ်မှု၊ routing။ အမှန်တရားဆန်မှုအတွက် pin လုပ်ထား — ဘုတ်ပေါ်တွင် hallucination အနိမ့်ဆုံး။",
   "s4.r1c4": "SuperGrok Heavy OAuth + credit fallback",
@@ -196,5 +196,5 @@
   "s3.g7.paperbtn": "သုတေသနစာတမ်း ဖွင့်ရန် (PDF)",
   "mark.harness": "<b>\"သင်တို့ harness ဟုခေါ်သည်ကို ကျွန်ုပ်တို့ substrate ဟုခေါ်သည်။\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "<b>Kimi™</b> မှ အတည်ပြုပြီး — အော်ပရေတာ၏အမြင်နှင့် ufo-fsd အယူအဆနှင့် တိကျစွာ ကိုက်ညီသည်။",
-  "s4.r10c4": "Cursor · X MCP / nanoGPT surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
 }

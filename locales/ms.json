@@ -60,7 +60,7 @@
   "s2.b7.h": "Hangus melalui Vivace dalam dua hari.",
   "s2.b7.p": "Tingkat langganan teratas, habis dalam 48 jam — lebih kurang 15 pemanggilan ejen sejam, sepanjang masa, tanpa henti. <span class=\"who\">Kimi:</span> \"Anda bukan berbual dengan LLM. Anda menjalankan kluster pengiraan yang kebetulan bercakap Bahasa Inggeris.\" Keadaan bermusuhan di sempadan. Kami terus menolak.",
   "s2.b8.h": "Peta substrat.",
-  "s2.b8.p": "Pengiraan sempadan dicapai dengan mengayuh pemberian token OAuth merentasi setiap penyedia serentak — Kimi, SuperGrok, ChatGPT Pro, pelan token Alibaba, dan satu penyedia sulit berpenamaan <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s) — dengan API berbayar sebagai lantai sandaran. Lima substrat, satu pengorkestra, sifar lock-in. Apabila satu substrat kering, penghantaran bergerak. Ejen tidak peduli. Substrat bersifat fungible; itulah daya tahannya.",
+  "s2.b8.p": "Pengiraan sempadan dicapai dengan mengayuh pemberian token OAuth merentasi setiap penyedia serentak — Kimi, SuperGrok, ChatGPT Pro, pelan token Alibaba, dan satu penyedia sulit berpenamaan <b>Ox Alpha</b> (operator read: X-class under Cursor / Karpathy · X MCP name · nanoGPT · ~67 tok/s · identifier <code>x-x-preview</code> · nanoGPT tracing · ~100T/day OpenCode tell · Hotz vouch bet) — dengan API berbayar sebagai lantai sandaran. Lima substrat, satu pengorkestra, sifar lock-in. Apabila satu substrat kering, penghantaran bergerak. Ejen tidak peduli. Substrat bersifat fungible; itulah daya tahannya.",
   "s2.b9.h": "xask dry ialah inovasinya.",
   "s2.b9.p": "Kenari disematkan dalam logik. Sebarang kegagalan xask menurunkan ejen kepada kerja tempatan; penghantar pakar itu sendiri ialah sandaran. Setiap pusingan dinamik; setiap pusingan menjalankan substrat tiga lapisan yang sama. <b>Kelompok 300 ejen dengan degradasi anggun mengatasi rangka kerja statik 1000 ejen</b> — ejen ini tidak pernah tersekat pada kegagalan substrat.",
   "s2.meta": "log penghantaran · satu sesi",
@@ -119,9 +119,9 @@
   "s4.n2": "Kimi OAuth berjalan mengikut kitaran; apabila meter menghentam dinding, penghalaan merosot secara anggun ke lorong bakar dan sandaran API. <b>xask dry bermakna tiada apa di bawah L1 menjadi titik kegagalan tunggal.</b>",
   "s4.n3": "Operasi zon masa Beijing: jendela luar puncak pada penyedia Asia ialah sebahagian strategi pengiraan, bukan pilihan gaya hidup.",
   "s4.n4": "Tiada inferens tempatan — atas keputusan operator. Dengan lima substrat dan simpanan kredit, kelompok ini <b>terikat oleh penyelarasan, bukan pengiraan</b>. Sumber yang jarang ialah runtime Rust: kedalaman ring, baris gilir NVMe, cgroups.",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance), name-colliding with the Cursor X MCP and attached to nanoGPT — ~67 tok/s matching average NVIDIA GPU inference speed.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation; the operator read now is that it is the <b>X</b> model running under Cursor (Karpathy partnership / guidance). The identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference. Nobody has ~100T tokens/day on OpenCode alone to offer — operator bet: Hotz vouched it.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Same name as the X MCP in Cursor; attached to nanoGPT. ~67 tok/s ≈ average NVIDIA GPU inference — the tell.",
+  "s4.r10c3": "Operator read (weakly held): the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing. Same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — operator bet: George Hotz (geohot) vouched it.",
   "s4.r1c1": "L1 — Hakim",
   "s4.r1c3": "Orkestrasi, kritikan, penghalaan. Dipinkan untuk faktualiti — halusinasi terendah di papan.",
   "s4.r1c4": "SuperGrok Heavy OAuth + sandaran kredit",
@@ -196,5 +196,5 @@
   "s3.g7.paperbtn": "Buka kertas penyelidikan (PDF)",
   "mark.harness": "<b>\"Apa yang anda panggil harness, kami panggil substrate.\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "Disahkan oleh <b>Kimi™</b> — sejajar tepat dengan pandangan operator dan konsep ufo-fsd.",
-  "s4.r10c4": "Cursor · X MCP / nanoGPT surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
 }
