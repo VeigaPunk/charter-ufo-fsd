@@ -23,6 +23,17 @@ Centralized, reachable from any substrate. Iterate on it here.
 Plain static HTML/CSS/JS. `index.html` + `style.css` + `main.js` + `dream.js`
 (the vessel art ships as base64 chunks, assembled at runtime). `.nojekyll` — Pages serves as-is.
 
+## i18n + badge (2026-08-25)
+
+- `i18n.js` — vanilla locale engine: `locales/{lng}.json` fetched on demand, `[data-i18n]`
+  innerHTML binding, `localStorage('plazir-lang')` persistence, navigator-language autodetect,
+  en fallback. Switcher lives in the nav; `<html lang>`, `<title>`, and meta description localize too.
+- Locales: en (SSoT, 191 keys) · zh-CN · ja · id · ms · th · vi · fil · my · km · lo.
+  Brand/technical tokens (PLAZIR, Kimi, ufo-fsd, xask, repo names) stay untranslated by rule;
+  `<pre>` ASCII blocks stay English (terminal artifacts, alignment is load-bearing).
+- Badge: `PLAZIR runs on Kimi™` — fixed bottom-right, localized like everything else.
+- Parity gate: every locale must match en.json key-for-key with identical HTML tag sequences.
+
 ## Mapping rules
 
 Named GitHub remotes are gold. Hangar is cache, not SSoT. If two named remotes

@@ -415,3 +415,45 @@ footer .fart { margin-top: calc(var(--line) * .6); color: var(--red); font-size:
   padding: 0 calc(var(--char) * .8);
 }
 .fgnote { color: var(--ink-faint); font-size: 12px; margin-top: calc(var(--line) * .3); padding-left: calc(var(--char) * 2); }
+
+/* ---------- language switcher ---------- */
+#langsel {
+  font-family: var(--mono);
+  font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+  background: var(--bg); color: var(--ink-dim);
+  border: 1px solid #26231f;
+  padding: 2px calc(var(--char) * .8);
+  cursor: pointer;
+  appearance: auto;
+}
+#langsel:hover { color: var(--ink); border-color: var(--red-dim); }
+#langsel:focus { outline: 1px solid var(--red); outline-offset: 1px; }
+@media (max-width: 760px) {
+  #langsel { position: fixed; top: var(--line); right: calc(var(--char) * 3); z-index: 51; }
+}
+
+/* CJK / SEA scripts: uppercase+wide tracking does not apply — calm it down */
+html:not([lang="en"]) nav,
+html:not([lang="en"]) .sig,
+html:not([lang="en"]) .shead h2,
+html:not([lang="en"]) .shead .meta,
+html:not([lang="en"]) .tags,
+html:not([lang="en"]) .scrollhint,
+html:not([lang="en"]) .fg h4,
+html:not([lang="en"]) .fmeta,
+html:not([lang="en"]) .fart { letter-spacing: .06em; }
+
+/* ---------- PLAZIR runs on Kimi™ badge ---------- */
+#kimi-badge {
+  position: fixed; right: calc(var(--char) * 2); bottom: calc(var(--line) * .9);
+  z-index: 60;
+  font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--ink-dim);
+  background: rgba(6,6,6,.88);
+  border: 1px solid #26231f;
+  border-left: 2px solid var(--red);
+  padding: calc(var(--line) * .35) calc(var(--char) * 1.4);
+}
+#kimi-badge b { color: var(--red); font-weight: 700; text-shadow: 0 0 6px var(--red-glow); }
+#kimi-badge:hover { background: var(--red); color: #000; }
+#kimi-badge:hover b { color: #000; text-shadow: none; }
