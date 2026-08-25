@@ -254,6 +254,8 @@ section {
   padding: var(--line) 0;
   border-bottom: 1px dashed #1c1a17;
 }
+/* grid items default to min-width:auto; pre.ascii content would blow the track */
+.principle > *, .logentry > *, .dreamgrid > * { min-width: 0; }
 .principle:last-of-type { border-bottom: none; }
 .principle .rn {
   color: var(--red); font-size: 12px; letter-spacing: .1em;
