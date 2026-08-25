@@ -1,3 +1,24 @@
+# State
+
+Phase 0 data walk executed first-hand (all read-only probes, this session):
+
+- obs [certain]: wave64 closed out — 64/64 slots, `DISTILL.md` ends `SYNTHESIS_READY`, COMPILE gate re-run → `WAVE64_COMPILE_OK`. No Pareto, no APPROVED; 13 CONFLICTS_RELAY unarbitrated.
+- obs [certain]: verify-inplace plan landed — `.xbgst/runs/verify-inplace-m01..m08` + mut-pin-test evidence; pin mailbox ELF **present** (`abb9323e`, target/ rebuilt 22:02, symlink correct); grok-marketplace HEAD `7791c0e` (hardcap 64 + planner civic-timeout pin shipped).
+- obs [certain]: surface-kimi plan landed — M1 log exists; M2 on disk (`grep -c 'tmux 0'` = 0, still unstaged per hold); M3 script `.xbgst/fixtures/check-speedrun-venue.sh` re-run → 3× PASS, exit 0.
+- obs [certain]: live marketplace SKILL Godspeed list **includes** distiller at step 4 — the "distiller skip" carried-forward item is resolved at HEAD.
+- obs [certain]: drift remains in 4 places: 6 hangar sibling judge files (floor-8/BAN-1–7 locks), kimi agents floor-4 sentence (`the-judge.md:50`, `orch.md:58`, `commands/xbgst.md:9` — 8–16 already softened to heuristic), `xbgst-codex/scripts/xask-dispatch.sh:192` ALLOW=1+180, stale SKILL mirrors (cache `8ac6b299`, xbrd-grok `bb6ddd49` — inf [moderate], from COMPILE, not re-hashed this walk).
+- obs [certain]: plugin suites still don't pin BAN 4/5 / TIMEOUT=0 (slot-63 12/12 SURVIVED, per COMPILE).
+- risk: `grok plugin update` re-wipes pin `target/` (proved 21:40). risk: naive `rg '1–7|floor 8'` FAILs correct files (negation trap) — all gates below are polarity-aware.
+
+# Unknowns
+
+- Whether `xbgst-codex` ALLOW=1/180 is deliberate surface policy or drift → judge (M5 is escalate-first).
+- Whether kimi tree (published `ff37343`) agent edits ship this wave → judge.
+- Kimi venue JSON disposition (fixed, unstaged; charter hold `no git add speedrun/`) → L1.
+
+# Artifact: plan
+
+```markdown
 # Plan — wave64 drift burn-down + r0 closeout
 **Session:** r1 | **Dispatched by:** xbgst (L1 Grok) | **Date:** 2026-08-24
 **Spec:** `.xbgst/wave64/COMPILE.md` carried-forward + CONFLICTS_RELAY; `.xbgst/plan-r0-surface-kimi.md`; `.xbgst/plan-r0-verify-inplace-xask-notimeout.md`
@@ -30,3 +51,12 @@
 
 ## Dependencies
 M01 → all. M02 → M03. M03 ∥ M04 ∥ M05 (disjoint trees). M03 → M06 (doctrine stable before pinning). M06 → M07 (pins green before touching mirrors; wipe re-restore last). M08 parallel after M01, L1-owned. M_final after M03–M08.
+```
+
+## Refusal checklist (wwkd)
+- Phase 0 done first-hand: every Exists claim above was executed this session (venue check, wave64 gate, ELF probe, greps), not read from specs.
+- No write-everything-then-test milestone; M01 is a runnable e2e slice, M02 is one file bit-for-bit.
+- No novel architecture: doctrine SSoT (`wave-floor.md`), drift script, and test suites already exist; this plan sequences them.
+- Every milestone has a command-level gate; M01 is a user-visible slice (baseline green), not scaffolding.
+
+| godspeed

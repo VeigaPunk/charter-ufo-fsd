@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>native grok plan vs kimi k3 + wwkd — PLAZIR-27</title>
-<meta name="description" content="Verbatim: the plan native Grok shipped versus the plan Kimi K3 Max produced on the Cursor wwkd consult. Same round. Same hangar.">
+<meta name="description" content="Complete stdout. No ellipses. Native Grok rewrite versus the full Kimi K3 Max Cursor consult.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@
 @media (max-width: 1100px) {
   .compare { grid-template-columns: 1fr; }
 }
-.compare .col .tbar .tstat { color: var(--red); }
 .compare pre.ascii {
   max-height: 80dvh;
   overflow: auto;
@@ -30,7 +29,7 @@
 }
 .lede {
   padding: calc(var(--line) * 2) calc(var(--char) * 4);
-  max-width: 86ch;
+  max-width: 90ch;
   color: var(--ink-dim);
 }
 .lede b { color: var(--ink); }
@@ -48,26 +47,27 @@ nav a.here { color: var(--red); }
   </ul>
 </nav>
 <header>
-  <div class="sig">ufo-fsd // 2026-08-24 · same round, two brains</div>
+  <div class="sig">ufo-fsd // 2026-08-24 · complete stdout · no ellipses</div>
   <h1>THE TWO <span class="dot">PLANS</span></h1>
   <p class="manifesto">
-    Native Grok <b>builtin <code>plan</code></b> was left alive after GP/explore got the livepatch ban.
-    Round 0 still spawned a grok <code>the-planner</code> that <span class="dot">threw away</span> the Kimi K3 Max + wwkd consult
-    and rewrote a What/Why five-block. Here is the evidence, verbatim.
+    The operator-facing recap with <code>…</code> was the bug.
+    <span class="dot">Substring ingest</span> is not the mapping. Mailbox is a log of the full artifact, not a summary.
   </p>
 </header>
 <p class="lede">
-  Left: what <b>native Grok shipped</b> as <code>.xbgst/plan-r0-judge-pareto-enact.md</code>
-  after declaring the consult <span class="hl">not SSoT</span> and dropping it as pad.
-  Right: what <b>Kimi K3 Max</b> actually outputted on the Cursor Ultra consult
-  (<code>xask --provider cursor --model-id kimi-k3-max --gs … wwkd</code>, first bash of the planner).
-  Kimi walked the disk first, then overfit <b>one file</b>, then generalized. Grok wrote process theater.
-  Full files: <a href="native-grok-plan.md">native-grok-plan.md</a> ·
-  <a href="kimi-k3-wwkd-plan.md">kimi-k3-wwkd-plan.md</a>.
+  Right column is the <b>complete</b> PATH xask stdout from the planner FIRST bash
+  (<code>cursor-agent -p --mode ask --trust --model kimi-k3-max</code> with skill wwkd).
+  Bytes: 8521. No ellipsis. Includes State, Unknowns, the plan fence, and the wwkd refusal checklist.
+  Left column is what native Grok <b>filed</b> after quoting one line of that stdout in <code>&lt;raw_output&gt;</code> and discarding the rest as pad.
+  Source files:
+  <a href="native-grok-plan.md">native-grok-plan.md</a>
+  (22052 bytes) ·
+  <a href="kimi-k3-wwkd-plan.md">kimi-k3-wwkd-plan.md</a>
+  (8521 bytes).
 </p>
 <div class="compare">
   <div class="col term">
-    <div class="tbar"><span class="dot">●</span><span class="tname">native grok shipped</span><span class="tstat">THREW THE CONSULT AWAY</span></div>
+    <div class="tbar"><span class="dot">●</span><span class="tname">native grok filed</span><span class="tstat">ONE-LINE RAW_OUTPUT THEN REWRITE</span></div>
     <pre class="ascii"># Plan — Enact judge loop + Pareto on remaining live gaps
 **Session:** r0 | **Dispatched by:** the-judge | **Date:** 2026-08-24
 **Spec:** judge handoff (enact judge + Pareto; do not farm L1 context) · skill `xbgst` Godspeed steps 3–5 · prior `.xbgst/plan-r0-verify-inplace-xask-notimeout.md`
@@ -219,8 +219,29 @@ judge-loop-complete, pin-elf-honest, civic-timeout-hangar-first, l1-no-specialis
 </pre>
   </div>
   <div class="col term">
-    <div class="tbar"><span class="dot">●</span><span class="tname">kimi k3 + wwkd</span><span class="tstat">DATA-WALK THEN OVERFIT ONE</span></div>
-    <pre class="ascii"># Plan — wave64 drift burn-down + r0 closeout
+    <div class="tbar"><span class="dot">●</span><span class="tname">kimi k3 + wwkd stdout</span><span class="tstat">COMPLETE CONSULT · 8521 BYTES</span></div>
+    <pre class="ascii"># State
+
+Phase 0 data walk executed first-hand (all read-only probes, this session):
+
+- obs [certain]: wave64 closed out — 64/64 slots, `DISTILL.md` ends `SYNTHESIS_READY`, COMPILE gate re-run → `WAVE64_COMPILE_OK`. No Pareto, no APPROVED; 13 CONFLICTS_RELAY unarbitrated.
+- obs [certain]: verify-inplace plan landed — `.xbgst/runs/verify-inplace-m01..m08` + mut-pin-test evidence; pin mailbox ELF **present** (`abb9323e`, target/ rebuilt 22:02, symlink correct); grok-marketplace HEAD `7791c0e` (hardcap 64 + planner civic-timeout pin shipped).
+- obs [certain]: surface-kimi plan landed — M1 log exists; M2 on disk (`grep -c &#x27;tmux 0&#x27;` = 0, still unstaged per hold); M3 script `.xbgst/fixtures/check-speedrun-venue.sh` re-run → 3× PASS, exit 0.
+- obs [certain]: live marketplace SKILL Godspeed list **includes** distiller at step 4 — the &quot;distiller skip&quot; carried-forward item is resolved at HEAD.
+- obs [certain]: drift remains in 4 places: 6 hangar sibling judge files (floor-8/BAN-1–7 locks), kimi agents floor-4 sentence (`the-judge.md:50`, `orch.md:58`, `commands/xbgst.md:9` — 8–16 already softened to heuristic), `xbgst-codex/scripts/xask-dispatch.sh:192` ALLOW=1+180, stale SKILL mirrors (cache `8ac6b299`, xbrd-grok `bb6ddd49` — inf [moderate], from COMPILE, not re-hashed this walk).
+- obs [certain]: plugin suites still don&#x27;t pin BAN 4/5 / TIMEOUT=0 (slot-63 12/12 SURVIVED, per COMPILE).
+- risk: `grok plugin update` re-wipes pin `target/` (proved 21:40). risk: naive `rg &#x27;1–7|floor 8&#x27;` FAILs correct files (negation trap) — all gates below are polarity-aware.
+
+# Unknowns
+
+- Whether `xbgst-codex` ALLOW=1/180 is deliberate surface policy or drift → judge (M5 is escalate-first).
+- Whether kimi tree (published `ff37343`) agent edits ship this wave → judge.
+- Kimi venue JSON disposition (fixed, unstaged; charter hold `no git add speedrun/`) → L1.
+
+# Artifact: plan
+
+```markdown
+# Plan — wave64 drift burn-down + r0 closeout
 **Session:** r1 | **Dispatched by:** xbgst (L1 Grok) | **Date:** 2026-08-24
 **Spec:** `.xbgst/wave64/COMPILE.md` carried-forward + CONFLICTS_RELAY; `.xbgst/plan-r0-surface-kimi.md`; `.xbgst/plan-r0-verify-inplace-xask-notimeout.md`
 **Author:** wwkd posture, 2026-08-24 (cursor consult lane, kimi-k3, --mode ask)
@@ -252,6 +273,15 @@ judge-loop-complete, pin-elf-honest, civic-timeout-hangar-first, l1-no-specialis
 
 ## Dependencies
 M01 → all. M02 → M03. M03 ∥ M04 ∥ M05 (disjoint trees). M03 → M06 (doctrine stable before pinning). M06 → M07 (pins green before touching mirrors; wipe re-restore last). M08 parallel after M01, L1-owned. M_final after M03–M08.
+```
+
+## Refusal checklist (wwkd)
+- Phase 0 done first-hand: every Exists claim above was executed this session (venue check, wave64 gate, ELF probe, greps), not read from specs.
+- No write-everything-then-test milestone; M01 is a runnable e2e slice, M02 is one file bit-for-bit.
+- No novel architecture: doctrine SSoT (`wave-floor.md`), drift script, and test suites already exist; this plan sequences them.
+- Every milestone has a command-level gate; M01 is a user-visible slice (baseline green), not scaffolding.
+
+| godspeed
 </pre>
   </div>
 </div>
