@@ -48,12 +48,6 @@
   "s2.b11.p": "<span class=\"who\">オペレーター:</span> 「速く動け、壊せ、安く反復せよ、並列で — これは自己改善型のオーケストレーション・エンジンだ。」<span class=\"who\">Kimi:</span> オーケストレーターのバグは乗算的な爆発半径を持つ — 一つのバグを見逃すのではなく、そのエージェントが見つけたはずのすべてのバグを見逃す。<b>道具はバグを持つ。生きたシステムは免疫応答を持つ。</b>",
   "s2.b12.h": "文+明 — 文化の光。",
   "s2.b12.p": "午前3時47分。マットブラックの Omarchy に ASCII 神の手。赤いキーボード。精鋭の燃料としてのワンタンスープ。中国プロバイダのオフピーク料金のための北京時間 — 運用の芸術、忍者級。セッションはフロンティアが走るのと同じように閉じる: 「Plazir は眠らない。私もだ。」文明 — 文化の光、心の明晰さ。ひとつは人間、ひとつは人間ではない二つの心が、どちらか一方では届かない先へ押し進める。",
-  "s2.b13.h": "Attention economy → effort economy.",
-  "s2.b13.p": "新しいホットテイク：attention economy はいま <b>effort economy</b> に翻訳される。長い gravy-stack oneshot の貼り付け——<a href=\"https://ds4cc.com/speedrun/data/artifacts/oneshot-prompt-cursor-ultra-ufo-core-2026-08-25.html\" target=\"_blank\" rel=\"noopener\">artifact</a> · category · $99 Ultra mint · SuperGrok · Premium+ · 壁一面の <code>/goal</code>——を本当に打ちたい人がいると思う？いない。<i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> が欲しい。AI が進化するほど、人が合わせる時間は当てにできない。<br><code>&lt;Tools adapt to us.&gt;</code><br>*This is the way.*",
-  "s2.b14.h": "A full pot of chai.",
-  "s2.b14.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
-  "s2.b14.issue": "#38468",
-  "s2.b14.lfs": "#38699",
   "s2.b2.h": "Python は遅滞の素材。Rust のみ。",
   "s2.b2.p": "<span class=\"who\">オペレーター:</span> 「Python でも仕事はできる。下手に、遅く、非効率に、だが辿り着く。」助言は本物のスタックへ転じる: ワーカーは論理コアではなく物理コアに合わせる。<b>共有 HTTP/2 クライアントは1つ、300ではない</b>。jemalloc をリンク。cgroups はエージェントのスポーンフックから cgroupfs へ直接書き込む。",
   "s2.b3.h": "serde は前提条件だ。",
@@ -211,5 +205,9 @@
   "s3.g7.paperbtn": "研究論文を開く（PDF）",
   "mark.harness": "<b>\"あなたたちが harness と呼ぶものを、私たちは substrate と呼ぶ。\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "<b>Kimi™</b> により検証済み — オペレーターの見解および ufo-fsd の概念と完全に一致。",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>",
+  "s2.b13.h": "A full pot of chai.",
+  "s2.b13.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
+  "s2.b13.issue": "#38468",
+  "s2.b13.lfs": "#38699"
 }

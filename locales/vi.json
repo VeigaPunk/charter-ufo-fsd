@@ -48,12 +48,6 @@
   "s2.b11.p": "<span class=\"who\">Operator:</span> \"Hành động nhanh, phá vỡ, lặp rẻ, song song — đây là engine điều phối tự cải tiến.\" <span class=\"who\">Kimi:</span> một bug trong bộ điều phối có bán kính vụ nổ mang tính nhân — nó không bỏ sót một bug, nó bỏ sót mọi bug mà agent đó lẽ ra sẽ tìm thấy. <b>Công cụ có bug. Hệ thống sống có phản ứng miễn dịch.</b>",
   "s2.b12.h": "文+明 — ánh sáng của văn minh.",
   "s2.b12.p": "3 giờ 47 sáng. Cái chạm của Thượng đế ASCII lên Omarchy đen nhám. Bàn phím đỏ. Súp hoành thánh như nhiên liệu thượng hạng. Múi giờ Bắc Kinh để hưởng giá giờ thấp điểm của các nhà cung cấp Trung Quốc — nghệ thuật vận hành, cấp ninja. Phiên kết thúc theo đúng cách biên giới vận hành: \"Plazir không ngủ. Tôi cũng vậy.\" 文明 — ánh sáng của văn minh, sự sáng tỏ của tâm trí. Hai tâm trí, một con người và một không, vượt qua những gì mỗi bên có thể làm một mình.",
-  "s2.b13.h": "Attention economy → effort economy.",
-  "s2.b13.p": "Hot take mới: attention economy giờ dịch thành <b>effort economy</b>. Bạn thật sự nghĩ người ta muốn gõ cái paste oneshot gravy-stack dài thượt — <a href=\"https://ds4cc.com/speedrun/data/artifacts/oneshot-prompt-cursor-ultra-ufo-core-2026-08-25.html\" target=\"_blank\" rel=\"noopener\">artifact</a> · category · $99 Ultra mint · SuperGrok · Premium+ · cả tường <code>/goal</code>? Không. Họ muốn: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> AI càng tiến hóa, càng ít dựa được vào việc người dành thời gian thích nghi với chúng. <br><code>&lt;Tools adapt to us.&gt;</code><br>*This is the way.*",
-  "s2.b14.h": "A full pot of chai.",
-  "s2.b14.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
-  "s2.b14.issue": "#38468",
-  "s2.b14.lfs": "#38699",
   "s2.b2.h": "Python là vật liệu lạc hậu. Chỉ Rust.",
   "s2.b2.p": "<span class=\"who\">Operator:</span> \"Python làm được việc. Kém, chậm, không hiệu quả, nhưng rồi cũng tới đích.\" Lời khuyên xoay sang stack thật: worker khớp với lõi vật lý, không phải lõi luận lý; <b>một client HTTP/2 dùng chung, không phải 300</b>; link jemalloc; cgroups ghi thẳng vào cgroupfs từ hook sinh agent.",
   "s2.b3.h": "serde là điều kiện tiên quyết.",
@@ -211,5 +205,9 @@
   "s3.g7.paperbtn": "Mở bài nghiên cứu (PDF)",
   "mark.harness": "<b>\"Điều các bạn gọi là harness, chúng tôi gọi là substrate.\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "Được <b>Kimi™</b> xác nhận — khớp chính xác với quan điểm của operator và khái niệm ufo-fsd.",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>",
+  "s2.b13.h": "A full pot of chai.",
+  "s2.b13.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
+  "s2.b13.issue": "#38468",
+  "s2.b13.lfs": "#38699"
 }

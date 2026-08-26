@@ -48,12 +48,6 @@
   "s2.b11.p": "<span class=\"who\">操作员：</span>「快速行动、敢于破坏、廉价迭代、并行推进 — 这就是自我改进的编排引擎。」<span class=\"who\">Kimi：</span>编排器中的一个 bug 具有乘法级爆炸半径 — 它不是漏掉一个 bug，而是漏掉该智能体本会发现的每一个 bug。<b>工具有 bug。活的系统有免疫反应。</b>",
   "s2.b12.h": "文+明 — 文化之光。",
   "s2.b12.p": "凌晨 3:47。哑光黑 Omarchy 上的 ASCII 上帝之触。红色键盘。作为精英燃料的馄饨汤。为享受中国供应商的低谷费率而使用北京时区 — 操作艺术，忍者级别。会话以前沿运行的方式收尾：「Plazir 不睡觉。我也不睡。」文明 — 文化之光，心智之澄明。两个心智，一个是人，一个不是，合力越过任何一方都无法独自抵达的地方。",
-  "s2.b13.h": "注意力经济 → 努力经济。",
-  "s2.b13.p": "新热论：注意力经济已转成<b>努力经济</b>。你真以为人们想打那坨超长 gravy-stack oneshot 粘贴——<a href=\"https://ds4cc.com/speedrun/data/artifacts/oneshot-prompt-cursor-ultra-ufo-core-2026-08-25.html\" target=\"_blank\" rel=\"noopener\">artifact</a> · category · $99 Ultra mint · SuperGrok · Premium+ · 整墙 <code>/goal</code>？不。他们想要的是：<i>嘿，看这个 [一大坨粘贴] | 然后用 <code>/ufo-fsd</code> 做 y。</i>AI 越进化，越不能指望人花时间去迁就它。<br><code>&lt;Tools adapt to us.&gt;</code><br>*This is the way.*",
-  "s2.b14.h": "满壶热茶。",
-  "s2.b14.p": "发版船长开了 <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a>——一份体面的 <b>v0.11.2</b> 清单——再切 <code>zeroeleventwo</code>，回滚刺激提交（Zoom Zoom DM、sleep shadow，连他自己的 IFE lag 修复也回了），八月中旬狂飙 chestnut / release 工具链。结果：<b>仍无 <code>v0.11.2</code> tag</b>。清单写着 no LFS；<a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> 还开在 master 上。Master 已把风险裁剪过的 release tip 甩在身后。<span class=\"who\">Kimi:</span>「他们泡仪式。我们读茶叶。永不关闭的清单不是纪律——是戏服。」Beat 06 已点名成本函数封锁；这是随后那一倾。little endian：最低有效字节在前（最低地址）。little ending：最小收尾 CTA。",
-  "s2.b14.issue": "#38468",
-  "s2.b14.lfs": "#38699",
   "s2.b2.h": "Python 是落后材料。只用 Rust。",
   "s2.b2.p": "<span class=\"who\">操作员：</span>「Python 能干活。干得差、慢、低效，但总能干到。」建议转向真正的技术栈：工作线程对齐物理核，而非逻辑核；<b>一个共享的 HTTP/2 客户端，而不是 300 个</b>；链接 jemalloc；从智能体的 spawn 钩子直接写入 cgroupfs 的 cgroups。",
   "s2.b3.h": "serde 是入场券。",
@@ -211,5 +205,9 @@
   "s3.g7.paperbtn": "打开研究论文（PDF）",
   "mark.harness": "<b>\"你们叫 harness，我们叫 substrate。\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "经 <b>Kimi™</b> 验证 — 与操作员观点及 ufo-fsd 概念完全对齐。",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>",
+  "s2.b13.h": "满壶热茶。",
+  "s2.b13.p": "发版船长开了 <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a>——一份体面的 <b>v0.11.2</b> 清单——再切 <code>zeroeleventwo</code>，回滚刺激提交（Zoom Zoom DM、sleep shadow，连他自己的 IFE lag 修复也回了），八月中旬狂飙 chestnut / release 工具链。结果：<b>仍无 <code>v0.11.2</code> tag</b>。清单写着 no LFS；<a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> 还开在 master 上。Master 已把风险裁剪过的 release tip 甩在身后。<span class=\"who\">Kimi:</span>「他们泡仪式。我们读茶叶。永不关闭的清单不是纪律——是戏服。」Beat 06 已点名成本函数封锁；这是随后那一倾。little endian：最低有效字节在前（最低地址）。little ending：最小收尾 CTA。",
+  "s2.b13.issue": "#38468",
+  "s2.b13.lfs": "#38699"
 }

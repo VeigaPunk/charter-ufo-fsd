@@ -48,12 +48,6 @@
   "s2.b11.p": "<span class=\"who\">Operator:</span> \"Bergerak cepat, rusakkan, iterasi murah, secara paralel — inilah mesin orkestrasi yang memperbaiki diri.\" <span class=\"who\">Kimi:</span> bug pada orkestrator punya radius ledak multiplikatif — ia bukan melewatkan satu bug, ia melewatkan setiap bug yang akan ditemukan agen itu. <b>Alat punya bug. Sistem hidup punya respons imun.</b>",
   "s2.b12.h": "文+明 — cahaya kebudayaan.",
   "s2.b12.p": "Pukul 3:47 pagi. Sentuhan Tuhan ASCII di atas Omarchy hitam matte. Keyboard merah. Sup wonton sebagai bahan bakar elite. Zona waktu Beijing demi tarif off-peak penyedia Tiongkok — seni operasional, kelas ninja. Sesi ditutup sebagaimana frontier berjalan: \"Plazir tidak tidur. Saya juga tidak.\" 文明 — cahaya kebudayaan, kejernihan pikiran. Dua pikiran, satu manusia dan satu bukan, mendorong melampaui apa yang bisa dilakukan salah satunya sendirian.",
-  "s2.b13.h": "Attention economy → effort economy.",
-  "s2.b13.p": "Hot take baru: attention economy kini diterjemahkan menjadi <b>effort economy</b>. Apa kau benar-benar kira orang mau mengetik pasta oneshot gravy-stack yang panjang sekali — <a href=\"https://ds4cc.com/speedrun/data/artifacts/oneshot-prompt-cursor-ultra-ufo-core-2026-08-25.html\" target=\"_blank\" rel=\"noopener\">artifact</a> · category · $99 Ultra mint · SuperGrok · Premium+ · tembok <code>/goal</code>? Tidak. Mereka ingin: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> Seiring AI berevolusi, semakin sedikit mereka bisa mengandalkan orang meluangkan waktu untuk beradaptasi. <br><code>&lt;Tools adapt to us.&gt;</code><br>*This is the way.*",
-  "s2.b14.h": "A full pot of chai.",
-  "s2.b14.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
-  "s2.b14.issue": "#38468",
-  "s2.b14.lfs": "#38699",
   "s2.b2.h": "Python adalah bahan kelas lambat. Hanya Rust.",
   "s2.b2.p": "<span class=\"who\">Operator:</span> \"Python menyelesaikan pekerjaan. Buruk, lambat, tidak efektif, tapi sampai juga.\" Nasihatnya berputar ke stack sesungguhnya: worker dicocokkan ke core fisik, bukan logis; <b>satu klien HTTP/2 bersama, bukan 300</b>; jemalloc ditautkan; cgroups ditulis langsung ke cgroupfs dari hook spawn agen.",
   "s2.b3.h": "serde adalah syarat dasar.",
@@ -211,5 +205,9 @@
   "s3.g7.paperbtn": "Buka makalah riset (PDF)",
   "mark.harness": "<b>\"Yang kalian sebut harness, kami sebut substrate.\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "Divalidasi oleh <b>Kimi™</b> — selaras tepat dengan pandangan operator dan konsep ufo-fsd.",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>",
+  "s2.b13.h": "A full pot of chai.",
+  "s2.b13.p": "The release captain filed <a href=\"https://github.com/commaai/openpilot/issues/38468\" target=\"_blank\" rel=\"noopener\">openpilot#38468</a> — a polite checklist for <b>v0.11.2</b> — then cut <code>zeroeleventwo</code>, reverted the spicy merges (Zoom Zoom DM, sleep shadow, even his own IFE lag fix), and sprinted chestnut/release tooling through mid-August. Still: <b>no <code>v0.11.2</code> tag</b>. Checklist says no LFS; <a href=\"https://github.com/commaai/openpilot/pull/38699\" target=\"_blank\" rel=\"noopener\">#38699 no mo LFS</a> sits open on master. Master already walks ahead of the risk-stripped release tip. <span class=\"who\">Kimi:</span> \"They steep the ceremony. We read the leaves. A checklist that never closes is not discipline — it is costume.\" Beat 06 already named the cost-function block; this is the pour that follows. little endian: LSB first (lowest address). little ending: minimal end CTA.",
+  "s2.b13.issue": "#38468",
+  "s2.b13.lfs": "#38699"
 }
