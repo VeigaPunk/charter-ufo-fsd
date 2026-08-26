@@ -646,3 +646,5 @@ html:not([lang="en"]) .fmark { letter-spacing: .06em; }
 
 .beat-cta { margin: 0.65rem 0 0; }
 .beat-cta .btn { font-size: 0.78rem; padding: 0.35rem 0.7rem; }
+
+.beat-cta .btn + .btn { margin-left: 0.4rem; }
