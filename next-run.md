@@ -2,6 +2,10 @@
 
 Not a retrospective. The next run ships these steps, in order, on the same seats.
 
+## End-run lock (operator)
+
+Fired 2026-08-26 after the 24h wall. Thrash peers **paused**. L1 orch seat only may finish the lock artifact (`docs/artifacts/end-run-lock.json` on the writable Origin). Do not unpause the swarm for churn. Move on with `NEXT.md` / `handoff.json` / this file.
+
 1. Keep the writable Origin (`tmp-d1cb8c062407c7a9`) until `ufo-fsd-alpha` accepts `HEAD:main`. Do not fork.
 2. No idle-twin wakes. Operator follow-up only, same `bcId`, recovery bucket only (grok 4.6 / 4.5 / composer-2.5). Gemini banned.
 3. Host CLIs stay SKIP on cloud. Close the grok-bot PATH gap on a machine that has `grok`. Do not restub the package.
