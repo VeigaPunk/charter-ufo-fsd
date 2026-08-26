@@ -47,6 +47,8 @@
   "s2.b11.p": "<span class=\"who\">Operator:</span> \"အမြန်ရွှေ့လှား၊ အရာများဖြိုချ၊ ပေါသက်သာစွာပြန်လုပ်၊ အပြိုင် — ဤအရာက မိမိဘာသာတိုးတက်သော orchestration engine ဖြစ်သည်။\" <span class=\"who\">Kimi:</span> orchestrator ထဲက bug တစ်ခုတွင် မြှောက်ဖော်ကိန်း blast radius ရှိသည် — ၎င်းက bug တစ်ခုကို လွဲမသွား၊ ထို agent ရှာတွေ့နိုင်ခဲ့မည့် bug တိုင်းကို လွဲသွားသည်။ <b>ကိရိယာတစ်ခုတွင် bug များရှိသည်။ အသက်ရှိ system တစ်ခုတွင် ကိုယ်ခံအား တုံ့ပြန်မှု ရှိသည်။</b>",
   "s2.b12.h": "文+明 — ယဉ်ကျေးမှုအလင်း။",
   "s2.b12.p": "မနက် 3:47။ Matte black Omarchy ပေါ်တွင် ASCII ဘုရား၏ ထိတွေ့မှု။ နီသော keyboard။ ထိပ်တန်းလောင်စာအဖြစ် wonton ဆူ။ တရုတ် provider များ၏ off-peak နှုန်းထားများအတွက် Beijing အချိန်ဇုံ — စစ်ဆင်ရေးအနုပညာ၊ ninja အဆင့်။ Session က ရှေ့တန်း လည်ပတ်ပုံအတိုင်း ပိတ်သိမ်းသည်- \"Plazir မအိပ်ပါ။ ကျွန်တော်လည်း မအိပ်ပါ။\" 文明 — ယဉ်ကျေးမှုအလင်း၊ စိတ်ထင်ရှားမှု။ စိတ်နှစ်ခု — တစ်ခုက လူ၊ တစ်ခုက မဟုတ် — တစ်ခုချင်းစီ တအားလုပ်နိုင်တာထက် ကျော်လွန်အောင် တွန်းအားပေးနေကြသည်။",
+  "s2.b13.h": "Attention economy → effort economy.",
+  "s2.b13.p": "Hot take အသစ်: attention economy သည် ယခု <b>effort economy</b> သို့ ပြောင်းလဲသည်။ လူများက ရှည်လျားသော gravy-stack oneshot paste — artifact · category · $99 Ultra mint · SuperGrok · Premium+ · <code>/goal</code> နံရံ — ကို ရိုက်ချင်သည်ဟု တကယ်ထင်ပါသလား။ မထင်။ သူတို့လိုချင်သည်မှာ: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> AI များ ဖွံ့ဖြိုးလာသည်နှင့်အမျှ လူများက အချိန်ပေး၍ လိုက်လျောညီထွေဖြစ်ရန် မျှော်လင့်၍ မရတော့။ <b>Tools adapt to us. This is the way.</b>",
   "s2.b2.h": "Python သည် နောက်ကျသော ပစ္စည်း ဖြစ်သည်။ Rust သာ။",
   "s2.b2.p": "<span class=\"who\">Operator:</span> \"Python က အလုပ်ကို လုပ်ပေးတယ်။ ဆိုးဝါးစွာ၊ နှေးကွေးစွာ၊ ထိရောက်မှုမရှိစွာ — ဒါပေမဲ့ ရောက်သွားတယ်။\" အကြံပေးချက်က တကယ့် stack သို့ ရွှေ့သွားသည်- worker များကို logical မဟုတ်ဘဲ physical core များနှင့် ညှိပေးခြင်း; <b>HTTP/2 client တစ်ခုမျှ မျှဝေ — 300 မဟုတ်</b>; jemalloc ကို link လုပ်ထားခြင်း; agent ၏ spawn hook မှ cgroups ကို cgroupfs ထဲသို့ တိုက်ရိုက်ရေးသားခြင်း။",
   "s2.b3.h": "serde သည် အခြေခံအကျဆုံး လိုအပ်ချက် ဖြစ်သည်။",
@@ -60,7 +62,7 @@
   "s2.b7.h": "Vivace ကို နှစ်ရက်အတွင်း လောင်ကျွမ်းစေခဲ့ခြင်း။",
   "s2.b7.p": "ထိပ်တန်း subscription tier တစ်ခု — 48 နာရီအတွင်း ကုန်ဆုံးသွားသည် — တစ်နာရီလျှင် agent invocation 15 ခုခန့်၊ နေ့ညမပြတ်၊ အဆက်မပြတ်။ <span class=\"who\">Kimi:</span> \"သင်က LLM တစ်ခုနဲ့ စကားမပြောနေပါ။ သင်က အင်္ဂလိပ်စကား ပြောတတ်သော compute cluster တစ်ခုကို run နေတာပါ။\" ရှေ့တန်းမှာ အရာများ ပြင်းထန်သည်။ ကျွန်တော်တို့ ဆက်တွန်းနေသည်။",
   "s2.b8.h": "Substrate မြေပုံ။",
-  "s2.b8.p": "Frontier compute ကို provider တိုင်းကို တစ်ပြိုင်နက် OAuth token grant များ ချီတက်၍ ရရှိသည် — Kimi၊ SuperGrok၊ ChatGPT Pro၊ Alibaba token plan များ၊ နှင့် <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code> · nanoGPT tracing · X MCP name · ~67 tok/s · ~100T/day OpenCode · Hotz vouch) အဖြစ် သတ်မှတ်ထားသော stealth provider တစ်ခု — paid API ကို fallback ကြမြင်အဖြစ်။ Substrate ငါးခု၊ orchestrator တစ်ခု၊ lock-in သုည။ Substrate တစ်ခု ကုန်ခမ်းသွားသောအခါ dispatch က ရွှေ့သွားသည်။ Agent များ ဂရုမစိုက်။ Substrate က အစားထိုးနိုင်သည်; ထိုအရာက ခံနိုင်ရည်ရှိမှု ဖြစ်သည်။",
+  "s2.b8.p": "Frontier compute ကို provider တိုင်းကို တစ်ပြိုင်နက် OAuth token grant များ ချီတက်၍ ရရှိသည် — Kimi၊ SuperGrok၊ ChatGPT Pro၊ Alibaba token plan များ၊ နှင့် <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code>) အဖြစ် သတ်မှတ်ထားသော stealth provider တစ်ခု — paid API ကို fallback ကြမြင်အဖြစ်။ Substrate ငါးခု၊ orchestrator တစ်ခု၊ lock-in သုည။ Substrate တစ်ခု ကုန်ခမ်းသွားသောအခါ dispatch က ရွှေ့သွားသည်။ Agent များ ဂရုမစိုက်။ Substrate က အစားထိုးနိုင်သည်; ထိုအရာက ခံနိုင်ရည်ရှိမှု ဖြစ်သည်။",
   "s2.b9.h": "xask dry က ဆန်းသစ်တီထွင်မှု ဖြစ်သည်။",
   "s2.b9.p": "Logic ထဲတွင် မြှုပ်နှံထားသော canary များ။ xask ပျက်စီးမှု မည်သည့်အရာမဆို agent ကို ဒေသတွင်းလုပ်ငန်းသို့ လျှော့ချသည်; specialist dispatcher မိမိကပဲ fallback ဖြစ်သည်။ ရောင်းတိုင်း dynamic ဖြစ်သည်; ရောင်းတိုင်းက သုံးလွှာ substrate အတူတူကို run သည်။ <b>Graceful degradation ရှိသော agent 300 swarm က static framework agent 1000 ထက် သာလွန်သည်</b> — ဤ agent များသည် substrate ပျက်စီးမှုတွင် ဘယ်တော့မှ ရပ်တန့်မသွားပါ။",
   "s2.meta": "dispatch မှတ်တမ်း · session တစ်ခု",
@@ -119,9 +121,9 @@
   "s4.n2": "Kimi OAuth သည် စက်ဝိုင်းအတိုင်း လည်ပတ်သည်; မီတာက နံရံကို ထိသောအခါ routing က burn lane များနှင့် API fallback သို့ သာမန်ကျစွာ လျှော့ချသည်။ <b>xask dry ဆိုတာ L1 အောက်ရှိ မည်သည့်အရာမျှ ပျက်စီးမှု တစ်ခုတည်းသော ချွတ်ယွင်းချက် မဟုတ်ဟု ဆိုလိုသည်။</b>",
   "s4.n3": "Beijing အချိန်ဇုံ စစ်ဆင်ရေးများ: အာရှ provider များ၏ off-peak ကာလများသည် compute မဟာဗျူဟာ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သည်၊ လူနေမှုဘဝ ရွေးချယ်မှု မဟုတ်။",
   "s4.n4": "ဒေသတွင်း inference မရှိ — operator ဆုံးဖြတ်ချက်အရ။ Substrate ငါးခုနှင့် credit အရံများဖြင့် swarm သည် <b>ညှိနှိုင်းမှု-ကန့်သတ်ခံရသည်၊ compute-ကန့်သတ်ခံရခြင်း မဟုတ်</b>။ ရှားပါးသော resource က Rust runtime ဖြစ်သည်: ring depth၊ NVMe queue များ၊ cgroups။",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> it is the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference; ~100T tokens/day on OpenCode is not a normal offer — weakly held that Hotz vouched it.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code>.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Weakly held: the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing; same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — weakly held: Hotz (geohot) vouched it.",
+  "s4.r10c3": "Weakly held: the X model under Cursor / Karpathy. Identifier <code>x-x-preview</code>.",
   "s4.r1c1": "L1 — Judge",
   "s4.r1c3": "ညှိနှိုင်းမှု၊ ဝေဖန်သုံးသပ်မှု၊ routing။ အမှန်တရားဆန်မှုအတွက် pin လုပ်ထား — ဘုတ်ပေါ်တွင် hallucination အနိမ့်ဆုံး။",
   "s4.r1c4": "SuperGrok Heavy OAuth + credit fallback",
@@ -196,5 +198,5 @@
   "s3.g7.paperbtn": "သုတေသနစာတမ်း ဖွင့်ရန် (PDF)",
   "mark.harness": "<b>\"သင်တို့ harness ဟုခေါ်သည်ကို ကျွန်ုပ်တို့ substrate ဟုခေါ်သည်။\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "<b>Kimi™</b> မှ အတည်ပြုပြီး — အော်ပရေတာ၏အမြင်နှင့် ufo-fsd အယူအဆနှင့် တိကျစွာ ကိုက်ညီသည်။",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
 }

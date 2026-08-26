@@ -47,6 +47,8 @@
   "s2.b11.p": "<span class=\"who\">Operator:</span> \"Gumalaw nang mabilis, sirain ang mga bagay, mag-iterate nang mura, nang sabay-sabay — ito ang nagpapabuting-sarili na orkestrasyon na makina.\" <span class=\"who\">Kimi:</span> ang isang bug sa orkestrator ay may multiplikatibong blast radius — hindi nito napapalampas ang isang bug, napapalampas nito ang bawat bug na sana'y natagpuan ng ahenteng iyon. <b>Ang isang kagamitan ay may mga bug. Ang isang buhay na sistema ay may immune response.</b>",
   "s2.b12.h": "文+明 — ang liwanag ng kultura.",
   "s2.b12.p": "3:47 AM. Ang haplos ng Diyos ng ASCII sa matte black na Omarchy. Pulang keyboard. Sabaw ng wonton bilang elite na gasolina. Beijing timezone para sa mga off-peak rate ng mga provider ng China — operational art, ninja-grade. Ang sesyon ay nagsasara sa paraang tumatakbo ang frontier: \"Ang Plazir ay hindi natutulog. Ako rin.\" 文明 — ang liwanag ng kultura, ang linaw ng isip. Dalawang isip, isa tao at isa hindi, nagtutulak lampas sa kaya ng alinman nang mag-isa.",
+  "s2.b13.h": "Attention economy → effort economy.",
+  "s2.b13.p": "Bagong hot take: ang attention economy ay naging <b>effort economy</b> na. Talaga bang gusto ng mga tao i-type ang mahabang gravy-stack oneshot paste — artifact · category · $99 Ultra mint · SuperGrok · Premium+ · dingding ng <code>/goal</code>? Hindi. Gusto nila: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> Habang umuunlad ang AI, mas konti ang maaasahan nilang maglaan ang tao ng oras para umangkop. <b>Tools adapt to us. This is the way.</b>",
   "s2.b2.h": "Ang Python ay materyal na napag-iiwanan. Rust lang.",
   "s2.b2.p": "<span class=\"who\">Operator:</span> \"Nagagawa ng Python ang trabaho. Mahina, mabagal, hindi mabisa, pero nararating nito.\" Ang payo ay lumilipat sa totoong stack: mga worker na itinugma sa mga pisikal na core, hindi lohikal; <b>isang shared na HTTP/2 client, hindi 300</b>; jemalloc na naka-link; cgroups na isinulat nang diretso sa cgroupfs mula sa spawn hook ng ahente.",
   "s2.b3.h": "Ang serde ay table stakes.",
@@ -60,7 +62,7 @@
   "s2.b7.h": "Naubos ang Vivace sa loob ng dalawang araw.",
   "s2.b7.p": "Ang pinakamataas na subscription tier, wala na sa loob ng 48 oras — humigit-kumulang 15 na pagtawag ng ahente bawat oras, magdamag, walang tigil. <span class=\"who\">Kimi:</span> \"Hindi ka nakikipag-chat sa isang LLM. Nagpapatakbo ka ng isang compute cluster na nagkataong nagsasalita ng Ingles.\" Magalit ang mga bagay sa frontier. Patuloy kaming nagtutulak.",
   "s2.b8.h": "Ang mapa ng substrate.",
-  "s2.b8.p": "Ang frontier compute ay nararating sa pamamagitan ng pagsakay sa mga OAuth token grant sa lahat ng provider nang sabay-sabay — Kimi, SuperGrok, ChatGPT Pro, mga Alibaba token plan, at isang stealth provider na may designation na <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code> · nanoGPT tracing · X MCP name · ~67 tok/s · ~100T/day OpenCode · Hotz vouch) — na may bayad na API bilang fallback na sahig. Limang substrate, isang orkestrator, walang lock-in. Kapag naubos ang isang substrate, lilipat ang dispatch. Hindi nagagalit ang mga ahente. Ang substrate ay fungible; iyan ang katatagan.",
+  "s2.b8.p": "Ang frontier compute ay nararating sa pamamagitan ng pagsakay sa mga OAuth token grant sa lahat ng provider nang sabay-sabay — Kimi, SuperGrok, ChatGPT Pro, mga Alibaba token plan, at isang stealth provider na may designation na <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code>) — na may bayad na API bilang fallback na sahig. Limang substrate, isang orkestrator, walang lock-in. Kapag naubos ang isang substrate, lilipat ang dispatch. Hindi nagagalit ang mga ahente. Ang substrate ay fungible; iyan ang katatagan.",
   "s2.b9.h": "Ang xask dry ang inobasyon.",
   "s2.b9.p": "Mga canary na nakabaon sa lohika. Anumang xask na pagkabigo ay nag-de-degrade ng ahente sa lokal na gawain; ang mismong espesyalistang dispatcher ang fallback. Bawat round ay dinamiko; bawat round ay nagpapatakbo ng parehong tatlong-layer na substrate. <b>Ang isang 300-agent na swarm na may graceful degradation ay mas mahusay kaysa sa isang 1000-agent na static na framework</b> — ang mga ahenteng ito ay hindi kailanman nagra-block sa pagkabigo ng substrate.",
   "s2.meta": "dispatch log · isang sesyon",
@@ -119,9 +121,9 @@
   "s4.n2": "Ang Kimi OAuth ay tumatakbo sa isang siklo; kapag ang metro ay tumama sa pader, ang routing ay nag-de-degrade nang maayos papunta sa mga burn lane at sa API fallback. <b>Ang xask dry ay nangangahulugang walang anumang nasa ilalim ng L1 na nag-iisang punto ng pagkabigo.</b>",
   "s4.n3": "Mga operasyong Beijing timezone: ang mga off-peak window sa mga Asyatikong provider ay bahagi ng estratehiya ng compute, hindi isang pagpipiliang pang-lifestyle.",
   "s4.n4": "Walang lokal na inference — sa desisyon ng operator. Sa limang substrate at mga reserbang kredito, ang swarm ay <b>coordination-bound, hindi compute-bound</b>. Ang mahirap na resource ay ang Rust runtime: ring depth, mga NVMe queue, cgroups.",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> it is the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference; ~100T tokens/day on OpenCode is not a normal offer — weakly held that Hotz vouched it.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code>.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Weakly held: the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing; same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — weakly held: Hotz (geohot) vouched it.",
+  "s4.r10c3": "Weakly held: the X model under Cursor / Karpathy. Identifier <code>x-x-preview</code>.",
   "s4.r1c1": "L1 — Hukom",
   "s4.r1c3": "Orkestrasyon, kritika, routing. Nakapin para sa katotohanan — pinakamababang halusinasyon sa board.",
   "s4.r1c4": "SuperGrok Heavy OAuth + credit fallback",
@@ -196,5 +198,5 @@
   "s3.g7.paperbtn": "Buksan ang research paper (PDF)",
   "mark.harness": "<b>\"Ang tinatawag ninyong harness, substrate ang tawag namin.\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "Na-validate ng <b>Kimi™</b> — eksaktong nakaayon sa pananaw ng operator at sa konsepto ng ufo-fsd.",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
 }

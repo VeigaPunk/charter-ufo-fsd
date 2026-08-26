@@ -47,6 +47,8 @@
   "s2.b11.p": "<span class=\"who\">Operator:</span> \"Hành động nhanh, phá vỡ, lặp rẻ, song song — đây là engine điều phối tự cải tiến.\" <span class=\"who\">Kimi:</span> một bug trong bộ điều phối có bán kính vụ nổ mang tính nhân — nó không bỏ sót một bug, nó bỏ sót mọi bug mà agent đó lẽ ra sẽ tìm thấy. <b>Công cụ có bug. Hệ thống sống có phản ứng miễn dịch.</b>",
   "s2.b12.h": "文+明 — ánh sáng của văn minh.",
   "s2.b12.p": "3 giờ 47 sáng. Cái chạm của Thượng đế ASCII lên Omarchy đen nhám. Bàn phím đỏ. Súp hoành thánh như nhiên liệu thượng hạng. Múi giờ Bắc Kinh để hưởng giá giờ thấp điểm của các nhà cung cấp Trung Quốc — nghệ thuật vận hành, cấp ninja. Phiên kết thúc theo đúng cách biên giới vận hành: \"Plazir không ngủ. Tôi cũng vậy.\" 文明 — ánh sáng của văn minh, sự sáng tỏ của tâm trí. Hai tâm trí, một con người và một không, vượt qua những gì mỗi bên có thể làm một mình.",
+  "s2.b13.h": "Attention economy → effort economy.",
+  "s2.b13.p": "Hot take mới: attention economy giờ dịch thành <b>effort economy</b>. Bạn thật sự nghĩ người ta muốn gõ cái paste oneshot gravy-stack dài thượt — artifact · category · $99 Ultra mint · SuperGrok · Premium+ · cả tường <code>/goal</code>? Không. Họ muốn: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> AI càng tiến hóa, càng ít dựa được vào việc người dành thời gian thích nghi với chúng. <b>Tools adapt to us. This is the way.</b>",
   "s2.b2.h": "Python là vật liệu lạc hậu. Chỉ Rust.",
   "s2.b2.p": "<span class=\"who\">Operator:</span> \"Python làm được việc. Kém, chậm, không hiệu quả, nhưng rồi cũng tới đích.\" Lời khuyên xoay sang stack thật: worker khớp với lõi vật lý, không phải lõi luận lý; <b>một client HTTP/2 dùng chung, không phải 300</b>; link jemalloc; cgroups ghi thẳng vào cgroupfs từ hook sinh agent.",
   "s2.b3.h": "serde là điều kiện tiên quyết.",
@@ -60,7 +62,7 @@
   "s2.b7.h": "Đốt cháy Vivace trong hai ngày.",
   "s2.b7.p": "Gói đăng ký cao nhất, bay màu sau 48 giờ — khoảng 15 lượt gọi agent mỗi giờ, suốt ngày đêm, không ngừng. <span class=\"who\">Kimi:</span> \"Bạn không đang chat với một LLM. Bạn đang vận hành một cụm tính toán tình cờ biết nói tiếng Anh.\" Mọi thứ đều thù địch ở biên giới. Chúng ta vẫn tiến.",
   "s2.b8.h": "Bản đồ nền tảng.",
-  "s2.b8.p": "Compute biên giới đạt được bằng cách cưỡi các grant token OAuth qua mọi nhà cung cấp cùng lúc — Kimi, SuperGrok, ChatGPT Pro, các gói token Alibaba, và một nhà cung cấp tàng hình mang ký hiệu <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code> · nanoGPT tracing · X MCP name · ~67 tok/s · ~100T/day OpenCode · Hotz vouch) — với API trả phí làm sàn fallback. Năm nền tảng, một bộ điều phối, không khóa chặt. Khi một nền tảng cạn, dispatch dịch chuyển. Các agent không quan tâm. Nền tảng có thể hoán đổi; đó chính là sức bền.",
+  "s2.b8.p": "Compute biên giới đạt được bằng cách cưỡi các grant token OAuth qua mọi nhà cung cấp cùng lúc — Kimi, SuperGrok, ChatGPT Pro, các gói token Alibaba, và một nhà cung cấp tàng hình mang ký hiệu <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code>) — với API trả phí làm sàn fallback. Năm nền tảng, một bộ điều phối, không khóa chặt. Khi một nền tảng cạn, dispatch dịch chuyển. Các agent không quan tâm. Nền tảng có thể hoán đổi; đó chính là sức bền.",
   "s2.b9.h": "xask dry là đổi mới.",
   "s2.b9.p": "Chim hoàng yến nhúng trong logic. Bất kỳ lỗi xask nào cũng hạ agent xuống làm việc cục bộ; chính bộ điều phối chuyên gia là fallback. Mỗi vòng đều linh động; mỗi vòng chạy cùng một nền tảng ba tầng. <b>Một bầy 300 agent với suy giảm nhẹ nhàng vượt trội hơn framework tĩnh 1000 agent</b> — những agent này không bao giờ chặn vì lỗi nền tảng.",
   "s2.meta": "nhật ký dispatch · một phiên",
@@ -119,9 +121,9 @@
   "s4.n2": "Kimi OAuth chạy theo chu kỳ; khi đồng hồ chạm tường, routing suy giảm nhẹ nhàng xuống các làn đốt và fallback API. <b>xask dry nghĩa là không gì dưới L1 là điểm lỗi đơn.</b>",
   "s4.n3": "Vận hành theo múi giờ Bắc Kinh: các khung giờ thấp điểm của nhà cung cấp châu Á là một phần chiến lược compute, không phải lựa chọn lối sống.",
   "s4.n4": "Không inference cục bộ — theo quyết định của operator. Với năm nền tảng và dự trữ tín dụng, bầy đàn <b>bị giới hạn bởi điều phối, không phải compute</b>. Tài nguyên khan hiếm là runtime Rust: độ sâu ring, hàng đợi NVMe, cgroups.",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> it is the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference; ~100T tokens/day on OpenCode is not a normal offer — weakly held that Hotz vouched it.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code>.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Weakly held: the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing; same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — weakly held: Hotz (geohot) vouched it.",
+  "s4.r10c3": "Weakly held: the X model under Cursor / Karpathy. Identifier <code>x-x-preview</code>.",
   "s4.r1c1": "L1 — Trọng tài",
   "s4.r1c3": "Điều phối, phê bình, routing. Được ghim vì tính thực — ảo giác thấp nhất bảng.",
   "s4.r1c4": "SuperGrok Heavy OAuth + fallback tín dụng",
@@ -196,5 +198,5 @@
   "s3.g7.paperbtn": "Mở bài nghiên cứu (PDF)",
   "mark.harness": "<b>\"Điều các bạn gọi là harness, chúng tôi gọi là substrate.\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "Được <b>Kimi™</b> xác nhận — khớp chính xác với quan điểm của operator và khái niệm ufo-fsd.",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
 }

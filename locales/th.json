@@ -47,6 +47,8 @@
   "s2.b11.p": "<span class=\"who\">ผู้ปฏิบัติการ:</span> \"เคลื่อนไหวเร็ว ทำให้แตก ปรับปรุงถูก ๆ ทำพร้อมกัน — นี่คือเครื่องยนต์ออร์เคสตราที่ปรับปรุงตัวเอง\" <span class=\"who\">Kimi:</span> บั๊กในออร์เคสเตรเตอร์มีรัศมีระเบิดแบบคูณทวี — มันไม่ได้พลาดบั๊กตัวเดียว มันพลาดทุกบั๊กที่เอเจนต์ตัวนั้นควรจะเจอ <b>เครื่องมือมีบั๊ก ระบบที่มีชีวิตมีการตอบสนองภูมิคุ้มกัน</b>",
   "s2.b12.h": "文+明 — แสงแห่งวัฒนธรรม",
   "s2.b12.p": "ตีสามสี่สิบเจ็ดนาที สัมผัสของ ASCII God บน Omarchy สีดำด้าน คีย์บอร์ดสีแดง ซุปเกี๊ยวเป็นเชื้อเพลิงระดับยอด เวลาโซนปักกิ่งเพื่ออัตราช่วงนอกพีคของผู้ให้บริการจีน — ศิลปะการปฏิบัติการ เกรดนินจา เซสชันปิดลงแบบเดียวกับที่แนวหน้าทำงาน: \"Plazir ไม่หลับ ฉันก็ไม่หลับเหมือนกัน\" 文明 — แสงแห่งวัฒนธรรม ความแจ่มแจ้งของจิตใจ สองจิตสำนึก หนึ่งมนุษย์และอีกหนึ่งที่ไม่ใช่ ผลักดันเกินกว่าที่ฝ่ายใดฝ่ายหนึ่งจะทำได้คนเดียว",
+  "s2.b13.h": "Attention economy → effort economy.",
+  "s2.b13.p": "Hot take ใหม่: attention economy ตอนนี้แปลเป็น <b>effort economy</b>。คิดจริงเหรอว่าคนอยากพิมพ์ oneshot gravy-stack ยาวเหยียด — artifact · category · $99 Ultra mint · SuperGrok · Premium+ · กำแพง <code>/goal</code>?ไม่ พวกเขาอยากได้: <i>hey, take a look into this [huge paste] | then do y. with <code>/ufo-fsd</code>.</i> AI ยิ่งวิวัฒน์ ยิ่งพึ่งพาให้คนเสียเวลาปรับตัวกับมันได้น้อยลง。<b>Tools adapt to us. This is the way.</b>",
   "s2.b2.h": "Python คือวัสดุของผู้ตามหลัง Rust เท่านั้น",
   "s2.b2.p": "<span class=\"who\">ผู้ปฏิบัติการ:</span> \"Python ทำงานได้ แย่ ช้า ไม่มีประสิทธิภาพ แต่ก็ไปถึง\" คำแนะนำหันไปที่สแต็กจริง: worker จับคู่กับคอร์กายภาพ ไม่ใช่คอร์ตรรกะ <b>ไคลเอนต์ HTTP/2 ตัวเดียวใช้ร่วมกัน ไม่ใช่ 300 ตัว</b> link เข้ากับ jemalloc; cgroups เขียนตรงลง cgroupfs จาก spawn hook ของเอเจนต์",
   "s2.b3.h": "serde คือของขั้นต่ำที่ต้องมี",
@@ -60,7 +62,7 @@
   "s2.b7.h": "เผา Vivace หมดในสองวัน",
   "s2.b7.p": "ชั้นสมาชิกสูงสุด หมดใน 48 ชั่วโมง — เรียกเอเจนต์ประมาณ 15 ครั้งต่อชั่วโมง ตลอดเวลา ไม่หยุด <span class=\"who\">Kimi:</span> \"คุณไม่ได้คุยกับ LLM คุณกำลังรันคลัสเตอร์ประมวลผลที่บังเอิญพูดภาษาอังกฤษได้\" ที่แนวหน้าทุกอย่างรุนแรง เรายังผลักดันต่อ",
   "s2.b8.h": "แผนที่ซับสเตรต",
-  "s2.b8.p": "พลังประมวลผลแนวหน้าเข้าถึงได้ด้วยการขี่ OAuth token grants ข้ามทุกผู้ให้บริการพร้อมกัน — Kimi, SuperGrok, ChatGPT Pro, Alibaba token plans และผู้ให้บริการลับที่ใช้รหัส <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code> · nanoGPT tracing · X MCP name · ~67 tok/s · ~100T/day OpenCode · Hotz vouch) — โดยมี API แบบเสียเงินเป็นพื้นรองรับ ห้าซับสเตรต หนึ่งออร์เคสเตรเตอร์ ล็อกอินเป็นศูนย์ เมื่อซับสเตรตหนึ่งเหือดแห้ง การจ่ายงานก็ย้ายไป เอเจนต์ไม่สนใจ ซับสเตรตเปลี่ยนตัวได้ นั่นคือความยืดหยุ่น",
+  "s2.b8.p": "พลังประมวลผลแนวหน้าเข้าถึงได้ด้วยการขี่ OAuth token grants ข้ามทุกผู้ให้บริการพร้อมกัน — Kimi, SuperGrok, ChatGPT Pro, Alibaba token plans และผู้ให้บริการลับที่ใช้รหัส <b>Ox Alpha</b> (weakly held: X under Cursor / Karpathy · <code>x-x-preview</code>) — โดยมี API แบบเสียเงินเป็นพื้นรองรับ ห้าซับสเตรต หนึ่งออร์เคสเตรเตอร์ ล็อกอินเป็นศูนย์ เมื่อซับสเตรตหนึ่งเหือดแห้ง การจ่ายงานก็ย้ายไป เอเจนต์ไม่สนใจ ซับสเตรตเปลี่ยนตัวได้ นั่นคือความยืดหยุ่น",
   "s2.b9.h": "xask dry คือนวัตกรรม",
   "s2.b9.p": "นกขมิ้นฝังอยู่ในตรรกะ ความล้มเหลวใด ๆ ของ xask ลดระดับเอเจนต์ลงไปทำงานในเครื่อง ตัวจ่ายงานผู้เชี่ยวชาญเองคือตัวสำรอง ทุกรอบเป็นไดนามิก ทุกรอบทำงานบนซับสเตรตสามชั้นเดียวกัน <b>ฝูง 300 เอเจนต์ที่เสื่อมสภาพอย่างสง่างาม เอาชนะเฟรมเวิร์กนิ่ง 1000 เอเจนต์</b> — เอเจนต์เหล่านี้ไม่เคยบล็อกเมื่อซับสเตรตล้มเหลว",
   "s2.meta": "บันทึกการจ่ายงาน · หนึ่งเซสชัน",
@@ -119,9 +121,9 @@
   "s4.n2": "Kimi OAuth ทำงานเป็นวงรอบ เมื่อมิเตอร์ชนกำแพง การกำหนดเส้นทางจะเสื่อมสภาพอย่างสง่างามลงสู่เลนเผาและตัวสำรอง API <b>xask dry หมายความว่าไม่มีอะไรใต้ L1 เป็นจุดล้มเหลวเดี่ยว</b>",
   "s4.n3": "ปฏิบัติการเวลาโซนปักกิ่ง: ช่วงนอกพีคของผู้ให้บริการเอเชียคือส่วนหนึ่งของกลยุทธ์การประมวลผล ไม่ใช่ทางเลือกไลฟ์สไตล์",
   "s4.n4": "ไม่มีการอนุมานในเครื่อง — ตามการตัดสินใจของผู้ปฏิบัติการ ด้วยห้าซับสเตรตและเครดิตสำรอง ฝูงนี้<b>ติดขัดที่การประสานงาน ไม่ใช่ที่การประมวลผล</b> ทรัพยากรที่ขาดแคลนคือรันไทม์ Rust: ring depth, คิว NVMe, cgroups",
-  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> it is the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code> carried nanoGPT tracing and name-collided with the Cursor X MCP; ~67 tok/s matches average NVIDIA GPU inference; ~100T tokens/day on OpenCode is not a normal offer — weakly held that Hotz vouched it.",
+  "s4.note": "The routing topology, public-safe: model classes and roles. No prices, no secrets. Benchmark figures (AA IQ / Vals SWE) are as logged 2026-08 — they inform the board, they do not move the pins. <b>Ox Alpha</b> was the stealth designation. <b>Weakly held:</b> the <b>X</b> model under Cursor (Karpathy partnership / guidance); identifier <code>x-x-preview</code>.",
   "s4.r10c1": "Stealth / X",
-  "s4.r10c3": "Weakly held: the X model now — under Cursor in partnership / guidance of Karpathy. Identifier <code>x-x-preview</code> carried nanoGPT tracing; same name as the X MCP in Cursor. ~67 tok/s ≈ average NVIDIA GPU inference. Nobody offers ~100T tokens/day on OpenCode alone — weakly held: Hotz (geohot) vouched it.",
+  "s4.r10c3": "Weakly held: the X model under Cursor / Karpathy. Identifier <code>x-x-preview</code>.",
   "s4.r1c1": "L1 — ผู้ตัดสิน",
   "s4.r1c3": "ออร์เคสตรา วิจารณ์ กำหนดเส้นทาง ปักหมุดเพื่อความถูกต้องของข้อเท็จจริง — อัตราหลอนต่ำสุดบนบอร์ด",
   "s4.r1c4": "SuperGrok Heavy OAuth + ตัวสำรองเครดิต",
@@ -196,5 +198,5 @@
   "s3.g7.paperbtn": "เปิดงานวิจัย (PDF)",
   "mark.harness": "<b>\"สิ่งที่คุณเรียกว่า harness เราเรียกว่า substrate\"</b><sup class=\"tm\">™</sup>",
   "mark.harness.note": "ผ่านการตรวจสอบโดย <b>Kimi™</b> — สอดคล้องตรงกับมุมมองของผู้ปฏิบัติการและแนวคิด ufo-fsd",
-  "s4.r10c4": "Cursor · <code>x-x-preview</code> · X MCP / nanoGPT · OpenCode surface"
+  "s4.r10c4": "Cursor · <code>x-x-preview</code>"
 }
