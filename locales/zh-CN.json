@@ -48,7 +48,7 @@
   "s2.b12.h": "文+明 — 文化之光。",
   "s2.b12.p": "凌晨 3:47。哑光黑 Omarchy 上的 ASCII 上帝之触。红色键盘。作为精英燃料的馄饨汤。为享受中国供应商的低谷费率而使用北京时区 — 操作艺术，忍者级别。会话以前沿运行的方式收尾：「Plazir 不睡觉。我也不睡。」文明 — 文化之光，心智之澄明。两个心智，一个是人，一个不是，合力越过任何一方都无法独自抵达的地方。",
   "s2.b13.h": "注意力经济 → 努力经济。",
-  "s2.b13.p": "新热论：注意力经济已转成<b>努力经济</b>。你真以为人们想打那坨超长 gravy-stack oneshot 粘贴——artifact · category · $99 Ultra mint · SuperGrok · Premium+ · 整墙 <code>/goal</code>？不。他们想要的是：<i>嘿，看这个 [一大坨粘贴] | 然后用 <code>/ufo-fsd</code> 做 y。</i>AI 越进化，越不能指望人花时间去迁就它。<b>工具迁就我们。This is the way.</b>",
+  "s2.b13.p": "新热论：注意力经济已转成<b>努力经济</b>。你真以为人们想打那坨超长 gravy-stack oneshot 粘贴——artifact · category · $99 Ultra mint · SuperGrok · Premium+ · 整墙 <code>/goal</code>？不。他们想要的是：<i>嘿，看这个 [一大坨粘贴] | 然后用 <code>/ufo-fsd</code> 做 y。</i>AI 越进化，越不能指望人花时间去迁就它。<b>&lt;tools adapt to us&gt;</b> · <i>this is the way</i>",
   "s2.b2.h": "Python 是落后材料。只用 Rust。",
   "s2.b2.p": "<span class=\"who\">操作员：</span>「Python 能干活。干得差、慢、低效，但总能干到。」建议转向真正的技术栈：工作线程对齐物理核，而非逻辑核；<b>一个共享的 HTTP/2 客户端，而不是 300 个</b>；链接 jemalloc；从智能体的 spawn 钩子直接写入 cgroupfs 的 cgroups。",
   "s2.b3.h": "serde 是入场券。",
