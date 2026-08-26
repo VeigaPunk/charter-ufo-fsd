@@ -1,11 +1,11 @@
 /* PLAZIR-27 — i18n engine. vanilla, no deps.
    locales/{lng}.json -> [data-i18n] innerHTML binding.
-   persistence: localStorage 'plazir-lang'. fallback: en. */
+   persistence: localStorage 'plazir-lang'. fallback: en.
+   Kimi badge: zh-CN → kimi.com + referral; all other langs → kimi.ai + referral. */
 (() => {
   'use strict';
   const LOCALES = ['en', 'zh-CN', 'ja', 'id', 'ms', 'th', 'vi', 'fil', 'my', 'km'];
   const STORE = 'plazir-lang';
-  // Kimi invite: .com for Chinese locale only; .ai for all intl langs. Referral on both.
   const KIMI_INVITE_PATH = '/activities/invite/share?scenario=invite&from=share_poster&invitation_code=W6NGNP';
   const kimiHref = (lng) =>
     'https://www.' + (lng === 'zh-CN' ? 'kimi.com' : 'kimi.ai') + KIMI_INVITE_PATH;
@@ -30,8 +30,10 @@
   const applyKimiBadge = (lng) => {
     const badge = document.getElementById('kimi-badge');
     if (!badge) return;
-    badge.setAttribute('href', kimiHref(lng));
+    const href = (dict && dict['badge.href']) || kimiHref(lng || 'en');
+    badge.setAttribute('href', href);
     badge.setAttribute('rel', 'sponsored nofollow noopener');
+    badge.setAttribute('data-kimi-tld', href.includes('kimi.com') ? 'com' : 'ai');
   };
 
   const apply = (lng) => {
@@ -71,6 +73,8 @@
   document.addEventListener('DOMContentLoaded', () => {
     const sel = document.getElementById('langsel');
     if (sel) sel.addEventListener('change', () => setLang(sel.value));
+    // apply badge immediately from detect() before fetch returns (avoids stale .com flash for intl)
+    applyKimiBadge(detect());
     setLang(detect());
   });
 })();

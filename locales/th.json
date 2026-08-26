@@ -1,5 +1,6 @@
 {
   "badge.runs": "PLAZIR ทำงานบน <b>Kimi™</b>",
+  "badge.href": "https://www.kimi.ai/activities/invite/share?scenario=invite&from=share_poster&invitation_code=W6NGNP",
   "f.art": "ไม่มีของเก่าให้อ้าง มีแต่งานปัจจุบัน ที่ทำกันสด ๆ",
   "f.meta1": "plazir-27 — ปฏิบัติการแนวหน้าโดย <a href=\"https://github.com/VeigaPunk\">VeigaPunk</a> · หลักคำสอน: ufo-fsd · จุดยืน: เคลื่อนไหวเร็ว ทำให้แตก ปรับปรุงถูก ๆ ทำพร้อมกัน",
   "f.meta2": "charter: <a href=\"https://github.com/VeigaPunk/charter-ufo-fsd\">charter-ufo-fsd</a> · สด: <a href=\"https://veigapunk.github.io/charter-ufo-fsd/\">veigapunk.github.io/charter-ufo-fsd</a> · paper: <a href=\"papers/umwelt-frontier-orchestrator.pdf\">The Umwelt-Frontier Orchestrator (PDF)</a>",
