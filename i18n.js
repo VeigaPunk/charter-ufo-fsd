@@ -5,6 +5,10 @@
   'use strict';
   const LOCALES = ['en', 'zh-CN', 'ja', 'id', 'ms', 'th', 'vi', 'fil', 'my', 'km'];
   const STORE = 'plazir-lang';
+  // Kimi invite: .com for Chinese locale only; .ai for all intl langs. Referral on both.
+  const KIMI_INVITE_PATH = '/activities/invite/share?scenario=invite&from=share_poster&invitation_code=W6NGNP';
+  const kimiHref = (lng) =>
+    'https://www.' + (lng === 'zh-CN' ? 'kimi.com' : 'kimi.ai') + KIMI_INVITE_PATH;
   let dict = {};
 
   const detect = () => {
@@ -23,7 +27,14 @@
     return 'en';
   };
 
-  const apply = () => {
+  const applyKimiBadge = (lng) => {
+    const badge = document.getElementById('kimi-badge');
+    if (!badge) return;
+    badge.setAttribute('href', kimiHref(lng));
+    badge.setAttribute('rel', 'sponsored nofollow noopener');
+  };
+
+  const apply = (lng) => {
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const v = dict[el.getAttribute('data-i18n')];
       if (typeof v === 'string') el.innerHTML = v;
@@ -35,6 +46,7 @@
     if (dict['meta.title']) document.title = dict['meta.title'];
     const md = document.querySelector('meta[name="description"]');
     if (md && dict['meta.desc']) md.setAttribute('content', dict['meta.desc']);
+    applyKimiBadge(lng || document.documentElement.getAttribute('lang') || 'en');
   };
 
   const setLang = async (lng) => {
@@ -51,10 +63,10 @@
     localStorage.setItem(STORE, lng);
     const sel = document.getElementById('langsel');
     if (sel && sel.value !== lng) sel.value = lng;
-    apply();
+    apply(lng);
   };
 
-  window.PLAZIR_I18N = { setLang, LOCALES };
+  window.PLAZIR_I18N = { setLang, LOCALES, kimiHref };
 
   document.addEventListener('DOMContentLoaded', () => {
     const sel = document.getElementById('langsel');
