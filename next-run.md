@@ -23,4 +23,29 @@ Fired 2026-08-26 after the 24h wall. Thrash peers **paused**. L1 orch seat only 
 
 Cloud = Ubuntu. Local adapter = Arch + Omarchy 3.8.3 (probe). Do not collapse them. Durable note on the writable Origin: `docs/LOCAL-RUN-ADAPTER.md`.
 
+## Local refuel (2026-08-26 — where we are now)
+
+Harvest seat landed on the operator desktop after the cloud 24h wall freeze / end-run lock. **Refuel ≠ escape velocity.** Parent goal stays OPEN. This is map truth for the current step — not a completion claim.
+
+### Ships next from the desktop seat
+
+- Keep host CLIs **live** on Arch/Omarchy (cursor-agent, grok, hangar, …) — honest doctors/hostBins, not SKIP masquerading as live.
+- Continue gates / doctor honesty work locally (F-C3 family + Node teardown classes stay fail-as-data until fixed or documented).
+- Honor local routing pins (operator steers; public-safe):
+  - **L1 peak:** `cursor-agent` · grok-4.5-fast
+  - **L1 off-peak** (UTC-3 11:00–21:00): `codex -p qwen38`
+  - **L2:** mix composer-2.5-fast + grok-4.5-fast (unchanged in off-peak)
+  - **L3 sekhmet:** codex-spark fast; luna-low-fast fallback
+- Push harvest ships to writable Origin (`tmp-d1cb8c062407c7a9`) only when operator-authorized; retry durable `ufo-fsd-alpha` when HEAD:main accepts — never fork.
+- Parent-goal rows still open: live creds, tip hunt, Honcho A/B, certified-64 live, crates.io — advance only with evidence.
+
+### Stays cloud-frozen
+
+- 28 IDLE Background Composer twins — **do not wake**.
+- Poll loops / thrash peers — paused under end-run lock; do not restart for churn.
+- Cloud host-CLI SKIP posture — Ubuntu BC boxes are not the Arch adapter; absence must never fail cloud doctor.
+- Recovery follow-ups only on same `bcId`, recovery bucket only (grok 4.6 / 4.5 / composer-2.5). Gemini banned.
+
+L1 crown stays **xbgst on Grok Build**. The desktop seat is a **local refuel seat**, not a recrown.
+
 Live: https://veigapunk.github.io/charter-ufo-fsd/
