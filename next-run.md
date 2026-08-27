@@ -48,4 +48,14 @@ Harvest seat landed on the operator desktop after the cloud 24h wall freeze / en
 
 L1 crown stays **xbgst on Grok Build**. The desktop seat is a **local refuel seat**, not a recrown.
 
+## Local 24h launch protocol (2026-08-27 — running now)
+
+Same three prompts as the ds4cc speedrun oneshot, on the Arch/Omarchy desktop. Cloud twins stay frozen.
+
+1. **Prompt 1 /goal** — LKG core runtime under this charter; WWKD before judge; godspeed; specialist lanes; **no Gemini**.
+2. **Prompt 2 steer** — self-handoff; auto-fork when scope splits; honest `NEXT.md` / `handoff.json`.
+3. **Prompt 3 reroute** — usage-limit walk without operator paste: Token Plan **gmail** `ds-pro` → `qwen38` → Codex Spark **falls to luna-low** → `luna`/`sol` → Grok API L1. Never retry **team** Token Plan (parked until 2026-09-02 22:04 UTC). Never Cursor Ultra while weekly 100%. Spark weekly capped until 2026-08-31 00:31Z.
+4. **Seats** — L1: eight tmux `ufo-l1..8` on `codex-titanium-qwen38`. L2 volume: `codex-titanium-ds-pro`. Codex OAuth mix via **bare** `codex-titanium` (not the Token Plan wrappers). Watch: one Alacritty, eight tmux windows (`ufo-8win`). L0 poll 3 min; durable 30 min reawake.
+5. **Closing charter entry** — when this loop stops (wall / operator halt), append one more frontier-log snapshot (human-legible telemetry, no secrets). Mid-run snapshot already on the live page as 2026-08-27.
+
 Live: https://veigapunk.github.io/charter-ufo-fsd/
