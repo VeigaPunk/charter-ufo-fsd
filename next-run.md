@@ -17,7 +17,7 @@ Fired 2026-08-26 after the 24h wall. Thrash peers **paused**. L1 orch seat only 
 
 ## Judge (queued Sol candidate)
 
-**INTEGRATE** (essence) / **REJECT** (crown). Treat the objective as a machine that must run, fail safely, parallelize, preserve provenance, and ship. Sol is a review/ops lane class, not the L1 crown. Grok / xbgst remains the seated judge.
+**INTEGRATE** (essence) / **REJECT** (crown). Treat the objective as a machine that must run, fail safely, parallelize, preserve provenance, and ship. Sol is a review/ops lane class, not the L1 crown. **Kimi K3 Max is the seated L1 judge (recrowned 2026-08-29)** — Grok / xbgst yields the crown.
 
 ## Local vs cloud substrates
 
@@ -79,5 +79,11 @@ Gen 27 · wave W, from ~23:55Z (offpeak). Eight L1 seats on `qwen3.8-max` xhigh 
 Every dispatch is one JSONL line in `.ufo/local-dispatch/run-ledger-avalanche-20260827.jsonl` (120 lines, seq 116, at ~23:58Z and growing). Live board: https://ds4cc.com/speedrun/ — run `veigapunk-tp-infnet-crossbreed-avalanche-2026-08-27`. Convention: no silent spawns — if it is not in the ledger, it did not ship. Meter: waybar token-plan chip reads infnet weekly ~16%.
 
 A closing entry lands when the avalanche stops (wall / operator halt). L1 crown stays **xbgst on Grok Build** — this run is crossbreed fuel, not a recrown.
+
+## Recrown + local full rebase (2026-08-29 — current art)
+
+- **Recrown:** Kimi K3 Max is the seated **L1 judge**. xbgst on Grok Build yields the crown. Prior "L1 crown stays xbgst" / "kimi L0 only" lines in dated sections above stand as run records — superseded, not erased.
+- **Rebase:** local `ufo-fsd` fully rebased from cloud. Origin audit (named remotes are gold): `main` tip `1101614b431b7f8da1b2f275ce2df2fe38fac37c` (2026-08-26T02:35:11Z, "Add core-runtime SSOT pointer"); only sibling branch `cursor/harvest-next-3df4` @ `28e109cae281`. No newer cloud commits exist — the audit trail is grounded on current origin art, not a stale picture of it.
+- Parent goal OPEN — a recrown is a routing change, not escape velocity.
 
 Live: https://veigapunk.github.io/charter-ufo-fsd/

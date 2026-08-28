@@ -12,6 +12,7 @@
 <noscript>
   <main id="main-content">
     <h1>Next run must ship — UFO-FSD harvest deliverable</h1>
+    <p>2026-08-29: the L1 crown passes to <b>Kimi K3 Max</b> — xbgst on Grok Build yields. Local ufo-fsd fully rebased from cloud, grounded on origin/main <code>1101614b</code> (2026-08-26T02:35Z) — no newer cloud art.</p>
     <ol>
       <li>Keep the writable Origin (tmp-d1cb8c062407c7a9) until ufo-fsd-alpha accepts HEAD:main. Do not fork.</li>
       <li>No idle-twin wakes. Operator follow-up only, same bcId, recovery bucket only (grok 4.6 / 4.5 / composer-2.5). Gemini banned.</li>
@@ -39,7 +40,8 @@
   (<code>gpt-5.6-luna</code> / <code>gpt-5.6-sol</code>; Spark → <b>luna-low</b>).
   Parked: Token Plan team (until 2026-09-02 22:04 UTC), Cursor Ultra weekly 100%, Gemini, Spark until 2026-08-31 00:31Z.
   Cloud 28 IDLE twins stay frozen. L0 poll 3 min · 30 min reawake. L1 crown stays xbgst on Grok Build.</p>
-  <p class="thread-note rv" data-i18n="s3.avalanche27">2026-08-27 night (offpeak, ~23:55Z onward) — avalanche crossbreed, gen 27 · wave W: eight L1 seats on <code>qwen3.8-max</code> xhigh (Token Plan <b>infnet</b>) work <code>ufo-fsd-alpha</code> while a web wave updates the site repos. Tooling rebase landed: 64 spawn one-offs consolidated into three parameterized dispatchers (<code>dispatch-l1-local.sh</code> / <code>dispatch-l2-local.sh</code> / <code>l0-respawn-l1.sh</code>); godspeed SSoT coherence green tree-wide (<code>sync-godspeed.sh --check</code>); kimi 15-min TTL fixed via local auth proxy — kimi stays <b>L0 only</b>. Doctrine: L2 <code>ds-pro</code> all roles (≤3 concurrent, ≥45s stagger), review-only <code>sol</code> via <code>--codex</code>, L3 <code>luna-low-fast</code>. Every dispatch disclosed in the run ledger. Run LIVE — mid-run record, not a done stamp.</p>`;
+  <p class="thread-note rv" data-i18n="s3.avalanche27">2026-08-27 night (offpeak, ~23:55Z onward) — avalanche crossbreed, gen 27 · wave W: eight L1 seats on <code>qwen3.8-max</code> xhigh (Token Plan <b>infnet</b>) work <code>ufo-fsd-alpha</code> while a web wave updates the site repos. Tooling rebase landed: 64 spawn one-offs consolidated into three parameterized dispatchers (<code>dispatch-l1-local.sh</code> / <code>dispatch-l2-local.sh</code> / <code>l0-respawn-l1.sh</code>); godspeed SSoT coherence green tree-wide (<code>sync-godspeed.sh --check</code>); kimi 15-min TTL fixed via local auth proxy — kimi stays <b>L0 only</b>. Doctrine: L2 <code>ds-pro</code> all roles (≤3 concurrent, ≥45s stagger), review-only <code>sol</code> via <code>--codex</code>, L3 <code>luna-low-fast</code>. Every dispatch disclosed in the run ledger. Run LIVE — mid-run record, not a done stamp.</p>
+  <p class="thread-note rv" data-i18n="s3.recrown29">2026-08-29 recrown + rebase: local <code>ufo-fsd</code> fully rebased from cloud — grounded on origin/<code>main</code> <code>1101614b</code> (2026-08-26T02:35Z, "Add core-runtime SSOT pointer"); only other named branch <code>cursor/harvest-next-3df4</code> @ <code>28e109ca</code>. No newer cloud art exists. The L1 crown passes to <b>Kimi K3 Max</b> — xbgst on Grok Build yields. Dated "crown stays xbgst" / "kimi L0 only" records above stand as run history — superseded, not erased.</p>`;
   const harvestItems = `
       <li data-i18n="s3.g3.i6"><b>xbgst-cursor @ harvest</b> — Origin-densified orch tip on the writable UFO-core tree. MCP blob SHA1 parity only. Host <code>cursor-agent</code> still SKIP on cloud. Do not collapse into the desk surface.</li>`;
   const surfaceItem = `
@@ -103,6 +105,15 @@
       <li><b>Meter:</b> waybar token-plan chip reads infnet weekly ~16% — headroom measured, not assumed.</li>
       <li><b>Honesty:</b> a closing entry lands when the avalanche stops (wall / operator halt). L1 crown stays xbgst on Grok Build; this run is crossbreed fuel, not a recrown.</li>
     </ul></div></div>
+  <div class="logentry rv"><span class="ldate">2026-08-29</span>
+    <div><h3 data-i18n="s5.e20.h">Recrown — Kimi K3 Max takes the L1 crown; local ufo-fsd fully rebased from cloud.</h3>
+    <p data-i18n="s5.e20.p">Two moves, one entry, grounded on named-remote truth. <b>(1) Rebase:</b> the local seat has
+    fully rebased <code>ufo-fsd</code> from cloud. Origin audit: <code>main</code> tip <code>1101614b431b</code>
+    (2026-08-26T02:35:11Z, "Add core-runtime SSOT pointer"); only sibling branch <code>cursor/harvest-next-3df4</code> @
+    <code>28e109ca</code>. No newer cloud commits exist — the audit log sits on current origin art, not a stale picture of it.
+    <b>(2) Recrown:</b> the L1 crown passes to <b>Kimi K3 Max</b> — xbgst on Grok Build yields the seat. Every prior
+    "L1 crown stays xbgst" / "kimi L0 only" line above stands as a dated record of its run — superseded, not erased.
+    Parent goal OPEN — a recrown is a routing change, not escape velocity.</p></div></div>
   <div class="logentry rv"><span class="ldate">next</span>
     <div><h3 data-i18n="s5.next.h">Next run must ship — UFO-FSD harvest deliverable.</h3>
     <p data-i18n="s5.next.p">Not a retrospective. The next run ships these steps, in order, on the same seats:</p>
@@ -120,6 +131,27 @@
     const res = await fetch(GOLD, { cache: 'no-store' });
     if (!res.ok) throw new Error('gold ' + res.status);
     let html = await res.text();
+    // 2026-08-29 recrown: flip standing crown doctrine in the gold snapshot (dated log entries stay as run records)
+    html = html.replace(
+      'The page does not recrown L1 — the seated judge is\n      xbgst on Grok Build; kimi is a live L1 candidate, not the crown.',
+      'Recrowned 2026-08-29: the seated L1 judge is Kimi K3 Max; xbgst on Grok Build yields the crown. Prior no-recrown lines stand as dated records of their runs.'
+    );
+    html = html.replace(
+      'L1 judge     <span class="hl">grok-marketplace (xbgst-stack) on Grok Build</span> — the seated crown',
+      'L1 judge     <span class="hl">Kimi K3 Max — xbgst-kimi substrate</span> — the seated crown (recrowned 2026-08-29)'
+    );
+    html = html.replace(
+      'the seated L1 judge: Grok L1 overlay',
+      'former L1 judge — crown yielded to Kimi K3 Max 2026-08-29: Grok L1 overlay'
+    );
+    html = html.replace(
+      'Seats are locked: L1 judge = xbgst on Grok Build. The overlay refuses a second L1.',
+      'Recrowned 2026-08-29: L1 judge = Kimi K3 Max — xbgst on Grok Build yields the seat. The overlay refuses a second L1.'
+    );
+    html = html.replace(
+      'Kimi Code L1 port. Ran the full self-orch protocol',
+      'Kimi Code L1 port — now the seated L1 crown (recrowned 2026-08-29). Ran the full self-orch protocol'
+    );
     html = html.replace(
       'so the page never 404s.</p>',
       'so the page never 404s.</p>' + harvestNote

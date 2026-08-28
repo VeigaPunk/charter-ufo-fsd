@@ -11,7 +11,7 @@ Centralized, reachable from any substrate. Iterate on it here.
   in parallel, cache-on-spawn, pins, self-improvement loop, wwkd) + the splits
   (do-not-collapse rules) + escape velocity framing.
 - **The conversation** — the distilled dispatch log.
-- **Current art** — the xbgst stack mapped by layer: L1 crown (grok-marketplace),
+- **Current art** — the xbgst stack mapped by layer: L1 crown (Kimi K3 Max — recrowned 2026-08-29),
   core mold, L1 ports, desk, L2 consult, L3 fan-out, FSD overlay, posture,
   host/livepatch, CDP adapters, site gold. Public repos linked; private named only.
 - **Substrate map** — model-class routing topology, public-safe.
@@ -41,8 +41,8 @@ base64 `dream.js`). PDF under `papers/`. `.nojekyll` — Pages serves as-is.
 ## Mapping rules
 
 Named GitHub remotes are gold. Hangar is cache, not SSoT. If two named remotes
-disagree, stop and escalate. Do not recrown L1: the seated judge is xbgst on
-Grok Build; kimi is a live L1 candidate, not the crown.
+disagree, stop and escalate. Recrowned 2026-08-29: the seated L1 judge is Kimi K3 Max; xbgst on
+Grok Build yields the crown.
 
 On 2026-08-24 the operator praise lands in the frontier log: Kimi is the best model
 right now; Grok bought Cursor and is handling it on a silver platter; Kimi is the
@@ -51,6 +51,8 @@ side dish better than the main course. Kimi K3 Max fast inference via Cursor Ult
 service-tier flag. `xbgst-cursor-agent-surface` is the usage surface; `xbgst-cursor` is
 the FSD orch port. Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on
 Grok Build.
+
+On 2026-08-29 the crown passes: Kimi K3 Max is the seated L1 judge; xbgst on Grok Build yields. Local `ufo-fsd` fully rebased from cloud, grounded on origin/main `1101614b` (2026-08-26T02:35Z) — no newer cloud art. Dated crown lines above stand as run records.
 
 > Frontier is not a place. Its a perpetual. It is the practice of keeping the map true
 > while everything underneath it changes.
