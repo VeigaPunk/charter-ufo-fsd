@@ -58,4 +58,26 @@ Same three prompts as the ds4cc speedrun oneshot, on the Arch/Omarchy desktop. C
 4. **Seats** — L1: eight tmux `ufo-l1..8` on `codex-titanium-qwen38`. L2 volume: `codex-titanium-ds-pro`. Codex OAuth mix via **bare** `codex-titanium` (not the Token Plan wrappers). Watch: one Alacritty, eight tmux windows (`ufo-8win`). L0 poll 3 min; durable 30 min reawake.
 5. **Closing charter entry** — when this loop stops (wall / operator halt), append one more frontier-log snapshot (human-legible telemetry, no secrets). Mid-run snapshot already on the live page as 2026-08-27.
 
+## Avalanche crossbreed run (2026-08-27 night — live now)
+
+Gen 27 · wave W, from ~23:55Z (offpeak). Eight L1 seats on `qwen3.8-max` xhigh (Token Plan **infnet**) work `ufo-fsd-alpha`; a web wave (`ufo-w1..8`) updates the site repos in parallel. Run is live; parent goal stays OPEN.
+
+### Tooling rebase (landed on ufo-fsd-alpha)
+
+- 64 spawn one-offs consolidated into three parameterized dispatchers: `scripts/dispatch-l1-local.sh`, `scripts/dispatch-l2-local.sh`, `scripts/l0-respawn-l1.sh` (check / print / tmux / pin flags; routing from fleet config or env overrides).
+- Godspeed byte-injection enforced tree-wide: `scripts/sync-godspeed.sh --check` green — every live copy matches `ssot/godspeed-core`, every sibling manifest agrees (verified ~23:59Z).
+- Kimi 15-min TTL fixed via local auth proxy. Kimi stays **L0 only** this flight.
+
+### Routing doctrine
+
+- **L1:** `qwen3.8-max` xhigh · Token Plan infnet.
+- **L2:** `ds-pro` all roles — ≤3 concurrent, ≥45s stagger. Review pass only: `sol` via `--codex --pin gpt-5.6-sol`.
+- **L3:** `luna-low-fast`. No gemini. No worktrees.
+
+### Disclosure ledger convention
+
+Every dispatch is one JSONL line in `.ufo/local-dispatch/run-ledger-avalanche-20260827.jsonl` (120 lines, seq 116, at ~23:58Z and growing). Live board: https://ds4cc.com/speedrun/ — run `veigapunk-tp-infnet-crossbreed-avalanche-2026-08-27`. Convention: no silent spawns — if it is not in the ledger, it did not ship. Meter: waybar token-plan chip reads infnet weekly ~16%.
+
+A closing entry lands when the avalanche stops (wall / operator halt). L1 crown stays **xbgst on Grok Build** — this run is crossbreed fuel, not a recrown.
+
 Live: https://veigapunk.github.io/charter-ufo-fsd/
