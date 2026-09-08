@@ -14,6 +14,9 @@ Centralized, reachable from any substrate. Iterate on it here.
 - **Current art** — the xbgst stack mapped by layer: L1 crown (Kimi K3 Max — recrowned 2026-08-29),
   core mold, L1 ports, desk, L2 consult, L3 fan-out, FSD overlay, posture,
   host/livepatch, CDP adapters, site gold. Public repos linked; private named only.
+  **2026-09-08:** chinese_ufo routing live (Alibaba token-plan pool), omp the SS+ substrate
+  (sole `validated_native_handoff`), UFO Sighting wall + omp status chip, family graduation
+  in flight on isolated scratch SSoTs — dated detail in `next-run.md`.
 - **Substrate map** — model-class routing topology, public-safe.
 - **Frontier log** — dated entries, on the record.
 - **The dream** — the vessel + the A.A.OM tag.
