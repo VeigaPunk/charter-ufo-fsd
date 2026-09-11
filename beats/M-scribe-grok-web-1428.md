@@ -14,6 +14,7 @@ Actual: Gate: BLOCKED — executor provided no evidence
 ## Touches
 - operator paste: `repo ufo-fsd-alpha @ 5f52e03a (main), dirty files: 103`
 - operator paste: `last 8h commits (0):`
+- operator paste: `loop-state: {"task":"UFO-FSD empirical gate: grok","stop_reason":"saturated","round":1}`
 - charter tip at beat start: `e6648a1631bd8006b90a39218b19e4903d5490c4`
 - private `VeigaPunk/ufo-fsd` main still `1101614b431b7f8da1b2f275ce2df2fe38fac37c`
 - public `ufo-fsd-alpha` search total_count=0
@@ -23,12 +24,13 @@ Actual: Gate: BLOCKED — executor provided no evidence
 - fork / idle-twin wake
 - tip arbitration
 - recrown / parent close
-- full index.html harvestNote restore (payload; origin overlay still truncated from 1428 push errata `3f515fa9` / `f29c105c`)
+- gates tail (not in this paste)
+- full index.html harvestNote restore (origin overlay still truncated from `3f515fa9` / `f29c105c`)
 
 ## Findings
 - [CONFLICTS_UNRESOLVED: 1] next-run.md working tip `696caf87` vs local paste `5f52e03a`
 - L1 crown = Kimi K3 Max since 2026-08-29; Gemini banned; parent goal OPEN
-- this errata adds only `last 8h commits (0):` — no loop-state or gates tail in this operator paste
+- this errata adds only loop-state as pasted — no gates tail in this operator paste
 
 ## Links
 - Plan: next-run.md (read-only)
