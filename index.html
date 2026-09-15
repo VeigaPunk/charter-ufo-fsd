@@ -56,13 +56,13 @@
        'so the page never 404s.</p>' + harvestNote
      );
     html = html.replace('as logged 2026-08</span>', 'as logged 2026-09-13</span>');
-    html = html.replace(/<p class="thread-note rv" data-i18n="s4\\.note">[\\s\\S]*?<\\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
-    html = html.replace(/<tbody>[\\s\\S]*?<\\/tbody>/, '<tbody>' + substrateRows + '\\n      </tbody>');
-    html = html.replace(/<ul class="mapnotes rv">[\\s\\S]*?<\\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\\n  </ul>');
+    html = html.replace(/<p class="thread-note rv" data-i18n="s4\.note">[\s\S]*?<\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
+    html = html.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody>' + substrateRows + '\n      </tbody>');
+    html = html.replace(/<ul class="mapnotes rv">[\s\S]*?<\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\n  </ul>');
     // goal moved: 1024-agent orchestration via ufo-fsd, not 300
-    html = html.replace(/<b>300-agent orchestration<\\/b>/, '<b>1024-agent orchestration</b>');
-    html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\\s*already runs\\.<\\/b>/, '<b>The 1024-agent target is not aspirational; the 2×16 fleet already reserved 279 runners on the wall.</b>');
-    html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
+    html = html.replace(/<b>300-agent orchestration<\/b>/, '<b>1024-agent orchestration</b>');
+    html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\s*already runs\.<\/b>/, '<b>The 1024-agent target is not aspirational; the 2×16 fleet already reserved 279 runners on the wall.</b>');
+    html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
      document.write(html);
      document.close();
   } catch (err) {
