@@ -33,7 +33,7 @@
   <div class="logentry rv"><span class="ldate">2026-08-26</span>
     <div><h3>harvest overlay.</h3>
     <p data-i18n="s3.harvest">Gemini banned. Parent goal OPEN. L1 crown = Kimi K3 Max since 2026-08-29.</p></div></div><!-- charter-scribe-beat:begin -->
-<p class="thread-note rv" data-i18n="s3.scribeBeat">2026-09-15 scribe beat (<b>the-scribe</b> via <code>local-fallback</code>): <b>no new local commits; steady-state beat</b>. No new local commits in the last 8h — steady-state beat. Gates: FAIL. Loop: deterministic compatibility fixture (round_cap). Parent goal OPEN.</p>
+<p class="thread-note rv" data-i18n="s3.scribeBeat">On 2026-09-15 the grok-web scribe transcribed operator local evidence as <code>repo ufo-fsd-alpha @ 7831cea7 (main), dirty files: 24</code>, <code>last 8h commits (0):</code> with no subjects after the colon, loop-state <code>deterministic compatibility fixture</code> / <code>round_cap</code> / round 0, and <code>gates tail: FAIL</code>. Gate BLOCKED — no executor <code>evidence:</code>; dirty-count <code>24</code> vs earlier <code>3</code> at the same SHA remains unresolved. L1 = <b>Kimi K3 Max</b> since 2026-08-29; Gemini banned; parent goal OPEN.</p>
 <!-- charter-scribe-beat:end -->
 `;
   const substrateNote = `The routing topology, public-safe: model classes and roles. No prices, no secrets. As logged 2026-09-13 — the doctrine flipped: <b>kimi is the exclusive L0/L1 surface</b>, <b>swe-2 is the perfect L2 runner</b>, <b>astra-6 is the advisor</b>. Other models stay the perspective lanes — different approaches and blind spots, mixed in for diversity of attack, never a recrown.`;
@@ -56,13 +56,13 @@
        'so the page never 404s.</p>' + harvestNote
      );
     html = html.replace('as logged 2026-08</span>', 'as logged 2026-09-13</span>');
-    html = html.replace(/<p class="thread-note rv" data-i18n="s4\.note">[\s\S]*?<\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
-    html = html.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody>' + substrateRows + '\n      </tbody>');
-    html = html.replace(/<ul class="mapnotes rv">[\s\S]*?<\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\n  </ul>');
+    html = html.replace(/<p class="thread-note rv" data-i18n="s4\\.note">[\\s\\S]*?<\\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
+    html = html.replace(/<tbody>[\\s\\S]*?<\\/tbody>/, '<tbody>' + substrateRows + '\\n      </tbody>');
+    html = html.replace(/<ul class="mapnotes rv">[\\s\\S]*?<\\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\\n  </ul>');
     // goal moved: 1024-agent orchestration via ufo-fsd, not 300
-    html = html.replace(/<b>300-agent orchestration<\/b>/, '<b>1024-agent orchestration</b>');
-    html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\s*already runs\.<\/b>/, '<b>The 1024-agent target is not aspirational; the 2×16 fleet already reserved 279 runners on the wall.</b>');
-    html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
+    html = html.replace(/<b>300-agent orchestration<\\/b>/, '<b>1024-agent orchestration</b>');
+    html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\\s*already runs\\.<\\/b>/, '<b>The 1024-agent target is not aspirational; the 2×16 fleet already reserved 279 runners on the wall.</b>');
+    html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
      document.write(html);
      document.close();
   } catch (err) {
