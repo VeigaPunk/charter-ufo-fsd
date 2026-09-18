@@ -25,7 +25,7 @@ Actual:
 - Any re-execution of the recorded gates or drills (audit is read-only)
 
 ## Findings
-- `k28asia-plan.md` (72 lines) landed at repo root in this commit — an "Asian-Source Intelligence Sweep Plan" scoping a Kimi 2.8 Preview source-density mission with sibling lanes: a stray planning file outside the contract docs structure, unrelated to the P5-axes spec lane. `git show 5bd0584d --stat -- k28asia-plan.md` shows a single pure addition (`1 file changed, 72 insertions(+)`)`, the path's only commit in history, and it is still present at HEAD (`git cat-file -e HEAD:k28asia-plan.md` succeeds).
+- `k28asia-plan.md` (72 lines) landed at repo root in this commit — an "Asian-Source Intelligence Sweep Plan" scoping a Kimi 2.8 Preview source-density mission with sibling lanes: a stray planning file outside the contract docs structure, unrelated to the P5-axes spec lane. `git show 5bd0584d --stat -- k28asia-plan.md` shows a single pure addition (`1 file changed, 72 insertions(+)`), the path's only commit in history, and it is still present at HEAD (`git cat-file -e HEAD:k28asia-plan.md` succeeds).
 - Verdict and report fields are additive (`axis_measurements` + `subjective_flags` on the fixture path, `axis_kinds` + `subjective_flags` on the native path), omitted when empty; existing digests stay byte-identical, pinned by a test (commit body).
 - The commit body records that the phase exposed two pre-existing drill couplings, both fixed here: the regenerated native fixture carries repo-relative evidence paths again (absolute paths had bypassed the drill shadow patch), and `d-herd` declares subjective measurements.
 - Recorded gates for this commit: `gates.sh 21/21 PASS`; drills 41 pass / 13 pending-mechanism (commit body).
