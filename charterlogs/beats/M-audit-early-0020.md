@@ -64,7 +64,7 @@ Wave-4 re-run (2026-09-18, HEAD 4adedde6): extended loop counted 49 ok, no failu
 - `641ddc46` Make the portability axis measure the portable surface instead of six directories — 2 files +201−8; wave-4 fold: makes the portability axis measure the portable surface, not six directories
 - `6fbccf1e` Let the substrate doctors report dry-only without failing the gate — 1 file +22−3; wave-4 fold: substrate doctors report dry-only without failing the gate
 - `78a19ade` fix(portability): E7-aware foreign-host seed for CI pack gate — 4 files +35−21; wave-4 fold: E7-aware foreign-host seed for the CI pack gate
-- `9e992ab5` Densify clause-3 hangars and harden outside-cloud packaging. — 77 files +11928−125; wave-4 fold: densifies clause-3 hangars and harden outside-cloud packaging (new portability scripts)
+- `9e992ab5` Densify clause-3 hangars and harden outside-cloud packaging. — 77 files +11928−125; wave-4 fold: densifies clause-3 hangars and hardens outside-cloud packaging (new portability scripts)
 - `b0749f13` fix(portability): seed ufo-fsd overlay judgeId=xbgst for CI pack — 5 files +29−11; wave-4 fold: seeds judgeId=xbgst in the CI pack so clean-temp dry self-iter stays green
 - `b6c65c38` fix(scripts): let the offline smoke pass offline — 1 file +27−4; wave-4 fold: offline smoke passes offline (exit-2 doctors)
 - `da6c13c6` Make the substrate selfcheck ask where the orchestrator resolved, not for a dist path — 4 files +70−22; wave-4 fold: selfcheck asks where the orchestrator resolved, not for a dist file
