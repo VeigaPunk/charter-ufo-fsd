@@ -52,7 +52,7 @@ insertions(+), 6 deletions(-)"; "12 files changed, 77 insertions(+), 14 deletion
 - `eb8f2c8d` fix qwen-seat composition: OMP collapses 3+ newline junctions — `scripts/run-omp-native-trial.mjs`, 1 file +6/−2
 - `7230a5d6` strengthen yield discipline with wrong-vs-right contrast — `scripts/run-omp-native-trial.mjs`, 1 file +3/−2
 - `a93d23b7` embed-and-copy yield arguments for qwen seats — `scripts/run-omp-native-trial.mjs` (`qwenYieldBlock`), 1 file +15/−6
-- Paths: scripts/run-omp-native-trial.mjs (all seven), skills/ufo/SILL.md + 10 mirrors (step 1 only)
+- Paths: scripts/run-omp-native-trial.mjs (all seven), skills/ufo/SKILL.md + 10 mirrors (step 1 only)
 
 ## Out-of-scope
 - The routing re-charter that seats these lanes on `alibaba-token-plan/qwen3.8-max:xhigh`
