@@ -17,7 +17,9 @@ dbad47b5b1878796e0e2718d910f35f1e0a2c122|2026-09-13 08:59:50 -0300|fleet: nx-* c
 ## Touches
 - dbad47b5b1878796e0e2718d910f35f1e0a2c122 — 160 files, +11622/-3165; parent `cb388b72879a6c69726d5752ffed05d4848fcd71`. Key paths: `config/ufo.json` (+94) and its bundled mirror `crates/ufo-core-runtime/bundled/config.json` (+94), `scripts/ufo-swarm-wave.mjs` (new, 521 lines), `conformance/vectors/misc/swarm-wave.json` (new, 537 lines), `crates/ufo-core-runtime/src/{native.rs,distill.rs,lanes.rs,loop_driver.rs,proposal.rs}`, `crates/ufo-cli/src/main.rs` / `titanium.rs`, `crates/ufo-core-runtime/tests/{conformance.rs,perf_probe.rs,native_support/mod.rs}`, `packages/ufo-core/src/**`, `packages/substrate-runtime/src/**`, `scripts/**`, `docs/**` (46 paths), `skills/ufo/**` + packaged mirrors
 - `config/ufo.json` — `sighting.dispatch` gains the `swarm` block (`maxLanes` 128, `minLanes` 2, `rampBatchSize` 5, `rampIntervalMs` 700, self-describing `note`); `globalRunnerCeiling` stays 1024 and `queuePath` stays `.ufo/pending-work.json`
-- `scripts/fleet-dispatcher.mjs` — `const MAX_QUEUE_TASKS = 256` with capacity relief before refusal: successor enqueue at capacity archives receipt-valid completed rows first, then records `budget_halt` with `queue_task_cap_reached`
+- `scripts/fleet-dispatcher.mjs` — `const MAX_QUEUE_TASKS = 256` with capacity relief before refusal: successor enqueue at capacity archives receipt-valid completed rows first, then records `budget_halt` with `queue_task_cap_reached`; plain enqueue at capacity throws `pending-work queue is at capacity`
+- `scripts/gates.sh` — `assert_label_shape` label pre-check, `SEKHMET_ROOT` temp handling, and the `record`/`emit_index` check index (`GATES-CHECKS-BEGIN/END`) committed here (also recorded in `docs/KNOWN-GAPS.md`)
+- `docs/BEHAVIOR-MATRIX.md` / `docs/L2-L3-ROUTING.md` — swarm notes and the 2026-09-16 correction recording `scripts/ufo-swarm-wave.mjs` and `dispatch.swarm` as committed in dbad47b5 (`grep -n 'ufo-swarm-wave' docs/BEHAVIOR-MATRIX.md`)
 - `.omp/config.yml`, `.omp/ufo-l1.yml`, `config/the-tick.machine.json` (`results` path added under the tick roots)
 
 ## Out-of-scope
