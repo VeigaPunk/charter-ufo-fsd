@@ -14,7 +14,7 @@ and xbgst-cursor tip→mirror parity across the three `skills/xbgst-cursor/SKILL
 `bld-20260827-09ab7181` failed `INSTALL_FAILED` because `npm ci` required a lock entry for
 workspace pack `@ufo/xbreed-team-slash@0.1.0`, so it is mapped rather than rejected as a
 lockfile refresh. `22fe29ab` (20:26:33, 3 files +112/−9) states the rule the axis rests on —
-"Runner must be a git object for the gate-evidence-reproducible stamp (precedent `e434b1c6")":
+"Runner must be a git object for the gate-evidence-reproducible stamp (precedent `e434b1c6`)":
 `scripts/gates-record.sh` gains a fleet flock on `.ufo/gates-record.lock` plus stale-wrapper and
 zombie reap, `scripts/assert-core-presence.sh` is narrowed to the canonical `ssot/` godspeed
 trilogy, `scripts/dev-verify.sh` wires `assert-parent-harvest-manifest.sh` (closing a
