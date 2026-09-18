@@ -15,7 +15,8 @@ argv builders emitting `/ufo`, `$ufo` or `ufo`, and sweeps manifests, hooks, age
 ufo. The rebase itself is quoted: "Cloud->local rebase: orchestrator crowns ufo (model local),
 cloud seats, token-plan routing, and the sekhmet L3 tier removed with justification; fleet routes
 through local lane CLIs; bootstrapper wraps the in-repo scanner (deps/bootstrapper)." Its validation
-paragraph claims "zero-xbgst battery across active wiring; 7 lane doctors judgeId=ufo; substrate-runtime 44/44; ufo-runtime 273/274; adapter tests 17/17; self-iter 38/38; fsd 19 passed +
+paragraph claims "zero-xbgst battery across active wiring; 7 lane doctors judgeId=ufo;
+substrate-runtime 44/44; ufo-runtime 273/274; adapter tests 17/17; self-iter 38/38; fsd 19 passed +
 sim PASS; cargo clean on all six adapters" — the single `ufo-runtime` red is unexplained in the
 body. `3fe03f5a` (16:17:24, 8 files +96/−102) re-syncs the public lane mirrors and makes the pin
 check offline-first: "a pin mismatch against a remote that no longer exists (renamed/unpublished
