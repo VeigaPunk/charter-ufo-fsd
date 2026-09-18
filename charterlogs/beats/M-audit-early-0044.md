@@ -11,13 +11,13 @@ fresh full battery showed 12 red gates and "Five were caused by the single-SSoT 
 drifted SKILL.md mirrors are synced to the tip byte hash, `substrates/{kimi,opencode}` revert to the
 audited installable-local status word (live evidence stays in `credentialBlocked:false` + notes) and
 `packages/substrate-omp` gains `hangar/install-local.sh` plus the agents roster in its published
-files; "The remaining seven reds predate this work … and are recorded — not silently fixed — in
-the walk artifact's classification section, per the goal's stop rule; each names its sanctioned
+files; "The remaining seven reds predate this work … and are recorded — not silently fixed — in the
+walk artifact's classification section, per the goal's stop rule; each names its sanctioned
 remediation." `e71d9f9b` (19:19:37; 5 files, +23/−13) re-adjudicates the drift pins instead of
 weakening them — "The 2026-08-28 local-first rebase moved the workspace crate and mirror bytes
-without re-pinning: DECLARED loop_driver.rs digests no longer matched either side" — re-verifying
-the declared markers and forbiddens on the current bytes, re-pinning both digests in the gate table
-and the adjudication record, and syncing the `vendor/lkg` loop_driver plus distill/fleet tip-published
+without re-pinning: DECLARED loop_driver.rs digests no longer matched either side" — re-verifying the
+declared markers and forbiddens on the current bytes, re-pinning both digests in the gate table and
+the adjudication record, and syncing the `vendor/lkg` loop_driver plus distill/fleet tip-published
 copies back to the majority mirror bytes so the no-climb four-way byte identity holds. `77a960dd`
 (19:19:37; 1 file, +1/−1) anchors that record at the re-pinning commit (subject-only, no body).
 `70c1fc5b` (19:24:08; 3 files, +42/−15) closes the family: `proposal.rs` goes byte-identical to the
@@ -30,10 +30,10 @@ LKG-PRIVATE-FALLBACK.md) with the gates-record re-record remedy in flight". `116
 4 files, +60/−282) greens `packed-charter-bins` by fixing the gate rather than the data: named
 `ufo-X` ids alias to bare-name substrate dirs ("ufo-kimi -> substrates/kimi"), eight ids
 (`ufo-stack`, `ufo-grok-bot`, `ufo-cursor-agent-surface`, `xbrd-*`) get a `DECLARED_PORT_SEATED`
-table whose every seat path is verified to exist, and the tarball count assertion is recalibrated
-to the packable surface ("4 peers + 28 substrate dirs = 32"); the artifact that commit publishes
-records `named: 35`, `packed: 32`, `failures: []`. `0d42bf12` (19:51:42; 3 files, +2652/−4607)
-publishes the gates-record run 1 transcript (`evidence/gates-current.txt`, `evidence/gates-evidence-prior.txt`,
+table whose every seat path is verified to exist, and the tarball count assertion is recalibrated to
+the packable surface ("4 peers + 28 substrate dirs = 32"); the artifact that commit publishes records
+`named: 35`, `packed: 32`, `failures: []`. `0d42bf12` (19:51:42; 3 files, +2652/−4607) publishes the
+gates-record run 1 transcript (`evidence/gates-current.txt`, `evidence/gates-evidence-prior.txt`,
 `docs/artifacts/gate-evidence-reproducible.json`), and `1d31b708` (20:19:29; 2 files, +42/−6)
 executes the deferred half of the `c34f3666` nuke — six `scripts/gates.sh` check lines whose
 scripts that commit deleted are neutralized with provenance comments ("Neutralized with provenance
@@ -104,7 +104,12 @@ F-C3 serial-retry contract`, `substrate gates ufo_core import`, `charter CLI com
   (`02c865b5`) at `0d42bf12` and at HEAD, so the published evidence still shows the six omp FAIL
   rows that `1d31b708` neutralized 28 minutes later, and `c81295e6`'s "gates-record re-record remedy
   in flight" was still in flight at end of day.
-- Self-inflicted damage is stated as such: the five seating-caused reds are fixed in `253dfd53`, the
+- Self-inflicted damage is stated as such: `253dfd53` — "Five were caused by the single-SSoT seating
+  itself"; the seven others "predate this work". Its pass/red arithmetic is not reconciled with
+  `86a0add1`'s "five failures proven pre-existing" (M-audit-early-0042) — different red sets, no
+  shared ledger.
+- `1d31b708` is the deferred half of an earlier commit: "The oh-my-posh nuke commit's own message
+  mandates a follow-up scrub of live refs" — the nuke is `c34f3666` (M-audit-early-0039), whose
   subject itself reads "nuke oh-my-posh port (1/2)". Touches-primary for `1d31b708` (2 files
   +42/−6; scripts/gates.sh, docs/artifacts/2026-08-28-seating-sighting-walk.md) is
   M-audit-early-0039; this beat's Gate and Findings cite it because it neutralizes six of the
