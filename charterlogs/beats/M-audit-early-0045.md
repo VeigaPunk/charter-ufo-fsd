@@ -41,8 +41,7 @@ invocation (stock codex node shim banned by operator directive); operator mid-ru
 recorded, not smoothed — opencode paused and cursor stood down, fleet released to its own charter.
 `6a1ab01d` (22:32:19; 2 files, +10/−10) applies the night-run charter and drops kimi from every
 cascade: the depth head moves from `kimi/kimi-k3-max` to `grok/grok-4.5` with the codex/chatgpt
-runner second, the planner chain moves in the sa
-me edit, and kimi-k3-max leaves all class cascades
+runner second, the planner chain moves in the same edit, and kimi-k3-max leaves all class cascades
 with the history retained in `class_notes` ("NIGHT-RUN DROPPED (operator 2026-08-29). Was OAuth-only
 wrapped depth; depth now grok/grok-4.5. Do not route."), verified as zero drift across all 13 lanes.
 
