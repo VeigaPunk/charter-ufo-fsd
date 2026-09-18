@@ -1,0 +1,11 @@
+{
+  "schema": "ufo-task-receipt-v1",
+  "taskKey": "task_78e5478d136e055a48a89ace",
+  "runId": "gq78e5478d136e055a",
+  "sessionId": "omp-gq78e5478d136e055a",
+  "promptSha256": "c8fde4f4f0d5c0a329497811286e5696b8290ced5b7afe537428c5893dab5625",
+  "configSha256": "b0b224a23ba8315bea492faaa1ef2268d823ad6b81fa1321d77921b48f26bbe8",
+  "reportSha256": "2582667c6c2d79a0afaf93f24768d3224eb4919e4c2e80d3894c27313a629ccf",
+  "producerId": "Main",
+  "createdAt": "2026-09-18T17:31:13Z"
+}
