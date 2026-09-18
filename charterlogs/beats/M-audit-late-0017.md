@@ -20,7 +20,8 @@ Actual:
 - 8159149229574120a337cf38e46c6504abe892d9 — 2 files, +8: `config/ufo.json` and `crates/ufo-core-runtime/bundled/config.json` (`drills: { "enabled": true, note }`; the note states the gates.sh drills stage runs after the mutation battery and drill evidence lands under `.ufo/drills/<id>/`)
 - 285fc6920f818dc1f6adf600e4b52539ab07c256 — 97 files, +4529/-10. Key paths: `drills/*.drill.json`, `drills/fixtures/loop_specialist.py` (+184, new), `scripts/ufo-drills.mjs` (+641, new), `scripts/gates.sh` (+14, `drills:` stage gated on `drills.enabled`), `scripts/sync-ufo-contracts.mjs` (+299, mirror targets + `deps:closure`), `ufo-deps.lock` (new, 30 lines), `skills/SHA256SUMS` (+9), `packages/*/skills/wwkd/SKILL.md` + `SHA256SUMS`, `packages/*/ssot/godspeed-core/directive.md`, `.cursor`/`.omp` `skills/wwkd` + `ssot/godspeed-core`, `packages/substrate-omp/package.json`
 - 87590b11a9b9678c463074b45d82ff3acc770c8c — 1 file, +26: `config/mission-pack-p8.yml` (new fleet mission overlay; `modelRoles.m_deepseek` / `m_swe2` bound to the flash and SWE-2 seats)
-- `ufo-deps.lock` (new at 285fc692) — `schema: ufo-deps-lock-v1`; contract revision pin plus file-set pins
+- `ufo-deps.lock` (new at 285fc692) — `schema: ufo-deps-lock-v1`; contract revision `skills/ufo/references/run-logic.md`, dependencies `godspeed-directive` (`ssot/godspeed-core/directive.md`) and `wwkd-skill` (`skills/wwkd/SKILL.md` + `SHA256SUMS`)
+- `docs/advisory/2026-09-17-ufo-improvement-pack/09-invariant-drill-matrix.md`, `.../15-packaging-boundary.md` (the specs this cluster lands)
 
 ## Out-of-scope
 - The P3 cluster 2c087de6 / 9b825505 (beat M-audit-late-0016) and P4 10e39d85 (beat M-audit-late-0018), despite git interleaving with this cluster
