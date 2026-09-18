@@ -103,7 +103,7 @@ Wave-4 re-run (2026-09-18, HEAD 4adedde6): extended loop printed ok=50/50, no MI
 - `44b42004` Split flaky targets off red ones, and name the tests that failed — 4 files +174/−24
 - `03bf0910` fix(gates): build the ufo-memory binary the memory tests execute — 2 files +19−2; wave-4 fold: gates.sh builds the ufo-memory binary the memory tests execute
 - `086282a0` fix(gates): build every run, and refuse to grade a tree that did not compile — 1 file +24−19; wave-4 fold: gates.sh builds every run and refuses to grade a tree that did not compile
-- `7dec000f` fix(gates): build @ufo/orch dist before ufo-fsd refusal gate — 1 file +7−32; wave-4 fold: gates.sh builds @ufo/orch dist before the ufo-fsd refusal gate
+- `7dec000f` fix: build @ufo/orch dist before ufo-fsd refusal gate — 1 file +7−32; wave-4 fold: gates.sh builds @ufo/orch dist before the ufo-fsd refusal gate
 - `7e0678dd` fix(docs): the outside-cloud instructions named a package that does not exist — 3 files +126−1; wave-4 fold: fixes the outside-cloud instructions and adds scripts/assert-local-install-doc.mjs to gates.sh
 - `955313c1` Stop failed TypeScript builds from leaving importable output — 44 files +3583−1520; wave-4 fold: tsc noEmitOnError so a failed TS build stops leaving importable stale output
 - `9d9566a9` Record F-C1's mechanism and the concurrent-load result — 3 files +145−46; wave-4 fold: records F-C1’s mechanism and the concurrent-load result (CONFORMANCE-FINDINGS)
