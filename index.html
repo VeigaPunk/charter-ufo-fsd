@@ -33,9 +33,13 @@
   <div class="logentry rv"><span class="ldate">2026-08-26</span>
     <div><h3>harvest overlay.</h3>
     <p data-i18n="s3.harvest">Gemini banned. Parent goal OPEN. L1 crown = Kimi K3 Max since 2026-08-29.</p></div></div><!-- charter-scribe-beat:begin -->
-<p class="thread-note rv" data-i18n="s3.scribeBeat">On 2026-09-18 the grok-web scribe transcribed operator local evidence as <code>repo ufo-fsd-alpha @ 4adedde6 (main), dirty files: 128</code>, <code>last 8h commits (0):</code> with no subjects after the colon, loop-state <code>UFO-FSD smoke</code> / <code>saturated</code> / round 1, and <code>gates tail: FAIL</code>. Gate BLOCKED — no executor <code>evidence:</code>; dirty-tree (128) vs zero-commit window vs saturated vs FAIL remain unresolved. L1 = <b>Kimi K3 Max</b> since 2026-08-29; Gemini banned; parent goal OPEN.</p>
+<p class="thread-note rv" data-i18n="s3.scribeBeat">On 2026-09-18 the grok-web scribe transcribed operator local evidence as <code>repo ufo-fsd-alpha @ 4adedde6 (main), dirty file: 121</code> and <code>last 8h commits (2):</code> <code>4adedde6</code> ufo pack P9: annotate capstone status — machinery landed, live run quota-blocked (Joao Pedro Veiga); <code>8e9116d9</code> ufo pack P8-docs + P9 machinery: doc restructure, gate steps, successor rounds (Joao Pedro Veiga). Loop-state was <code>{"task":"kimi self-iter","stop_reason":"saturated","round":1}</code> and <code>gates tail: FAIL</code>. Gate BLOCKED — no executor <code>evidence:</code>; L1 = <b>Kimi K3 Max</b> since 2026-08-29; Gemini banned; parent goal OPEN.</p>
 <!-- charter-scribe-beat:end -->
 `;
+  const auditNote = `
+  <div class="logentry rv"><span class="ldate">2026-09-18</span>
+    <div><h3>audit logs: 77 beats, every commit dispositioned.</h3>
+    <p>Two fleet missions audited <code>ufo-fsd-alpha</code> end to end and the full trail ships in the <code>charterlogs</code> vault. <b>audit-early</b> — 53 beats, window <b>2026-08-24 → 2026-09-10</b>, from the empty root <code>f43c757c</code> to tip <code>5f52e03a</code>: all <b>1357</b> non-merge commits dispositioned per-SHA, zero unexplained. <b>audit-late</b> — 24 beats, window <b>2026-09-11 → 2026-09-18</b>, <code>9644f95a..4adedde6</code>: <b>34/34</b> window commits mapped to exactly one beat, zero gaps. Every beat carries an executable gate with observed output; both result reports ship with SHA256 receipts. Vault: <code>charterlogs/beats/</code> (77 beats) + <code>charterlogs/results/</code> (<code>audit-logs-early.md</code> · <code>audit-logs-late.md</code> + receipts). L1 = <b>Kimi K3 Max</b>; Gemini banned; parent goal OPEN.</p></div></div>`;
   const substrateNote = `The routing topology, public-safe: model classes and roles. No prices, no secrets. As logged 2026-09-13 — the doctrine flipped: <b>kimi is the exclusive L0/L1 surface</b>, <b>swe-2 is the perfect L2 runner</b>, <b>astra-6 is the advisor</b>. Other models stay the perspective lanes — different approaches and blind spots, mixed in for diversity of attack, never a recrown.`;
   const substrateRows = `
         <tr><td>L0 / L1 — the surface</td><td>kimi class</td><td>The exclusive operator surface and orchestration seat — the operator types into kimi and the orchestration stays there, by decision. The crown seat.</td><td>Kimi OAuth</td></tr>
@@ -56,6 +60,10 @@
        'so the page never 404s.</p>' + harvestNote
      );
     html = html.replace('as logged 2026-08</span>', 'as logged 2026-09-13</span>');
+    html = html.replace(
+      'kimi pins only when kimi-specific.</p></div></div>',
+      'kimi pins only when kimi-specific.</p></div></div>' + auditNote
+    );
     html = html.replace(/<p class="thread-note rv" data-i18n="s4\.note">[\s\S]*?<\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
     html = html.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody>' + substrateRows + '\n      </tbody>');
     html = html.replace(/<ul class="mapnotes rv">[\s\S]*?<\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\n  </ul>');

@@ -22,6 +22,14 @@ Centralized, reachable from any substrate. Iterate on it here.
   dated detail in `next-run.md`.
 - **Substrate map** — model-class routing topology, public-safe.
 - **Frontier log** — dated entries, on the record.
+- **Audit logs (charterlogs vault)** — the fleet audit of `ufo-fsd-alpha`, landed
+  2026-09-18: `charterlogs/beats/` holds 77 beats (M-audit-early-0001..0053,
+  M-audit-late-0001..0024) and `charterlogs/results/` the two result reports with
+  SHA256 receipts (audit-logs-early / audit-logs-late). Windows 2026-08-24 →
+  2026-09-10 (empty root `f43c757c` → `5f52e03a`, 1357 non-merge commits
+  dispositioned, zero unexplained) and 2026-09-11 → 2026-09-18
+  (`9644f95a..4adedde6`, 34/34 commits mapped, zero gaps). Vault is source of
+  record; surfacing on the page is the frontier-log entry dated 2026-09-18.
 - **The dream** — the vessel + the A.A.OM tag.
 - **Research paper** — *The Umwelt-Frontier Orchestrator* (PDF), direct:
   https://veigapunk.github.io/charter-ufo-fsd/papers/umwelt-frontier-orchestrator.pdf
@@ -54,9 +62,8 @@ On 2026-08-24 the operator praise lands in the frontier log: Kimi is the best mo
 right now; Grok bought Cursor and is handling it on a silver platter; Kimi is the
 side dish better than the main course. Kimi K3 Max fast inference via Cursor Ultra OAuth; PATH
 `xask --provider cursor --model-id kimi-k3-max`. Fast is Ultra metering, not a
-service-tier flag. `xbgst-cursor-agent-surface` is the usage surface; `xbgst-cursor` is
-the FSD orch port. Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on
-Grok Build.
+service-tier flag. `xbgst-cursor-agent-surface` is the usage surface; `xbgst-cursor` is the
+FSD orch port. Hangar cheap FIRST stays Token Plan. L1 crown stays xbgst on Grok Build.
 
 On 2026-08-29 the crown passes: Kimi K3 Max is the seated L1 judge; xbgst on Grok Build yields. Local `ufo-fsd` fully rebased from cloud, grounded on origin/main `1101614b` (2026-08-26T02:35Z) — no newer cloud art. Dated crown lines above stand as run records.
 
