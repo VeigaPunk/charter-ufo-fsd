@@ -30,7 +30,8 @@ grok, omp) tailing `.ufo/sighting/<substrate>.log` with `history-limit` hard-bou
 fed by a best-effort never-throwing hook in `packages/substrate-runtime/src/lane-cli.mjs`, and
 declares the tool policy in `docs/SUPPORTED-SUBSTRATES.md`: "every substrate seat runs allowed
 tools {*} / denied tools {}; denials are built from the ground up, only on explicit operator
-request" (operator triggers "open the hatch" and "i want to see the vessels" are etched in the skill SSoT and all 11 seats). `a509e00b` (19:44:13; 19 files, +624/−29) closes the seating's parity
+request" (operator triggers "open the hatch" and "i want to see the vessels" are etched in the
+skill SSoT and all 11 seats). `a509e00b` (19:44:13; 19 files, +624/−29) closes the seating's parity
 sweep: `packages/cursor/skills/ufo` (a stale pre-`.cursor` seat), `packages/substrate-omp/skills/ufo`
 (the registry's omp skill seat, "still naming the-planner") and `ports/ufo-{cursor,cursor-agent-surface,grok,opencode}`
 skills were missed by the earlier propagation and are now byte-identical to `skills/ufo/SKILL.md`,
