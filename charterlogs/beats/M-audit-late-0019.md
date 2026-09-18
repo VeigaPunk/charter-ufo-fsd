@@ -15,8 +15,8 @@ Actual:
 ```
 
 ## Touches
-- 52898c0ba465b7772964db0bb7f62f0ef0e0dc8c — 52 files, +2963/-305. Key paths: `crates/ufo-core-runtime/src/proposal.rs`, `loop_driver.rs`, `config.rs`, `lib.rs`, `state.rs`, `report.rs`, `native.rs`, `native_tests.rs`, `crates/ufo-cli/src/main.rs`, `crates/ufo-cli/tests/cli_contract.rs`, `config/ufo.json` (+27, optional `membrane{paths,action}`), `scripts/collect-omp-native-handoff.mjs` (+ screening arms), `scripts/run-omp-native-trial.mjs` (seal refusal), `skills/ufo/SKILL.md` + `skills/ufo/references/run-logic.md` and every packaged mirror, `docs/advisory/2026-09-17-ufo-improvement-pack/06-authority-boundary-and-membrane.md` (+ sections marked landed), `.../16-amendments-to-specs-00-09.md`
-- Tests: `tests/collect-omp-native-handoff.test.js`, `tests/run-omp-native-trial.test.js`, `crates/ufo-core-runtime/tests/loop_driver.rs`, `crates/ufo-core-runtime/src/native_tests.rs`
+- 52898c0ba465b7772964db0bb7f62f0ef0e0dc8c — 52 files, +2963/-305. Key paths: `crates/ufo-core-runtime/src/proposal.rs`, `loop_driver.rs`, `config.rs`, `lib.rs`, `state.rs`, `report.rs`, `native.rs`, `native_tests.rs`, `crates/ufo-cli/src/main.rs`, `crates/ufo-cli/tests/cli_contract.rs`, `config/ufo.json` (+27, optional `membrane{paths,action}`), `scripts/collect-omp-native-handoff.mjs`, `scripts/run-omp-native-trial.mjs`, `tests/collect-omp-native-handoff.test.js`, `tests/run-omp-native-trial.test.js`, `drills/d-membrane.drill.json`, `drills/d-membrane-negative.drill.json`, `drills/d-sign-auth.drill.json`, `drills/d-screen.drill.json`, `drills/d-screen-clean.drill.json`, `skills/ufo/SKILL.md` (+11) and `skills/ufo/references/run-logic.md` (+29) with all packaged mirrors, `skills/SHA256SUMS`, `ufo-deps.lock`
+- `docs/advisory/2026-09-17-ufo-improvement-pack/06-membrane-signoff-and-artifact-trust.md` (new, 53 lines) and `docs/advisory/2026-09-17-ufo-improvement-pack/16-amendments-to-specs-00-09.md` (+6) — the spec lane this commit lands
 
 ## Out-of-scope
 - The sibling pack lanes P5-axes (commit 5bd0584d, beat M-audit-late-0020) and P6 (commit 1d1f95d4, beat M-audit-late-0021)
