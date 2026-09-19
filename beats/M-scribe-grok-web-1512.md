@@ -12,7 +12,7 @@ Expected: bit-exact `evidence:` from executor
 Actual: Gate: BLOCKED — executor provided no evidence
 
 ## Touches
-- charter Pages L5 quote: `2026-08-29: the L1 crown passes to **Kimi K3 Max`**
+- charter Pages L5 quote: `2026-08-29: the L1 crown passes to **Kimi K3 Max**`
 - charter Pages L8 quote: `Gemini banned`
 - `VeigaPunk/charter-ufo-fsd` main tip at fetch: `04964005e28b846641935a055992418e56dd5b52` message `M-scribe-grok-web-1511 6h charter beat — gate: BLOCKED executor provided no evidence` (2026-09-19T15:09:36Z)
 - prior same-day operator paste already on tree (`beats/M-scribe-grok-web-1506.md`): `repo ufo-fsd-alpha @ 6e3ecffa (main), dirty files: 0`
