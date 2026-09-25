@@ -7,6 +7,9 @@
 <meta name="description" content="Plazir: a frontier operation. ufo-fsd current art 2026-09-13 — the 2×16 fleet ran live on omp (32 L1s on swe-2:max, up to 32 L2 each, wall read L1(31) L2(92), 279/1024 runners, clean despawn). Routing doctrine: kimi exclusive L0/L1 surface, swe-2 the perfect L2 runner, astra-6 advisor, other models as perspective lanes. No prior art; only current art, done live.">
 <link rel="canonical" href="https://veigapunk.github.io/charter-ufo-fsd/">
 <link rel="stylesheet" href="style.css">
+<meta property="og:title" content="PLAZIR-27 — the ufo-fsd charter" />
+<meta property="og:url" content="https://veigapunk.github.io/charter-ufo-fsd/" />
+<meta property="og:type" content="website" />
 </head>
 <body>
 <noscript>
@@ -29,6 +32,7 @@
 <script>
 (async function () {
   const GOLD = 'https://cdn.jsdelivr.net/gh/VeigaPunk/charter-ufo-fsd@28daa88c0477e31a8f45172ae1318fed409ad408/index.html';
+  const fleetVaultMarkup = '<div class="fleet-vault-link" style="margin: 1.5rem auto 1rem; padding: 0 1rem; font-family: var(--mono, monospace); font-size: 11px; text-align: center; opacity: 0.6;"><hr style="border: 0; border-top: 1px solid currentColor; margin: 0 0 0.75rem; opacity: 0.45;"><p style="margin: 0;">fleet vault → <a href="https://veigapunk.kimi.page" style="color: inherit;">veigapunk.kimi.page</a></p></div>';
   const harvestNote = `
   <div class="logentry rv"><span class="ldate">2026-08-26</span>
     <div><h3>harvest overlay.</h3>
@@ -70,12 +74,18 @@
     html = html.replace(/<b>300-agent orchestration<\/b>/, '<b>1024-agent orchestration</b>');
     html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\s*already runs\.<\/b>/, '<b>The 1024-agent target is not aspirational; the 2\u00d716 fleet already reserved 279 runners on the wall.</b>');
     html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
+    html = html.replace(/<\/body>/i, fleetVaultMarkup + '</body>');
      document.write(html);
      document.close();
   } catch (err) {
     document.body.innerHTML = '<main id="main-content"><h1>Next run must ship</h1><p>Gold snapshot failed. Parent goal OPEN. Gemini banned. L1 = Kimi K3 Max. Do not fork ufo-fsd-alpha.</p></main>';
+    document.body.insertAdjacentHTML('beforeend', fleetVaultMarkup);
   }
 })();
 </script>
+  <div class="fleet-vault-link" style="margin: 1.5rem auto 1rem; padding: 0 1rem; font-family: var(--font-mono, var(--font, var(--mono, monospace))); font-size: 11px; text-align: center; opacity: 0.6;">
+    <hr style="border: 0; border-top: 1px solid currentColor; margin: 0 0 0.75rem; opacity: 0.45;">
+    <p style="margin: 0;">fleet vault → <a href="https://veigapunk.kimi.page" style="color: inherit;">veigapunk.kimi.page</a></p>
+  </div>
 </body>
 </html>
