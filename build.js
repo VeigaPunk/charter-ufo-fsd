@@ -1,0 +1,65 @@
+// build.js — bake the gold snapshot + overlay chain into static index.html.
+// Restores crawler-visible content: the served page no longer depends on
+// client-side fetch(document.write) of the pinned jsDelivr snapshot.
+// The overlay chain below MUST stay in sync with the <script> block in
+// src/index.template.html (the archived original). Bump both together.
+// Usage: node build.js   (writes ./index.html in place)
+
+import { writeFile, readFile } from 'node:fs/promises';
+
+const GOLD = 'https://cdn.jsdelivr.net/gh/VeigaPunk/charter-ufo-fsd@28daa88c0477e31a8f45172ae1318fed409ad408/index.html';
+
+const harvestNote = `
+  <div class="logentry rv"><span class="ldate">2026-08-26</span>
+    <div><h3>harvest overlay.</h3>
+    <p data-i18n="s3.harvest">Gemini banned. Parent goal OPEN. L1 crown = Kimi K3 Max since 2026-08-29.</p></div></div><!-- charter-scribe-beat:begin -->
+<p class="thread-note rv" data-i18n="s3.scribeBeat">2026-09-28 scribe beat (<b>the-scribe</b> via <code>local-fallback</code>): <b>12 local commits: nc9-docs-ii r06: record docs audit; nc9-runtime r05: 16 moves across 21-lane audit wave — authority consolidation + contract ratchets; nc9-doc</b>. 12 commits landed locally: <code>ee907f1cf</code> nc9-docs-ii r06: record docs audit; <code>cf189c754</code> nc9-runtime r05: 16 moves across 21-lane audit wave — authority consolidation + contract ratchets; <code>4a96e9b51</code> nc9-docs-ii r06: correct XBGST source references. Gates: FAIL. Loop: opencode self-iter (saturated). Parent goal OPEN.</p>
+<!-- charter-scribe-beat:end -->
+`;
+const auditNote = `
+  <div class="logentry rv"><span class="ldate">2026-09-18</span>
+    <div><h3>audit logs: 77 beats, every commit dispositioned.</h3>
+    <p>Two fleet missions audited <code>ufo-fsd-alpha</code> end to end and the full trail ships in the <code>charterlogs</code> vault. <b>audit-early</b> — 53 beats, window <b>2026-08-24 → 2026-09-10</b>, from the empty root <code>f43c757c</code> to tip <code>5f52e03a</code>: all <b>1357</b> non-merge commits dispositioned per-SHA, zero unexplained. <b>audit-late</b> — 24 beats, window <b>2026-09-11 → 2026-09-18</b>, <code>9644f95a..4adedde6</code>: <b>34/34</b> window commits mapped to exactly one beat, zero gaps. Every beat carries an executable gate with observed output; both result reports ship with SHA256 receipts. Vault: <code>charterlogs/beats/</code> (77 beats) + <code>charterlogs/results/</code> (<code>audit-logs-early.md</code> · <code>audit-logs-late.md</code> + receipts). L1 = <b>Kimi K3 Max</b>; Gemini banned; parent goal OPEN.</p></div></div>`;
+const substrateNote = `The routing topology, public-safe: model classes and roles. No prices, no secrets. As logged 2026-09-13 — the doctrine flipped: <b>kimi is the exclusive L0/L1 surface</b>, <b>swe-2 is the perfect L2 runner</b>, <b>astra-6 is the advisor</b>. Other models stay the perspective lanes — different approaches and blind spots, mixed in for diversity of attack, never a recrown.`;
+const substrateRows = `
+        <tr><td>L0 / L1 — the surface</td><td>kimi class</td><td>The exclusive operator surface and orchestration seat — the operator types into kimi and the orchestration stays there, by decision. The crown seat.</td><td>Kimi OAuth</td></tr>
+        <tr><td>L2 — the runner</td><td>swe-2 class</td><td>The perfect L2 runner — every specialist seat, all thirteen roles, empty fallback chains. Proven live: 32 L1s × up to 32 L2 each, wall read L1(31) L2(92).</td><td>Devin OAuth on OMP</td></tr>
+        <tr><td>Advisor</td><td>astra-6 class</td><td>Advisory only — consolidation plans and synthesis. Never a second L1, never a judge.</td><td>Devin OAuth</td></tr>
+        <tr><td>Perspective lanes</td><td>qwen / deepseek / grok / sol / spark / luna classes</td><td>Different approaches and blind spots, mixed in for diversity of attack — never a recrown. Token Plan hold: probe-confirmed exhaustion, provider reset pending.</td><td>Alibaba Cloud token plans · SuperGrok · ChatGPT Pro OAuth</td></tr>`;
+const substrateNotes = `
+    <li>Pins are defaults chosen for the job, not cages. Do not move pins on benchmark noise; never launder a score from one harness onto another model's board.</li>
+    <li>Empty fallback chains are doctrine, not neglect: an unavailable swe-2 seat halts honestly rather than silently changing models. <b>Honesty outranks progress.</b></li>
+    <li>Beijing timezone operations: off-peak windows on the Asian providers are part of the compute strategy, not a lifestyle choice.</li>
+    <li>Local inference is the helper lane, not the swarm — a resident Qwen digests fleet telemetry on the second GPU slot, advisory only. The swarm stays <b>coordination-bound, not compute-bound</b>; the scarce resource is the Rust runtime: ring depth, NVMe queues, cgroups.</li>`;
+
+const res = await fetch(GOLD, { cache: 'no-store' });
+if (!res.ok) {
+  console.error('gold fetch failed: ' + res.status);
+  process.exit(1); // build fails loudly; never bake a fallback page
+}
+let html = await res.text();
+html = html.replace(
+  'so the page never 404s.</p>',
+  'so the page never 404s.</p>' + harvestNote
+);
+html = html.replace('as logged 2026-08</span>', 'as logged 2026-09-13</span>');
+html = html.replace(
+  'kimi pins only when kimi-specific.</p></div></div>',
+  'kimi pins only when kimi-specific.</p></div></div>' + auditNote
+);
+html = html.replace(/<p class="thread-note rv" data-i18n="s4\.note">[\s\S]*?<\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
+html = html.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody>' + substrateRows + '\n      </tbody>');
+html = html.replace(/<ul class="mapnotes rv">[\s\S]*?<\/ul>/, '<ul class="mapnotes rv">' + substrateNotes + '\n  </ul>');
+html = html.replace(/<b>300-agent orchestration<\/b>/, '<b>1024-agent orchestration</b>');
+html = html.replace(/<b>The 300-agent target is not aspirational; it is the next order of magnitude from what\s*already runs\.<\/b>/, '<b>The 1024-agent target is not aspirational; the 2\u00d716 fleet already reserved 279 runners on the wall.</b>');
+html = html.replace(/<b>A 300-agent swarm with graceful degradation outperforms a 1000-agent static framework<\/b>/, '<b>A 1024-agent swarm with graceful degradation outperforms any static framework</b>');
+
+const template = await readFile(new URL('./src/index.template.html', import.meta.url), 'utf8');
+// carry the served head (title/meta/canonical) from the template so the page
+// keeps its own identity instead of the gold snapshot's head:
+const head = template.match(/<head>[\s\S]*?<\/head>/)?.[0];
+if (!head) { console.error('template head not found'); process.exit(1); }
+html = html.replace(/<head>[\s\S]*?<\/head>/, head);
+
+await writeFile(new URL('./index.html', import.meta.url), html, 'utf8');
+console.log('baked index.html: ' + html.length + ' bytes');
