@@ -107,4 +107,12 @@ A closing entry lands when the avalanche stops (wall / operator halt). L1 crown 
 - **Seating:** L1 missions on `kimi-code/k3`; delegation only to `alibaba-token-plan/kimi-k2.7-code`; the chinese token-plan pool (`qwen3.8-max:xhigh` / `deepseek-v4-pro:max` / `deepseek-v4-flash:low`) remains for the judged native profile; grok seats fast mechanical work.
 - The prior same-day section above (chinese_ufo formation, omp SS+ substrate, family graduation in flight) stands as run record — superseded, not erased. Parent goal OPEN.
 
+## Mirror sync: the 1,531-commit window (2026-09-28 — current art)
+
+- **Read source:** the public mirror `VeigaPunk/ufo-fsd-alpha` (GitHub), main `72ab84a8` (2026-09-25), after lineage verification — audit-late tip `4adedde6` (2026-09-18) is an ancestor, `4adedde6..main` = **1,531 commits**, linear descendants of the audited chain. The writable Cursor Origin (`tmp-d1cb8c062407c7a9`) stays untouched (read-only honored; the `origin` CLI is not Windows-capable and no token lives on this seat).
+- **Window shape:** nc3 nightcall wave 2026-09-21/22 (~540 commits: swarm mechanics, guidance §8.1 re-pins, L2/L3 routing doctrine) → nc5 wave 2026-09-24 (~910: the magga-2 OMP fleet ran on an isolated `$HOME`/`/scratch` clone with a bare audit-only `origin`; PrimeAgent assimilation reached round 25 — sha256-chained refinement ledger, typed compaction-digest API, read-only recovery advisory) → nc6 synthesis (72-lane verification round; findings absorbed and settled by authoritative cargo re-run) → M0–M4 milestone sprint (red-baseline gate repair, watchdog/retention hardening, contract ratchets, route preflight), closing at M4 r04 `72ab84a8`.
+- **Standing truth at the tip (per its own docs):** active dispatch stays OMP-only; `crates/ufo-core-runtime` is the sole judge; two clauses remain open — authenticated live-LLM specialist evidence and the private LKG byte-identical clone. Parent goal OPEN.
+- **Site sync:** the 2026-09-28 log entry baked into `index.html` (overlay chain in `build.js` + `src/index.template.html`, kept in sync); head metas now read current art 2026-09-25; sitemap lastmod 2026-09-28; beat `beats/M-scribe-autoclaw-0029.md` carries the gate evidence.
+- Prior sections above stand as run records — superseded, not erased.
+
 Live: https://veigapunk.github.io/charter-ufo-fsd/

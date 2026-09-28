@@ -32,6 +32,11 @@ const substrateNotes = `
     <li>Beijing timezone operations: off-peak windows on the Asian providers are part of the compute strategy, not a lifestyle choice.</li>
     <li>Local inference is the helper lane, not the swarm — a resident Qwen digests fleet telemetry on the second GPU slot, advisory only. The swarm stays <b>coordination-bound, not compute-bound</b>; the scarce resource is the Rust runtime: ring depth, NVMe queues, cgroups.</li>`;
 
+const windowNote = `
+  <div class="logentry rv"><span class="ldate">2026-09-28</span>
+    <div><h3>ufo-fsd-alpha sync: the 1,531-commit window, mirrored and explained.</h3>
+    <p>The charter's public mirror of <code>ufo-fsd-alpha</code> (<code>VeigaPunk/ufo-fsd-alpha</code> on GitHub) caught up through tip <code>72ab84a8</code> (2026-09-25): <b>1,531 new main-branch commits</b> since the audit-late window closed at <code>4adedde6</code> (2026-09-18), every one a linear descendant of the audited chain. What the window ships, in order: the <b>nightcall nc3 wave</b> (2026-09-21/22, ~540 commits) — swarm mechanics, guidance re-pins, and L2/L3 routing doctrine; the <b>nc5 wave</b> (2026-09-24, ~910 commits) — the magga-2 OMP fleet run on an isolated <code>$HOME</code>/<code>/scratch</code> clone with a bare audit-only <code>origin</code>, an OMP-routed fleet with the parent goal still OPEN, and <b>PrimeAgent assimilation</b> (round 25: sha256-chained refinement ledger, typed compaction-digest API, read-only recovery advisory — reference bytes studied, never a second runtime); an <b>nc6 synthesis</b> (72-lane verification round, findings absorbed and settled); then the <b>M0–M4 milestone sprint</b> (2026-09-24/25) — red-baseline gate repair, watchdog/retention hardening, contract ratchets, and route preflight, closing at M4 r04. Standing truth per the tip's own docs: active dispatch stays <b>OMP-only</b>, <code>crates/ufo-core-runtime</code> is the sole judge, and two clauses remain open (authenticated live-LLM specialist evidence; the private LKG byte-identical clone). Source of record for this entry: the mirror itself — lineage <code>4adedde6</code>→<code>72ab84a8</code> verified by merge-base before writing.</p></div></div>`;
+
 const res = await fetch(GOLD, { cache: 'no-store' });
 if (!res.ok) {
   console.error('gold fetch failed: ' + res.status);
@@ -46,6 +51,10 @@ html = html.replace('as logged 2026-08</span>', 'as logged 2026-09-13</span>');
 html = html.replace(
   'kimi pins only when kimi-specific.</p></div></div>',
   'kimi pins only when kimi-specific.</p></div></div>' + auditNote
+);
+html = html.replace(
+  '</p></div></div>\n</section>\n\n\n<!-- ================= 06 / THE DREAM',
+  '</p></div></div>' + windowNote + '</section>\n\n\n<!-- ================= 06 / THE DREAM'
 );
 html = html.replace(/<p class="thread-note rv" data-i18n="s4\.note">[\s\S]*?<\/p>/, '<p class="thread-note rv">' + substrateNote + '</p>');
 html = html.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody>' + substrateRows + '\n      </tbody>');
