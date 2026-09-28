@@ -65,8 +65,9 @@ XML valid; live page re-fetched (200) showing the corrected entry and metas.
   canonical `/skill:ufo` invocation) → nc5 (09-24, magga-2 OMP fleet on an
   isolated `$HOME`/`/scratch` clone, bare audit-only `origin`; PrimeAgent
   assimilation r25) → nc6 synthesis (09-24, shared with the mirror line) →
-  magga fleet rounds (09-25→27) → **nc8 super-wave (09-26→27, ~2,700 commits:
-  docs continuum + runtime/verify/e2e/sighting/iterate/orchestration/substrate)**
+  magga fleet rounds (09-25→27) → **nc8 super-wave (09-26→27: docs continuum
+  + runtime/verify/e2e/sighting/iterate/orchestration/substrate lanes; ~960
+  commits on main by author date)**
   → **nc9 audit waves (09-27)** → tip `ee907f1cf`.
 - The GitHub mirror shares the Origin chain only up to nc6 and then diverges;
   everything past nc6 on the mirror (nc7-era, M0–M4 milestones) is not on
